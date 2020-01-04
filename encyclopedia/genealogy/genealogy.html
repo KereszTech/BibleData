@@ -1,0 +1,2909 @@
+<!doctype html>
+<html>
+<head>
+  <title>BibleTree</title>
+
+  <script type="text/javascript" src="https://visjs.github.io/vis-network/dist/vis-network.min.js"></script>
+  <link href="https://visjs.github.io/vis-network/dist/vis-network.min.css" rel="stylesheet" type="text/css" />
+  <style type="text/css">
+    #bibletree {
+      width: 100%;
+      height: 800px;
+      border: 1px solid lightgray;
+    }
+    #serialized-positions {
+    	width: 100%;
+    	height: 60px;
+    }
+  </style>
+</head>
+<body>
+
+<div id="bibletree"></div>
+
+<button id="save">Save</button>
+<button id="serialize-positions">Serialize positions</button>
+<button id="load-positions">Load positions</button>
+<textarea id="serialized-positions"></textarea>
+
+<script type="text/javascript">
+/*export */const characters = [{
+	id: 1,
+	name: {
+		default: 'Ádám',
+		strong: 'H120',
+		source: ['1 Mózes 1,26', '1 Mózes 3,20', '1 Mózes 5,2'],
+	},
+	sex: 'male',
+	age: {
+		years: 930,
+		sources: ['1 Mózes 5,5'],
+	},
+	relationships: [{
+		id: 2,
+		type: 'marriage',
+		sources: ['1 Mózes 3,20'],
+	}],
+}, {
+	id: 2,
+	name: {
+		default: 'Éva',
+		strong: '',
+		source: ['1 Mózes 3,20'],
+	},
+	sex: 'female',
+	relationships: [{
+		id: 1,
+		type: 'marriage',
+		sources: ['1 Mózes 3,20'],
+	}],
+}, {
+	id: 3,
+	name: {
+		default: 'Káin',
+		strong: 'H7014',
+		source: ['1 Mózes 4,1'],
+	},
+	sex: 'male',
+	father: {
+		id: 1,
+		sources: ['1 Mózes 4,1'],
+	},
+	mother: {
+		id: 2,
+		sources: ['1 Mózes 4,1'],
+	},
+}, {
+	id: 4,
+	name: {
+		default: 'Ábel',
+		strong: 'H1893',
+		source: ['1 Mózes 4,2'],
+	},
+	sex: 'male',
+	father: {
+		id: 1,
+	},
+	mother: {
+		id: 2,
+		sources: ['1 Mózes 4,2'],
+	},
+}, {
+	id: 5,
+	name: {
+		default: 'Hánókh',
+		modern: 'Énok',
+		strong: 'H2585',
+		source: ['1 Mózes 4,17'],
+	},
+	sex: 'male',
+	father: {
+		id: 3,
+		sources: ['1 Mózes 4,17'],
+	},
+}, {
+	id: 6,
+	name: {
+		default: 'Irád',
+		modern: 'Járed',
+		strong: 'H5897',
+		source: ['1 Mózes 4,18'],
+	},
+	sex: 'male',
+	father: {
+		id: 5,
+		sources: ['1 Mózes 4,18'],
+	},
+}, {
+	id: 7,
+	name: {
+		default: 'Mekhujáel',
+		strong: 'H4232',
+		source: ['1 Mózes 4,18'],
+	},
+	sex: 'male',
+	father: {
+		id: 6,
+		sources: ['1 Mózes 4,18'],
+	},
+}, {
+	id: 8,
+	name: {
+		default: 'Methusáel',
+		strong: 'H4967',
+		source: ['1 Mózes 4,18'],
+	},
+	sex: 'male',
+	father: {
+		id: 7,
+		sources: ['1 Mózes 4,18'],
+	},
+}, {
+	id: 9,
+	name: {
+		default: 'Lámekh',
+		strong: 'H3929',
+		source: ['1 Mózes 4,18'],
+	},
+	sex: 'male',
+	father: {
+		id: 8,
+		sources: ['1 Mózes 4,18'],
+	},
+	relationships: [{
+		id: 10,
+		type: 'marriage',
+		sources: ['1 Mózes 4,19'],
+	}, {
+		id: 11,
+		type: 'marriage',
+		sources: ['1 Mózes 4,19'],
+	}],
+}, {
+	id: 10,
+	name: {
+		default: 'Háda',
+		strong: 'H5711',
+		sources: ['1 Mózes 4,19'],
+	},
+	sex: 'female',
+	relationships: [{
+		id: 9,
+		type: 'marriage',
+		sources: ['1 Mózes 4,19'],
+	}],
+}, {
+	id: 11,
+	name: {
+		default: 'Cilla',
+		strong: 'H6741',
+		sources: ['1 Mózes 4,19'],
+	},
+	sex: 'female',
+	relationships: [{
+		id: 9,
+		type: 'marriage',
+		sources: ['1 Mózes 4,19'],
+	}],
+}, {
+	id: 12,
+	name: {
+		default: 'Jábál',
+		strong: 'H2989',
+		sources: ['1 Mózes 4,20'],
+	},
+	sex: 'male',
+	father: {
+		id: 9,
+	},
+	mother: {
+		id: 10,
+		sources: ['1 Mózes 4,20'],
+	},
+}, {
+	id: 13,
+	name: {
+		default: 'Jubál',
+		strong: 'H3106',
+		sources: ['1 Mózes 4,21'],
+	},
+	sex: 'male',
+	father: {
+		id: 9,
+	},
+	mother: {
+		id: 10,
+		sources: ['1 Mózes 4,20-21'],
+	},
+}, {
+	id: 14,
+	name: {
+		default: 'Tubálkain',
+		strong: 'H3106',
+		sources: ['1 Mózes 4,22'],
+	},
+	sex: 'male',
+	father: {
+		id: 9,
+	},
+	mother: {
+		id: 11,
+		sources: ['1 Mózes 4,22'],
+	},
+}, {
+	id: 15,
+	name: {
+		default: 'Nahama',
+		strong: 'H5279',
+		sources: ['1 Mózes 4,22'],
+	},
+	sex: 'female',
+	father: {
+		id: 9,
+	},
+	mother: {
+		id: 11,
+		sources: ['1 Mózes 4,22'],
+	},
+}, {
+	id: 16,
+	name: {
+		default: 'Séth',
+		strong: 'H8352',
+		sources: ['1 Mózes 4,25'],
+	},
+	sex: 'male',
+	age: {
+		years: 912,
+		sources: ['1 Mózes 5,8'],
+	},
+	father: {
+		id: 1,
+		sources: ['1 Mózes 4,25', '1 Mózes 5,3'],
+	},
+	mother: {
+		id: 2,
+		sources: ['1 Mózes 4,25'],
+	},
+}, {
+	id: 17,
+	name: {
+		default: 'Énós',
+		strong: 'H583',
+		sources: ['1 Mózes 4,26'],
+	},
+	sex: 'male',
+	age: {
+		years: 905,
+		sources: ['1 Mózes 5,11'],
+	},
+	father: {
+		id: 16,
+		sources: ['1 Mózes 4,26', '1 Mózes 5,6'],
+	},
+}, {
+	id: 18,
+	name: {
+		default: 'Kénán',
+		strong: 'H7018',
+		sources: ['1 Mózes 5,9'],
+	},
+	sex: 'male',
+	age: {
+		years: 910,
+		sources: ['1 Mózes 5,14'],
+	},
+	father: {
+		id: 17,
+		sources: ['1 Mózes 5,9'],
+	},
+}, {
+	id: 19,
+	name: {
+		default: 'Mahalálél',
+		strong: 'H4111',
+		sources: ['1 Mózes 5,12'],
+	},
+	sex: 'male',
+	age: {
+		years: 895,
+		sources: ['1 Mózes 5,17'],
+	},
+	father: {
+		id: 18,
+		sources: ['1 Mózes 5,12'],
+	},
+}, {
+	id: 20,
+	name: {
+		default: 'Járed',
+		strong: 'H3382',
+		sources: ['1 Mózes 5,15'],
+	},
+	sex: 'male',
+	age: {
+		years: 962,
+		sources: ['1 Mózes 5,20'],
+	},
+	father: {
+		id: 19,
+		sources: ['1 Mózes 5,15'],
+	},
+}, {
+	id: 21,
+	name: {
+		default: 'Énók',
+		strong: 'H2585',
+		sources: ['1 Mózes 5,18'],
+	},
+	sex: 'male',
+	age: {
+		years: 365,
+		sources: ['1 Mózes 5,23'],
+	},
+	father: {
+		id: 20,
+		sources: ['1 Mózes 5,18'],
+	},
+}, {
+	id: 22,
+	name: {
+		default: 'Methuséláh',
+		strong: 'H4968',
+		sources: ['1 Mózes 5,21'],
+	},
+	sex: 'male',
+	age: {
+		years: 969,
+		sources: ['1 Mózes 5,27'],
+	},
+	father: {
+		id: 21,
+		sources: ['1 Mózes 5,21'],
+	},
+}, {
+	id: 23,
+	name: {
+		default: 'Lámekh',
+		strong: 'H3929',
+		sources: ['1 Mózes 5,25'],
+	},
+	sex: 'male',
+	age: {
+		years: 777,
+		sources: ['1 Mózes 5,31'],
+	},
+	father: {
+		id: 22,
+		sources: ['1 Mózes 5,25'],
+	},
+}, {
+	id: 24,
+	name: {
+		default: 'Noé',
+		strong: 'H5146',
+		sources: ['1 Mózes 5,28-29'],
+	},
+	sex: 'male',
+	age: {
+		years: 950,
+		sources: ['1 Mózes 9,29'],
+	},
+	father: {
+		id: 23,
+		sources: ['1 Mózes 5,28-29'],
+	},
+}, {
+	id: 25,
+	name: {
+		default: 'Sém',
+		strong: 'H8035',
+		sources: ['1 Mózes 5,32'],
+	},
+	sex: 'male',
+	age: {
+		years: 500,
+		sources: ['1 Mózes 11,11'],
+	},
+	father: {
+		id: 24,
+		sources: ['1 Mózes 5,32'],
+	},
+}, {
+	id: 26,
+	name: {
+		default: 'Khám',
+		strong: 'H2526',
+		sources: ['1 Mózes 5,32'],
+	},
+	sex: 'male',
+	father: {
+		id: 24,
+		sources: ['1 Mózes 5,32'],
+	},
+}, {
+	id: 27,
+	name: {
+		default: 'Jáfet',
+		strong: 'H3315',
+		sources: ['1 Mózes 5,32'],
+	},
+	sex: 'male',
+	father: {
+		id: 24,
+		sources: ['1 Mózes 5,32'],
+	},
+}, {
+	id: 28,
+	name: {
+		default: 'Kánaán',
+		strong: 'H3667',
+		sources: ['1 Mózes 9,18'],
+	},
+	sex: 'male',
+	father: {
+		id: 26,
+		sources: ['1 Mózes 9,18', '1 Mózes 10,6'],
+	},
+}, {
+	id: 29,
+	name: {
+		default: 'Gómer',
+		strong: 'H1586',
+		sources: ['1 Mózes 10,2'],
+	},
+	sex: 'male',
+	father: {
+		id: 27,
+		sources: ['1 Mózes 10,2'],
+	},
+}, {
+	id: 30,
+	name: {
+		default: 'Mágog',
+		strong: 'H4031',
+		sources: ['1 Mózes 10,2'],
+	},
+	sex: 'male',
+	father: {
+		id: 27,
+		sources: ['1 Mózes 10,2'],
+	},
+}, {
+	id: 31,
+	name: {
+		default: 'Madai',
+		strong: 'H4074',
+		sources: ['1 Mózes 10,2'],
+	},
+	sex: 'male',
+	father: {
+		id: 27,
+		sources: ['1 Mózes 10,2'],
+	},
+}, {
+	id: 32,
+	name: {
+		default: 'Jáván',
+		strong: 'H3120',
+		sources: ['1 Mózes 10,2'],
+	},
+	sex: 'male',
+	father: {
+		id: 27,
+		sources: ['1 Mózes 10,2'],
+	},
+}, {
+	id: 33,
+	name: {
+		default: 'Thubál',
+		strong: 'H8422',
+		sources: ['1 Mózes 10,2'],
+	},
+	sex: 'male',
+	father: {
+		id: 27,
+		sources: ['1 Mózes 10,2'],
+	},
+}, {
+	id: 34,
+	name: {
+		default: 'Mésekh',
+		strong: 'H4902',
+		sources: ['1 Mózes 10,2'],
+	},
+	sex: 'male',
+	father: {
+		id: 27,
+		sources: ['1 Mózes 10,2'],
+	},
+}, {
+	id: 35,
+	name: {
+		default: 'Thirász',
+		strong: 'H8494',
+		sources: ['1 Mózes 10,2'],
+	},
+	sex: 'male',
+	father: {
+		id: 27,
+		sources: ['1 Mózes 10,2'],
+	},
+}, {
+	id: 36,
+	name: {
+		default: 'Askhenáz',
+		strong: 'H813',
+		sources: ['1 Mózes 10,3'],
+	},
+	sex: 'male',
+	father: {
+		id: 29,
+		sources: ['1 Mózes 10,3'],
+	},
+}, {
+	id: 37,
+	name: {
+		default: 'Rifáth',
+		strong: 'H7384',
+		sources: ['1 Mózes 10,3'],
+	},
+	sex: 'male',
+	father: {
+		id: 29,
+		sources: ['1 Mózes 10,3'],
+	},
+}, {
+	id: 38,
+	name: {
+		default: 'Tógármah',
+		strong: 'H8425',
+		sources: ['1 Mózes 10,3'],
+	},
+	sex: 'male',
+	father: {
+		id: 29,
+		sources: ['1 Mózes 10,3'],
+	},
+}, {
+	id: 39,
+	name: {
+		default: 'Elisah',
+		strong: 'H473',
+		sources: ['1 Mózes 10,4'],
+	},
+	sex: 'male',
+	father: {
+		id: 32,
+		sources: ['1 Mózes 10,4'],
+	},
+}, {
+	id: 40,
+	name: {
+		default: 'Thársis',
+		strong: 'H8659',
+		sources: ['1 Mózes 10,4'],
+	},
+	sex: 'male',
+	father: {
+		id: 32,
+		sources: ['1 Mózes 10,4'],
+	},
+}, {
+	id: 41,
+	name: {
+		default: 'Kitthim',
+		strong: 'H3794',
+		sources: ['1 Mózes 10,4'],
+	},
+	sex: 'male',
+	father: {
+		id: 32,
+		sources: ['1 Mózes 10,4'],
+	},
+}, {
+	id: 42,
+	name: {
+		default: 'Dodánim',
+		strong: 'H1721',
+		sources: ['1 Mózes 10,4'],
+	},
+	sex: 'male',
+	father: {
+		id: 32,
+		sources: ['1 Mózes 10,4'],
+	},
+}, {
+	id: 43,
+	name: {
+		default: 'Khús',
+		strong: 'H3568',
+		sources: ['1 Mózes 10,6'],
+	},
+	sex: 'male',
+	father: {
+		id: 26,
+		sources: ['1 Mózes 10,6'],
+	},
+}, {
+	id: 44,
+	name: {
+		default: 'Micráim',
+		strong: 'H4714',
+		sources: ['1 Mózes 10,6'],
+	},
+	sex: 'male',
+	father: {
+		id: 26,
+		sources: ['1 Mózes 10,6'],
+	},
+}, {
+	id: 45,
+	name: {
+		default: 'Pút',
+		strong: 'H6316',
+		sources: ['1 Mózes 10,6'],
+	},
+	sex: 'male',
+	father: {
+		id: 26,
+		sources: ['1 Mózes 10,6'],
+	},
+}, {
+	id: 46,
+	name: {
+		default: 'Széba',
+		strong: 'H5434',
+		sources: ['1 Mózes 10,7'],
+	},
+	sex: 'male',
+	father: {
+		id: 43,
+		sources: ['1 Mózes 10,7'],
+	},
+}, {
+	id: 47,
+	name: {
+		default: 'Hávilah',
+		strong: 'H2341',
+		sources: ['1 Mózes 10,7'],
+	},
+	sex: 'male',
+	father: {
+		id: 43,
+		sources: ['1 Mózes 10,7'],
+	},
+}, {
+	id: 48,
+	name: {
+		default: 'Szábthah',
+		strong: 'H5454',
+		sources: ['1 Mózes 10,7'],
+	},
+	sex: 'male',
+	father: {
+		id: 43,
+		sources: ['1 Mózes 10,7'],
+	},
+}, {
+	id: 49,
+	name: {
+		default: 'Rahmáh',
+		strong: 'H7484',
+		sources: ['1 Mózes 10,7'],
+	},
+	sex: 'male',
+	father: {
+		id: 43,
+		sources: ['1 Mózes 10,7'],
+	},
+}, {
+	id: 50,
+	name: {
+		default: 'Szabthékah',
+		strong: 'H5455',
+		sources: ['1 Mózes 10,7'],
+	},
+	sex: 'male',
+	father: {
+		id: 43,
+		sources: ['1 Mózes 10,7'],
+	},
+}, {
+	id: 51,
+	name: {
+		default: 'Séba',
+		strong: 'H7614',
+		sources: ['1 Mózes 10,7'],
+	},
+	sex: 'male',
+	father: {
+		id: 49,
+		sources: ['1 Mózes 10,7'],
+	},
+}, {
+	id: 52,
+	name: {
+		default: 'Dédán',
+		strong: 'H1719',
+		sources: ['1 Mózes 10,7'],
+	},
+	sex: 'male',
+	father: {
+		id: 49,
+		sources: ['1 Mózes 10,7'],
+	},
+}, {
+	id: 53,
+	name: {
+		default: 'Nimród',
+		strong: 'H5248',
+		sources: ['1 Mózes 10,8'],
+	},
+	sex: 'male',
+	father: {
+		id: 43,
+		sources: ['1 Mózes 10,8'],
+	},
+}, {
+	id: 54,
+	name: {
+		default: 'Lúdim',
+		strong: 'H3866',
+		sources: ['1 Mózes 10,13'],
+	},
+	sex: 'male',
+	father: {
+		id: 44,
+		sources: ['1 Mózes 10,13'],
+	},
+}, {
+	id: 55,
+	name: {
+		default: 'Anámim',
+		strong: 'H6047',
+		sources: ['1 Mózes 10,13'],
+	},
+	sex: 'male',
+	father: {
+		id: 44,
+		sources: ['1 Mózes 10,13'],
+	},
+}, {
+	id: 56,
+	name: {
+		default: 'Lehábim',
+		strong: 'H3853',
+		sources: ['1 Mózes 10,13'],
+	},
+	sex: 'male',
+	father: {
+		id: 44,
+		sources: ['1 Mózes 10,13'],
+	},
+}, {
+	id: 57,
+	name: {
+		default: 'Naftukhim',
+		strong: 'H5320',
+		sources: ['1 Mózes 10,13'],
+	},
+	sex: 'male',
+	father: {
+		id: 44,
+		sources: ['1 Mózes 10,13'],
+	},
+}, {
+	id: 58,
+	name: {
+		default: 'Pathruszim',
+		strong: 'H6625',
+		sources: ['1 Mózes 10,14'],
+	},
+	sex: 'male',
+	father: {
+		id: 44,
+		sources: ['1 Mózes 10,14'],
+	},
+}, {
+	id: 59,
+	name: {
+		default: 'Kaszlukhim',
+		strong: 'H3695',
+		sources: ['1 Mózes 10,14'],
+	},
+	sex: 'male',
+	father: {
+		id: 44,
+		sources: ['1 Mózes 10,14'],
+	},
+	note: 'tőle származnak a filiszteusok',
+}, {
+	id: 60,
+	name: {
+		default: 'Kafthorim',
+		strong: 'H3732',
+		sources: ['1 Mózes 10,14'],
+	},
+	sex: 'male',
+	father: {
+		id: 44,
+		sources: ['1 Mózes 10,14'],
+	},
+}, {
+	id: 61,
+	name: {
+		default: 'Cídon',
+		strong: 'H6721',
+		sources: ['1 Mózes 10,15'],
+	},
+	sex: 'male',
+	father: {
+		id: 28,
+		sources: ['1 Mózes 10,15'],
+	},
+}, {
+	id: 62,
+	name: {
+		default: 'Khét(h)',
+		strong: 'H2845',
+		sources: ['1 Mózes 10,15'],
+	},
+	sex: 'male',
+	father: {
+		id: 28,
+		sources: ['1 Mózes 10,15'],
+	},
+}, {
+	id: 63,
+	name: {
+		default: 'Jebuzeus',
+		strong: 'H2983',
+		sources: ['1 Mózes 10,16'],
+	},
+	sex: 'male',
+	father: {
+		id: 28,
+		sources: ['1 Mózes 10,16'],
+	},
+}, {
+	id: 64,
+	name: {
+		default: 'Emorreus',
+		strong: 'H567',
+		sources: ['1 Mózes 10,16'],
+	},
+	sex: 'male',
+	father: {
+		id: 28,
+		sources: ['1 Mózes 10,16'],
+	},
+}, {
+	id: 65,
+	name: {
+		default: 'Girgazeus',
+		strong: 'H1622',
+		sources: ['1 Mózes 10,16'],
+	},
+	sex: 'male',
+	father: {
+		id: 28,
+		sources: ['1 Mózes 10,16'],
+	},
+}, {
+	id: 66,
+	name: {
+		default: 'Kivveus',
+		strong: 'H2340',
+		sources: ['1 Mózes 10,17'],
+	},
+	sex: 'male',
+	father: {
+		id: 28,
+		sources: ['1 Mózes 10,17'],
+	},
+}, {
+	id: 67,
+	name: {
+		default: 'Harkeus',
+		strong: 'H6208',
+		sources: ['1 Mózes 10,17'],
+	},
+	sex: 'male',
+	father: {
+		id: 28,
+		sources: ['1 Mózes 10,17'],
+	},
+}, {
+	id: 68,
+	name: {
+		default: 'Szineus',
+		strong: 'H5513',
+		sources: ['1 Mózes 10,17'],
+	},
+	sex: 'male',
+	father: {
+		id: 28,
+		sources: ['1 Mózes 10,17'],
+	},
+}, {
+	id: 69,
+	name: {
+		default: 'Arvadeus',
+		strong: 'H721',
+		sources: ['1 Mózes 10,18'],
+	},
+	sex: 'male',
+	father: {
+		id: 28,
+		sources: ['1 Mózes 10,18'],
+	},
+}, {
+	id: 70,
+	name: {
+		default: 'Cemareus',
+		strong: 'H6786',
+		sources: ['1 Mózes 10,18'],
+	},
+	sex: 'male',
+	father: {
+		id: 28,
+		sources: ['1 Mózes 10,18'],
+	},
+}, {
+	id: 71,
+	name: {
+		default: 'Hamateus',
+		strong: 'H2577',
+		sources: ['1 Mózes 10,18'],
+	},
+	sex: 'male',
+	father: {
+		id: 28,
+		sources: ['1 Mózes 10,18'],
+	},
+}, {
+	id: 72,
+	name: {
+		default: 'Héber',
+		strong: 'H5677',
+		sources: ['1 Mózes 10,21'],
+	},
+	sex: 'male',
+	age: {
+		years: 430,
+		sources: ['1 Mózes 11,17'],
+	},
+	father: {
+		id: 82,
+		sources: ['1 Mózes 10,24', '1 Mózes 11,14'],
+	},
+}, {
+	id: 73,
+	name: {
+		default: 'Élám',
+		strong: 'H5867',
+		sources: ['1 Mózes 10,22'],
+	},
+	sex: 'male',
+	father: {
+		id: 25,
+		sources: ['1 Mózes 10,22'],
+	},
+}, {
+	id: 74,
+	name: {
+		default: 'Assur',
+		strong: 'H804',
+		sources: ['1 Mózes 10,22'],
+	},
+	sex: 'male',
+	father: {
+		id: 25,
+		sources: ['1 Mózes 10,22'],
+	},
+}, {
+	id: 75,
+	name: {
+		default: 'Arpaksád',
+		strong: 'H775',
+		sources: ['1 Mózes 10,22'],
+	},
+	sex: 'male',
+	age: {
+		years: 403,
+		sources: ['1 Mózes 11,13'],
+	},
+	father: {
+		id: 25,
+		sources: ['1 Mózes 10,22', '1 Mózes 11,10'],
+	},
+	note: 'Két esztendővel az özönvíz után született (1 Mózes 11,10)',
+}, {
+	id: 76,
+	name: {
+		default: 'Lúd',
+		strong: 'H3865',
+		sources: ['1 Mózes 10,22'],
+	},
+	sex: 'male',
+	father: {
+		id: 25,
+		sources: ['1 Mózes 10,22'],
+	},
+}, {
+	id: 77,
+	name: {
+		default: 'Arám',
+		strong: 'H758',
+		sources: ['1 Mózes 10,22'],
+	},
+	sex: 'male',
+	father: {
+		id: 25,
+		sources: ['1 Mózes 10,22'],
+	},
+}, {
+	id: 78,
+	name: {
+		default: 'Úc',
+		strong: 'H5780',
+		sources: ['1 Mózes 10,23'],
+	},
+	sex: 'male',
+	father: {
+		id: 77,
+		sources: ['1 Mózes 10,23'],
+	},
+}, {
+	id: 79,
+	name: {
+		default: 'Húl',
+		strong: 'H2343',
+		sources: ['1 Mózes 10,23'],
+	},
+	sex: 'male',
+	father: {
+		id: 77,
+		sources: ['1 Mózes 10,23'],
+	},
+}, {
+	id: 80,
+	name: {
+		default: 'Gether',
+		strong: 'H1666',
+		sources: ['1 Mózes 10,23'],
+	},
+	sex: 'male',
+	father: {
+		id: 77,
+		sources: ['1 Mózes 10,23'],
+	},
+}, {
+	id: 81,
+	name: {
+		default: 'Más',
+		strong: 'H4851',
+		sources: ['1 Mózes 10,23'],
+	},
+	sex: 'male',
+	father: {
+		id: 77,
+		sources: ['1 Mózes 10,23'],
+	},
+}, {
+	id: 82,
+	name: {
+		default: 'Séláh',
+		strong: 'H7974',
+		sources: ['1 Mózes 10,24'],
+	},
+	age: {
+		years: 403,
+		sources: ['1 Mózes 11,15'],
+	},
+	sex: 'male',
+	father: {
+		id: 75,
+		sources: ['1 Mózes 10,24', '1 Mózes 11,12'],
+	},
+}, {
+	id: 83,
+	name: {
+		default: 'Péleg',
+		strong: 'H6389',
+		sources: ['1 Mózes 10,25'],
+	},
+	sex: 'male',
+	age: {
+		years: 209,
+		sources: ['1 Mózes 11,19'],
+	},
+	father: {
+		id: 72,
+		sources: ['1 Mózes 10,25', '1 Mózes 11,16'],
+	},
+}, {
+	id: 84,
+	name: {
+		default: 'Joktán',
+		strong: 'H3355',
+		sources: ['1 Mózes 10,25'],
+	},
+	sex: 'male',
+	father: {
+		id: 72,
+		sources: ['1 Mózes 10,25'],
+	},
+}, {
+	id: 85,
+	name: {
+		default: 'Almodád',
+		strong: 'H486',
+		sources: ['1 Mózes 10,26'],
+	},
+	sex: 'male',
+	father: {
+		id: 84,
+		sources: ['1 Mózes 10,26'],
+	},
+}, {
+	id: 86,
+	name: {
+		default: 'Sélef',
+		strong: 'H8026',
+		sources: ['1 Mózes 10,26'],
+	},
+	sex: 'male',
+	father: {
+		id: 84,
+		sources: ['1 Mózes 10,26'],
+	},
+}, {
+	id: 87,
+	name: {
+		default: 'Hacarmáveth',
+		strong: 'H2700',
+		sources: ['1 Mózes 10,26'],
+	},
+	sex: 'male',
+	father: {
+		id: 84,
+		sources: ['1 Mózes 10,26'],
+	},
+}, {
+	id: 88,
+	name: {
+		default: 'Jerákh',
+		strong: 'H3392',
+		sources: ['1 Mózes 10,26'],
+	},
+	sex: 'male',
+	father: {
+		id: 84,
+		sources: ['1 Mózes 10,26'],
+	},
+}, {
+	id: 89,
+	name: {
+		default: 'Hadórám',
+		strong: 'H1913',
+		sources: ['1 Mózes 10,27'],
+	},
+	sex: 'male',
+	father: {
+		id: 84,
+		sources: ['1 Mózes 10,27'],
+	},
+}, {
+	id: 90,
+	name: {
+		default: 'Úzál',
+		strong: 'H187',
+		sources: ['1 Mózes 10,27'],
+	},
+	sex: 'male',
+	father: {
+		id: 84,
+		sources: ['1 Mózes 10,27'],
+	},
+}, {
+	id: 91,
+	name: {
+		default: 'Dikla',
+		strong: 'H1853',
+		sources: ['1 Mózes 10,27'],
+	},
+	sex: 'male',
+	father: {
+		id: 84,
+		sources: ['1 Mózes 10,27'],
+	},
+}, {
+	id: 92,
+	name: {
+		default: 'Obál',
+		strong: 'H5745',
+		sources: ['1 Mózes 10,28'],
+	},
+	sex: 'male',
+	father: {
+		id: 84,
+		sources: ['1 Mózes 10,28'],
+	},
+}, {
+	id: 93,
+	name: {
+		default: 'Abimáél',
+		strong: 'H39',
+		sources: ['1 Mózes 10,28'],
+	},
+	sex: 'male',
+	father: {
+		id: 84,
+		sources: ['1 Mózes 10,28'],
+	},
+}, {
+	id: 94,
+	name: {
+		default: 'Séba',
+		strong: 'H7614',
+		sources: ['1 Mózes 10,28'],
+	},
+	sex: 'male',
+	father: {
+		id: 84,
+		sources: ['1 Mózes 10,28'],
+	},
+}, {
+	id: 95,
+	name: {
+		default: 'Ofir',
+		strong: 'H211',
+		sources: ['1 Mózes 10,29'],
+	},
+	sex: 'male',
+	father: {
+		id: 84,
+		sources: ['1 Mózes 10,29'],
+	},
+}, {
+	id: 96,
+	name: {
+		default: 'Havila',
+		strong: 'H2341',
+		sources: ['1 Mózes 10,29'],
+	},
+	sex: 'male',
+	father: {
+		id: 84,
+		sources: ['1 Mózes 10,29'],
+	},
+}, {
+	id: 97,
+	name: {
+		default: 'Jóbáb',
+		strong: 'H3103',
+		sources: ['1 Mózes 10,29'],
+	},
+	sex: 'male',
+	father: {
+		id: 84,
+		sources: ['1 Mózes 10,29'],
+	},
+}, {
+	id: 98,
+	name: {
+		default: 'Réu',
+		strong: 'H7466',
+		sources: ['1 Mózes 11,18'],
+	},
+	sex: 'male',
+	age: {
+		years: 207,
+		sources: ['1 Mózes 11,21'],
+	},
+	father: {
+		id: 83,
+		sources: ['1 Mózes 11,18'],
+	},
+}, {
+	id: 99,
+	name: {
+		default: 'Sérug',
+		strong: 'H8286',
+		sources: ['1 Mózes 11,20'],
+	},
+	sex: 'male',
+	age: {
+		years: 200,
+		sources: ['1 Mózes 11,23'],
+	},
+	father: {
+		id: 98,
+		sources: ['1 Mózes 11,20'],
+	},
+}, {
+	id: 100,
+	name: {
+		default: 'Nákhor',
+		strong: 'H5152',
+		sources: ['1 Mózes 11,22'],
+	},
+	sex: 'male',
+	age: {
+		years: 119,
+		sources: ['1 Mózes 11,25'],
+	},
+	father: {
+		id: 99,
+		sources: ['1 Mózes 11,22'],
+	},
+}, {
+	id: 101,
+	name: {
+		default: 'Tháré',
+		strong: 'H8646',
+		sources: ['1 Mózes 11,24'],
+	},
+	sex: 'male',
+	age: {
+		years: 205,
+		sources: ['1 Mózes 11,32'],
+		note: 'Háránban halt meg.',
+	},
+	father: {
+		id: 100,
+		sources: ['1 Mózes 11,24'],
+	},
+	relationships: [{
+		id: 'U4',
+		type: 'marriage',
+		sources: ['1 Mózes 20,12'],
+	}],
+	todo: 'Nem kéne Ábrahámnak is beiktatni egy névtelen anyát?',
+}, {
+	id: 102,
+	name: {
+		default: 'Ábrahám',
+		original: 'Ábrám',
+		strong: 'H87/H85',
+		sources: ['1 Mózes 11,26', '1 Mózes 17,5'],
+	},
+	sex: 'male',
+	age: {
+		years: 175,
+		sources: ['1 Mózes 25,7'],
+	},
+	father: {
+		id: 101,
+		sources: ['1 Mózes 11,26'],
+	},
+	relationships: [{
+		id: 106,
+		type: 'marriage',
+		sources: ['1 Mózes 11,29'],
+	}, {
+		id: 122,
+		type: 'marriage',
+		sources: ['1 Mózes 16,3'],
+	}, {
+		id: 146,
+		type: 'marriage',
+		sources: ['1 Mózes 25,1'],
+	}],
+	connections: [{
+		id: 117,
+		type: 'confederate',
+		sources: ['1 Mózes 14,13'],
+	}, {
+		id: 118,
+		type: 'confederate',
+		sources: ['1 Mózes 14,13'],
+	}, {
+		id: 119,
+		type: 'confederate',
+		sources: ['1 Mózes 14,13'],
+	}],
+	placeOfBurial: {
+		value: 'Makpelá mezejének barlangja',
+		place: 'Hebron',
+		region: 'Kánaán',
+		sources: ['1 Mózes 25,9'],
+	},
+	note: '99 évesen metélkedett körül'
+}, {
+	id: 103,
+	name: {
+		default: 'Nákhor',
+		strong: 'H5152',
+		sources: ['1 Mózes 11,26'],
+	},
+	sex: 'male',
+	father: {
+		id: 101,
+		sources: ['1 Mózes 11,26'],
+	},
+	relationships: [{
+		id: 107,
+		type: 'marriage',
+		sources: ['1 Mózes 11,29'],
+	}, {
+		id: 138,
+		type: 'concubine',
+		sources: ['1 Mózes 22,24'],
+	}],
+}, {
+	id: 104,
+	name: {
+		default: 'Hárán',
+		strong: 'H2039',
+		sources: ['1 Mózes 11,26'],
+	},
+	sex: 'male',
+	father: {
+		id: 101,
+		sources: ['1 Mózes 11,26'],
+	},
+	note: 'Úr-Kaszdimban halt meg. És itt is született? Vagy az Tháré?',
+}, {
+	id: 105,
+	name: {
+		default: 'Lót',
+		strong: 'H3876',
+		sources: ['1 Mózes 11,27'],
+	},
+	sex: 'male',
+	father: {
+		id: 104,
+		sources: ['1 Mózes 11,27'],
+	},
+	relationships: [{
+		id: 'U1',
+		type: 'marriage',
+		sources: ['1 Mózes 19,15'],
+	}, {
+		id: 'U2',
+		type: 'rape',
+		sources: ['1 Mózes 19,33'],
+	}, {
+		id: 'U3',
+		type: 'rape',
+		sources: ['1 Mózes 19,35'],
+	}],
+}, {
+	id: 106,
+	name: {
+		default: 'Sára',
+		original: 'Szárai',
+		strong: 'H8297/H8283',
+		sources: ['1 Mózes 11,29', '1 Mózes 17,15'],
+	},
+	sex: 'female',
+	age: {
+		years: 127,
+		sources: ['1 Mózes 23,1'],
+	},
+	father: {
+		id: 101,
+		sources: ['1 Mózes 20,12'],
+	},
+	mother: {
+		id: 'U4',
+		sources: ['1 Mózes 20,12'],
+	},
+	relationships: [{
+		id: 102,
+		type: 'marriage',
+		sources: ['1 Mózes 11,29'],
+	}],
+	placeOfDeath: {
+		value: 'Hebron (Kirját-Arba)',
+		region: 'Kánaán',
+		sources: ['1 Mózes 23,2'],
+	},
+	placeOfBurial: {
+		value: 'Makpelá mezejének barlangja',
+		place: 'Hebron',
+		region: 'Kánaán',
+		sources: ['1 Mózes 23,19'],
+	},
+}, {
+	id: 107,
+	name: {
+		default: 'Milkha(h)',
+		strong: 'H4435',
+		sources: ['1 Mózes 11,29', '1 Mózes 22,20'],
+	},
+	sex: 'female',
+	father: {
+		id: 104,
+		sources: ['1 Mózes 11,29'],
+	},
+	relationships: [{
+		id: 103,
+		type: 'marriage',
+		sources: ['1 Mózes 11,29'],
+	}],
+}, {
+	id: 108,
+	name: {
+		default: 'Jiszkáh',
+		strong: 'H3252',
+		sources: ['1 Mózes 11,29'],
+	},
+	sex: 'female',
+	father: {
+		id: 104,
+		sources: ['1 Mózes 11,29'],
+	},
+}, {
+	id: 109,
+	name: {
+		default: 'Amrafel',
+		strong: 'H569',
+		sources: ['1 Mózes 14,1'],
+	},
+	sex: 'male',
+	note: 'Sineár királya',
+}, {
+	id: 110,
+	name: {
+		default: 'Ariókh',
+		strong: 'H746',
+		sources: ['1 Mózes 14,1'],
+	},
+	sex: 'male',
+	note: 'Elászár királya',
+}, {
+	id: 111,
+	name: {
+		default: 'Khédorlaomer',
+		strong: 'H3540',
+		sources: ['1 Mózes 14,1'],
+	},
+	sex: 'male',
+	note: 'Elám királya',
+}, {
+	id: 112,
+	name: {
+		default: 'Thidál',
+		strong: 'H8413',
+		sources: ['1 Mózes 14,1'],
+	},
+	sex: 'male',
+	note: 'Góim királya',
+}, {
+	id: 113,
+	name: {
+		default: 'Bera',
+		strong: 'H1298',
+		sources: ['1 Mózes 14,2'],
+	},
+	sex: 'male',
+}, {
+	id: 114,
+	name: {
+		default: 'Birsa',
+		strong: 'H1306',
+		sources: ['1 Mózes 14,2'],
+	},
+	sex: 'male',
+}, {
+	id: 115,
+	name: {
+		default: 'Sináb',
+		strong: 'H8134',
+		sources: ['1 Mózes 14,2'],
+	},
+	sex: 'male',
+}, {
+	id: 116,
+	name: {
+		default: 'Seméber',
+		strong: 'H8038',
+		sources: ['1 Mózes 14,2'],
+	},
+	sex: 'male',
+}, {
+	id: 117,
+	name: {
+		default: 'Mamré',
+		strong: 'H4471',
+		source: ['1 Mózes 14,13'],
+	},
+	sex: 'male',
+	relationships: [{
+		id: 118,
+		type: 'brother',
+		sources: ['1 Mózes 14,13'],
+	}, {
+		id: 119,
+		type: 'brother',
+		sources: ['1 Mózes 14,13'],
+	}],
+}, {
+	id: 118,
+	name: {
+		default: 'Esk(h)ol',
+		strong: 'H812',
+		source: ['1 Mózes 14,13', '1 Mózes 14,24'],
+	},
+	sex: 'male',
+	relationships: [{
+		id: 117,
+		type: 'brother',
+		sources: ['1 Mózes 14,13'],
+	}, {
+		id: 119,
+		type: 'brother',
+		sources: ['1 Mózes 14,13'],
+	}],
+}, {
+	id: 119,
+	name: {
+		default: 'Áner',
+		strong: 'H6063',
+		source: ['1 Mózes 14,13'],
+	},
+	sex: 'male',
+	relationships: [{
+		id: 117,
+		type: 'brother',
+		sources: ['1 Mózes 14,13'],
+	}, {
+		id: 118,
+		type: 'brother',
+		sources: ['1 Mózes 14,13'],
+	}],
+}, {
+	id: 120,
+	name: {
+		default: 'Melkisedek',
+		strong: 'H4442',
+		source: ['1 Mózes 14,18'],
+	},
+	sex: 'male',
+}, {
+	id: 121,
+	name: {
+		default: 'Eliézer',
+		strong: 'H461',
+		source: ['1 Mózes 15,2'],
+	},
+	sex: 'male',
+	note: 'damaszkuszbeli',
+}, {
+	id: 122,
+	name: {
+		default: 'Hágár',
+		strong: 'H1904',
+		source: ['1 Mózes 16,1'],
+	},
+	sex: 'female',
+	relationships: [{
+		id: 102,
+		type: 'marriage',
+		sources: ['1 Mózes 16,3'],
+	}],
+	origin: {
+		value: 'Egyiptom',
+		type: 'country',
+		source: ['1 Mózes 16,3'],
+	},
+	note: 'Ábrahám-Sára szolgája',
+}, {
+	id: 123,
+	name: {
+		default: 'Ismáel',
+		strong: 'H3458',
+		source: ['1 Mózes 16,11', '1 Mózes 16,15'],
+	},
+	sex: 'male',
+	age: {
+		years: 132,
+		sources: ['1 Mózes 25,17'],
+	},
+	father: {
+		id: 102,
+		sources: ['1 Mózes 16,4', '1 Mózes 16,15'],
+	},
+	mother: {
+		id: 122,
+		sources: ['1 Mózes 16,4', '1 Mózes 16,15'],
+	},
+	relationships: [{
+		id: 'U5',
+		type: 'marriage',
+		sources: ['1 Mózes 21,21'],
+	}],
+	note: 'születésekor Ábrám 86 éves volt. 13 évesen metélkedett körül'
+}, {
+	id: 124,
+	name: {
+		default: 'Izsák',
+		strong: 'H3327',
+		source: ['1 Mózes 17,19', '1 Mózes 21,3'],
+	},
+	sex: 'male',
+	father: {
+		id: 102,
+		sources: ['1 Mózes 21,2'],
+	},
+	mother: {
+		id: 106,
+		sources: ['1 Mózes 21,2'],
+	},
+	relationships: [{
+		id: 137,
+		type: 'marriage',
+		sources: ['1 Mózes 24,67'],
+	}],
+	note: 'Születésekor Ábrahám 100 éves volt, Rebekával 40 évesen házasodott meg',
+}, {
+	id: 'U1',
+	name: {
+		default: 'Lót felesége',
+		source: ['1 Mózes 19,15'],
+	},
+	sex: 'female',
+	relationships: [{
+		id: 105,
+		type: 'marriage',
+		sources: ['1 Mózes 19,15'],
+	}],
+}, {
+	id: 'U2',
+	name: {
+		default: 'Lót nagyobbik lánya',
+		source: ['1 Mózes 19,8'],
+	},
+	sex: 'female',
+	father: {
+		id: 105,
+		sources: ['1 Mózes 19,8'],
+	},
+	mother: {
+		id: 'U1',
+		sources: ['1 Mózes 19,15'],
+	},
+	relationships: [{
+		id: 105,
+		type: 'rape',
+		isRaper: true,
+		sources: ['1 Mózes 19,33'],
+	}],
+}, {
+	id: 'U3',
+	name: {
+		default: 'Lót kisebbik lánya',
+		source: ['1 Mózes 19,8'],
+	},
+	sex: 'female',
+	father: {
+		id: 105,
+		sources: ['1 Mózes 19,8'],
+	},
+	mother: {
+		id: 'U1',
+		sources: ['1 Mózes 19,15'],
+	},
+	relationships: [{
+		id: 105,
+		type: 'rape',
+		isRaper: true,
+		sources: ['1 Mózes 19,35'],
+	}],
+}, {
+	id: 125,
+	name: {
+		default: 'Moáb',
+		strong: 'H4124',
+		source: ['1 Mózes 19,37'],
+	},
+	sex: 'male',
+	father: {
+		id: 105,
+		sources: ['1 Mózes 19,33', '1 Mózes 19,37'],
+	},
+	mother: {
+		id: 'U2',
+		sources: ['1 Mózes 19,37'],
+	},
+}, {
+	id: 126,
+	name: {
+		default: 'Benammi',
+		strong: 'H1151',
+		source: ['1 Mózes 19,38'],
+	},
+	sex: 'male',
+	father: {
+		id: 105,
+		sources: ['1 Mózes 19,35', '1 Mózes 19,38'],
+	},
+	mother: {
+		id: 'U3',
+		sources: ['1 Mózes 19,38'],
+	},
+}, {
+	id: 127,
+	name: {
+		default: 'Abimélek',
+		strong: 'H40',
+		source: ['1 Mózes 20,2'],
+	},
+	sex: 'male',
+	relationships: [{
+		id: null,
+		type: 'marriage',
+		sources: ['1 Mózes 20,17'],
+	}],
+}, {
+	id: 'U4',
+	name: {
+		default: 'Tháré felesége',
+		source: ['1 Mózes 20,12'],
+	},
+	sex: 'female',
+	relationships: [{
+		id: 101,
+		type: 'marriage',
+		sources: ['1 Mózes 20,12'],
+	}],
+}, {
+	id: 'U5',
+	name: {
+		default: 'Ismáel felesége',
+		source: ['1 Mózes 21,21'],
+	},
+	sex: 'female',
+	relationships: [{
+		id: 123,
+		type: 'marriage',
+		sources: ['1 Mózes 21,21'],
+	}],
+	origin: {
+		value: 'Egyiptom',
+		type: 'country',
+		source: ['1 Mózes 21,21'],
+	},
+}, {
+	id: 128,
+	name: {
+		default: 'Pikhól',
+		strong: 'H6369',
+		source: ['1 Mózes 20,22'],
+	},
+	sex: 'male',
+	note: 'Abimélek hadvezére',
+}, {
+	id: 129,
+	name: {
+		default: 'Úz',
+		strong: 'H5780',
+		source: ['1 Mózes 22,21'],
+	},
+	sex: 'male',
+	father: {
+		id: 103,
+		sources: ['1 Mózes 22,20-21'],
+	},
+	mother: {
+		id: 107,
+		sources: ['1 Mózes 22,20-21'],
+	},
+	note: '1. gyerek',
+}, {
+	id: 130,
+	name: {
+		default: 'Búz',
+		strong: 'H938',
+		source: ['1 Mózes 22,21'],
+	},
+	sex: 'male',
+	father: {
+		id: 103,
+		sources: ['1 Mózes 22,20-21'],
+	},
+	mother: {
+		id: 107,
+		sources: ['1 Mózes 22,20-21'],
+	},
+}, {
+	id: 131,
+	name: {
+		default: 'Kemuél',
+		strong: 'H7055',
+		source: ['1 Mózes 22,21'],
+	},
+	sex: 'male',
+	father: {
+		id: 103,
+		sources: ['1 Mózes 22,20-21'],
+	},
+	mother: {
+		id: 107,
+		sources: ['1 Mózes 22,20-21'],
+	},
+}, {
+	id: 132,
+	name: {
+		default: 'Arám',
+		strong: 'H758',
+		source: ['1 Mózes 22,21'],
+	},
+	sex: 'male',
+	father: {
+		id: 131,
+		sources: ['1 Mózes 22,21'],
+	},
+}, {
+	id: 133,
+	name: {
+		default: 'Keszed',
+		strong: 'H3777',
+		source: ['1 Mózes 22,22'],
+	},
+	sex: 'male',
+	father: {
+		id: 103,
+		sources: ['1 Mózes 22,20', '1 Mózes 22,22'],
+	},
+	mother: {
+		id: 107,
+		sources: ['1 Mózes 22,20', '1 Mózes 22,22'],
+	},
+}, {
+	id: 134,
+	name: {
+		default: 'Házó',
+		strong: 'H2375',
+		source: ['1 Mózes 22,22'],
+	},
+	sex: 'male',
+	father: {
+		id: 103,
+		sources: ['1 Mózes 22,20', '1 Mózes 22,22'],
+	},
+	mother: {
+		id: 107,
+		sources: ['1 Mózes 22,20', '1 Mózes 22,22'],
+	},
+}, {
+	id: 135,
+	name: {
+		default: 'Jidláf',
+		strong: 'H3044',
+		source: ['1 Mózes 22,22'],
+	},
+	sex: 'male',
+	father: {
+		id: 103,
+		sources: ['1 Mózes 22,20', '1 Mózes 22,22'],
+	},
+	mother: {
+		id: 107,
+		sources: ['1 Mózes 22,20', '1 Mózes 22,22'],
+	},
+}, {
+	id: 136,
+	name: {
+		default: 'Betuél',
+		strong: 'H1328',
+		source: ['1 Mózes 22,22'],
+	},
+	sex: 'male',
+	father: {
+		id: 103,
+		sources: ['1 Mózes 22,20', '1 Mózes 22,22'],
+	},
+	mother: {
+		id: 107,
+		sources: ['1 Mózes 22,20', '1 Mózes 22,22'],
+	},
+	origin: {
+		value: 'Szíria',
+		source: ['1 Mózes 25,20'],
+	},
+}, {
+	id: 137,
+	name: {
+		default: 'Rebeka',
+		strong: 'H7259',
+		source: ['1 Mózes 22,23'],
+	},
+	sex: 'female',
+	father: {
+		id: 136,
+		sources: ['1 Mózes 22,23'],
+	},
+	relationships: [{
+		id: 124,
+		type: 'marriage',
+		sources: ['1 Mózes 24,67'],
+	}],
+}, {
+	id: 138,
+	name: {
+		default: 'Reuma',
+		strong: 'H7208',
+		source: ['1 Mózes 22,24'],
+	},
+	sex: 'female',
+	relationships: [{
+		id: 103,
+		type: 'concubine',
+		sources: ['1 Mózes 3,20'],
+	}],
+}, {
+	id: 139,
+	name: {
+		default: 'Tebáh',
+		strong: 'H2875',
+		source: ['1 Mózes 22,24'],
+	},
+	sex: 'male',
+	father: {
+		id: 103,
+		sources: ['1 Mózes 22,23-24'],
+	},
+	mother: {
+		id: 138,
+		sources: ['1 Mózes 22,24'],
+	},
+}, {
+	id: 140,
+	name: {
+		default: 'Gakhám',
+		strong: 'H1514',
+		source: ['1 Mózes 22,24'],
+	},
+	sex: 'male',
+	father: {
+		id: 103,
+		sources: ['1 Mózes 22,23-24'],
+	},
+	mother: {
+		id: 138,
+		sources: ['1 Mózes 22,24'],
+	},
+}, {
+	id: 141,
+	name: {
+		default: 'Thakhás',
+		strong: 'H2875',
+		source: ['1 Mózes 22,24'],
+	},
+	sex: 'male',
+	father: {
+		id: 103,
+		sources: ['1 Mózes 22,23-24'],
+	},
+	mother: {
+		id: 138,
+		sources: ['1 Mózes 22,24'],
+	},
+}, {
+	id: 142,
+	name: {
+		default: 'Mahákh',
+		strong: 'H4601',
+		source: ['1 Mózes 22,24'],
+	},
+	sex: 'male',
+	father: {
+		id: 103,
+		sources: ['1 Mózes 22,23-24'],
+	},
+	mother: {
+		id: 138,
+		sources: ['1 Mózes 22,24'],
+	},
+}, {
+	id: 143,
+	name: {
+		default: 'Efron',
+		strong: 'H6085',
+		source: ['1 Mózes 23,8'],
+	},
+	sex: 'male',
+	father: {
+		id: 144,
+		sources: ['1 Mózes 23,8'],
+	},
+	origin: {
+		value: 'kitteus',
+		type: 'nation',
+		source: ['1 Mózes 23,10'],
+	},
+}, {
+	id: 144,
+	name: {
+		default: 'Cohár',
+		strong: 'H6714',
+		source: ['1 Mózes 23,8'],
+	},
+	sex: 'male',
+}, {
+	id: 145,
+	name: {
+		default: 'Lábán',
+		strong: 'H3837',
+		source: ['1 Mózes 24,29'],
+	},
+	sex: 'male',
+	father: {
+		id: 136,
+		sources: ['1 Mózes 24,29'],
+	},
+	origin: {
+		value: 'Szíria',
+		source: ['1 Mózes 25,20'],
+	},
+}, {
+	id: 146,
+	name: {
+		default: 'Ketúráh',
+		strong: 'H6989',
+		source: ['1 Mózes 25,1'],
+	},
+	sex: 'female',
+	relationships: [{
+		id: 102,
+		type: 'marriage',
+		sources: ['1 Mózes 25,1'],
+	}],
+}, {
+	id: 147,
+	name: {
+		default: 'Zimrán',
+		strong: 'H2175',
+		source: ['1 Mózes 25,2'],
+	},
+	sex: 'male',
+	father: {
+		id: 102,
+		sources: ['1 Mózes 25,1-2'],
+	},
+	mother: {
+		id: 146,
+		sources: ['1 Mózes 25,1-2'],
+	},
+}, {
+	id: 148,
+	name: {
+		default: 'Joksán',
+		strong: 'H3370',
+		source: ['1 Mózes 25,2'],
+	},
+	sex: 'male',
+	father: {
+		id: 102,
+		sources: ['1 Mózes 25,1-2'],
+	},
+	mother: {
+		id: 146,
+		sources: ['1 Mózes 25,1-2'],
+	},
+}, {
+	id: 149,
+	name: {
+		default: 'Médán',
+		strong: 'H4091',
+		source: ['1 Mózes 25,2'],
+	},
+	sex: 'male',
+	father: {
+		id: 102,
+		sources: ['1 Mózes 25,1-2'],
+	},
+	mother: {
+		id: 146,
+		sources: ['1 Mózes 25,1-2'],
+	},
+}, {
+	id: 150,
+	name: {
+		default: 'Midián',
+		strong: 'H4080',
+		source: ['1 Mózes 25,2'],
+	},
+	sex: 'male',
+	father: {
+		id: 102,
+		sources: ['1 Mózes 25,1-2'],
+	},
+	mother: {
+		id: 146,
+		sources: ['1 Mózes 25,1-2'],
+	},
+}, {
+	id: 151,
+	name: {
+		default: 'Isbák',
+		strong: 'H3435',
+		source: ['1 Mózes 25,2'],
+	},
+	sex: 'male',
+	father: {
+		id: 102,
+		sources: ['1 Mózes 25,1-2'],
+	},
+	mother: {
+		id: 146,
+		sources: ['1 Mózes 25,1-2'],
+	},
+}, {
+	id: 152,
+	name: {
+		default: 'Suakh',
+		strong: 'H7744',
+		source: ['1 Mózes 25,2'],
+	},
+	sex: 'male',
+	father: {
+		id: 102,
+		sources: ['1 Mózes 25,1-2'],
+	},
+	mother: {
+		id: 146,
+		sources: ['1 Mózes 25,1-2'],
+	},
+}, {
+	id: 153,
+	name: {
+		default: 'Séba',
+		strong: 'H7614',
+		source: ['1 Mózes 25,3'],
+	},
+	sex: 'male',
+	father: {
+		id: 148,
+		sources: ['1 Mózes 25,3'],
+	},
+}, {
+	id: 154,
+	name: {
+		default: 'Dédán',
+		strong: 'H1719',
+		source: ['1 Mózes 25,3'],
+	},
+	sex: 'male',
+	father: {
+		id: 148,
+		sources: ['1 Mózes 25,3'],
+	},
+}, {
+	id: 155,
+	name: {
+		default: 'Assurim',
+		strong: 'H805',
+		source: ['1 Mózes 25,3'],
+	},
+	sex: 'male',
+	father: {
+		id: 154,
+		sources: ['1 Mózes 25,3'],
+	},
+}, {
+	id: 156,
+	name: {
+		default: 'Letúsim ',
+		strong: 'H3912',
+		source: ['1 Mózes 25,3'],
+	},
+	sex: 'male',
+	father: {
+		id: 154,
+		sources: ['1 Mózes 25,3'],
+	},
+}, {
+	id: 157,
+	name: {
+		default: 'Leummim',
+		strong: 'H3817',
+		source: ['1 Mózes 25,3'],
+	},
+	sex: 'male',
+	father: {
+		id: 154,
+		sources: ['1 Mózes 25,3'],
+	},
+}, {
+	id: 158,
+	name: {
+		default: 'Éfah',
+		strong: 'H5891',
+		source: ['1 Mózes 25,4'],
+	},
+	sex: 'male',
+	father: {
+		id: 150,
+		sources: ['1 Mózes 25,4'],
+	},
+}, {
+	id: 159,
+	name: {
+		default: 'Éfer',
+		strong: 'H6081',
+		source: ['1 Mózes 25,4'],
+	},
+	sex: 'male',
+	father: {
+		id: 150,
+		sources: ['1 Mózes 25,4'],
+	},
+}, {
+	id: 160,
+	name: {
+		default: 'Hánok',
+		strong: 'H2585',
+		source: ['1 Mózes 25,4'],
+	},
+	sex: 'male',
+	father: {
+		id: 150,
+		sources: ['1 Mózes 25,4'],
+	},
+}, {
+	id: 161,
+	name: {
+		default: 'Abida',
+		strong: 'H28',
+		source: ['1 Mózes 25,4'],
+	},
+	sex: 'male',
+	father: {
+		id: 150,
+		sources: ['1 Mózes 25,4'],
+	},
+}, {
+	id: 162,
+	name: {
+		default: 'Eldaah',
+		strong: 'H420',
+		source: ['1 Mózes 25,4'],
+	},
+	sex: 'male',
+	father: {
+		id: 150,
+		sources: ['1 Mózes 25,4'],
+	},
+}, {
+	id: 163,
+	name: {
+		default: 'Nebájót',
+		strong: 'H5032',
+		source: ['1 Mózes 25,13'],
+	},
+	sex: 'male',
+	father: {
+		id: 123,
+		sources: ['1 Mózes 25,13'],
+	},
+	note: '1. gyerek'
+}, {
+	id: 164,
+	name: {
+		default: 'Kédar',
+		strong: 'H6938',
+		source: ['1 Mózes 25,13'],
+	},
+	sex: 'male',
+	father: {
+		id: 123,
+		sources: ['1 Mózes 25,13'],
+	},
+}, {
+	id: 165,
+	name: {
+		default: 'Adbeél',
+		strong: 'H110',
+		source: ['1 Mózes 25,13'],
+	},
+	sex: 'male',
+	father: {
+		id: 123,
+		sources: ['1 Mózes 25,13'],
+	},
+}, {
+	id: 166,
+	name: {
+		default: 'Mibszám',
+		strong: 'H4017',
+		source: ['1 Mózes 25,13'],
+	},
+	sex: 'male',
+	father: {
+		id: 123,
+		sources: ['1 Mózes 25,13'],
+	},
+}, {
+	id: 167,
+	name: {
+		default: 'Misma',
+		strong: 'H4927',
+		source: ['1 Mózes 25,14'],
+	},
+	sex: 'male',
+	father: {
+		id: 123,
+		sources: ['1 Mózes 25,13-14'],
+	},
+}, {
+	id: 168,
+	name: {
+		default: 'Dúmah',
+		strong: 'H1746',
+		source: ['1 Mózes 25,14'],
+	},
+	sex: 'male',
+	father: {
+		id: 123,
+		sources: ['1 Mózes 25,13-14'],
+	},
+}, {
+	id: 169,
+	name: {
+		default: 'Massza',
+		strong: 'H4854',
+		source: ['1 Mózes 25,14'],
+	},
+	sex: 'male',
+	father: {
+		id: 123,
+		sources: ['1 Mózes 25,13-14'],
+	},
+}, {
+	id: 170,
+	name: {
+		default: 'Hadar',
+		strong: 'H2316',
+		source: ['1 Mózes 25,15'],
+	},
+	sex: 'male',
+	father: {
+		id: 123,
+		sources: ['1 Mózes 25,13', '1 Mózes 25,15'],
+	},
+}, {
+	id: 171,
+	name: {
+		default: 'Théma',
+		strong: 'H8485',
+		source: ['1 Mózes 25,15'],
+	},
+	sex: 'male',
+	father: {
+		id: 123,
+		sources: ['1 Mózes 25,13', '1 Mózes 25,15'],
+	},
+}, {
+	id: 172,
+	name: {
+		default: 'Jetúr',
+		strong: 'H3195',
+		source: ['1 Mózes 25,15'],
+	},
+	sex: 'male',
+	father: {
+		id: 123,
+		sources: ['1 Mózes 25,13', '1 Mózes 25,15'],
+	},
+}, {
+	id: 173,
+	name: {
+		default: 'Náfis',
+		strong: 'H5305',
+		source: ['1 Mózes 25,15'],
+	},
+	sex: 'male',
+	father: {
+		id: 123,
+		sources: ['1 Mózes 25,13', '1 Mózes 25,15'],
+	},
+}, {
+	id: 174,
+	name: {
+		default: 'Kedmah',
+		strong: 'H6929',
+		source: ['1 Mózes 25,15'],
+	},
+	sex: 'male',
+	father: {
+		id: 123,
+		sources: ['1 Mózes 25,13', '1 Mózes 25,15'],
+	},
+}, {
+	id: 175,
+	name: {
+		default: 'Ézsaú',
+		strong: 'H6215',
+		source: ['1 Mózes 25,25'],
+	},
+	altNames: [{
+		default: 'Edom',
+		strong: 'H123',
+		source: ['1 Mózes 25,30'],
+	}],
+	sex: 'male',
+	father: {
+		id: 124,
+		sources: ['1 Mózes 25,21', '1 Mózes 25,25'],
+	},
+	mother: {
+		id: 137,
+		sources: ['1 Mózes 25,21', '1 Mózes 25,25'],
+	},
+	relationships: [{
+		id: 178,
+		type: 'marriage',
+		sources: ['1 Mózes 26,34'],
+	}, {
+		id: 180,
+		type: 'marriage',
+		sources: ['1 Mózes 26,34'],
+	}],
+	note: 'Születésekor Izsák 60 éves volt.'
+}, {
+	id: 176,
+	name: {
+		default: 'Jákób',
+		strong: 'H3290',
+		source: ['1 Mózes 25,25'],
+	},
+	sex: 'male',
+	father: {
+		id: 124,
+		sources: ['1 Mózes 25,21', '1 Mózes 25,26'],
+	},
+	mother: {
+		id: 137,
+		sources: ['1 Mózes 25,21', '1 Mózes 25,26'],
+	},
+	note: 'Születésekor Izsák 60 éves volt.'
+}, {
+	id: 177,
+	name: {
+		default: 'Akhuzzáth',
+		strong: 'H276',
+		source: ['1 Mózes 26,26'],
+	},
+	sex: 'male',
+	note: 'Abimélek barátja',
+}, {
+	id: 178,
+	name: {
+		default: 'Jehudith',
+		strong: 'H3067',
+		source: ['1 Mózes 26,34'],
+	},
+	sex: 'female',
+	father: {
+		id: 179,
+		sources: ['1 Mózes 26,34'],
+	},
+	relationships: [{
+		id: 175,
+		type: 'marriage',
+		sources: ['1 Mózes 26,34'],
+	}],
+	note: 'Ézsaú 40 évesen vette el.'
+}, {
+	id: 179,
+	name: {
+		default: 'Beéri',
+		strong: 'H882',
+		source: ['1 Mózes 26,34'],
+	},
+	sex: 'male',
+	origin: {
+		value: 'kitteus',
+		type: 'nation',
+		source: ['1 Mózes 26,34'],
+	},
+}, {
+	id: 180,
+	name: {
+		default: 'Boszmát',
+		strong: 'H1315',
+		source: ['1 Mózes 26,34'],
+	},
+	sex: 'female',
+	father: {
+		id: 181,
+		sources: ['1 Mózes 26,34'],
+	},
+	relationships: [{
+		id: 175,
+		type: 'marriage',
+		sources: ['1 Mózes 26,34'],
+	}],
+	note: 'Ézsaú 40 évesen vette el.'
+}, {
+	id: 181,
+	name: {
+		default: 'Elon',
+		strong: 'H356',
+		source: ['1 Mózes 26,34'],
+	},
+	sex: 'male',
+	origin: {
+		value: 'kitteus',
+		type: 'nation',
+		source: ['1 Mózes 26,34'],
+	},
+}]
+
+
+
+
+const connections = [{
+  type: 'allies',
+  members: [102, 117, 118, 119],
+  source: ['1 Mózes 14,13'],
+}, {
+  type: 'allies',
+  members: [102, 127],
+  source: ['1 Mózes 21,27'],
+}, {
+  type: 'friends',
+  members: [127, 177],
+  source: ['1 Mózes 26,26'],
+}, {
+  type: 'allies',
+  members: [124, 127],
+  source: ['1 Mózes 21,27'],
+}]
+
+
+
+
+/*
+, {
+	id: 0,
+	name: {
+		default: '',
+		modern: '',
+		original: '',
+		strong: '',
+		source: [''],
+	},
+	sex: 'male',
+	age: {
+		years: 930,
+		sources: ['1 Mózes 5,5'],
+	},
+	father: {
+		id: 0,
+		sources: [''],
+	},
+	mother: {
+		id: 0,
+		sources: [''],
+	},
+	relationships: [{
+		id: 1,
+		type: 'marriage',
+		sources: ['1 Mózes 3,20'],
+	}, {
+		id: 1,
+		type: 'rape',
+		isRaper: true,
+		sources: ['1 Mózes 3,20'],
+	}],
+	connections: [{
+		id: 1,
+		type: '',
+		sources: ['1 Mózes 3,20'],
+	}],
+	origin: {
+		value: 'Egyiptom',
+		type: 'country',
+		source: ['1 Mózes 16,3'],
+	},
+	placeOfDeath: {
+		value: '',
+		sources: ['1 Mózes 23,2'],
+	},
+	placeOfBurial: {
+		value: '',
+		sources: ['1 Mózes 23,2'],
+	},
+}]
+*/
+
+//https://visjs.github.io/vis-data/data/dataset.html
+//https://visjs.github.io/vis-network/docs/network/edges.html?keywords=node
+
+const nodes = characters.map(character => ({
+	id: character.id,
+	label: character.name.default,
+	color: {
+		background: character.sex === 'male' ? '#add8e6' : '#ff69b4',
+	},
+}))
+
+const relationships = {}
+const edges = []
+
+const relationshipIcons = {
+	marriage: '💍',
+	concubine: '‪🛏',
+	fornication: '🔥',
+	adultery: '💔',
+	rape: '💥',
+}
+
+characters.forEach(character => {
+	if (character.relationships) {
+		character.relationships.forEach(relationship => {
+			switch (relationship.type) {
+				case 'marriage':
+				case 'concubine':
+				case 'fornication':
+				case 'adultery':
+				case 'rape':
+					const key = character.sex === 'male' ? `${character.id}-${relationship.id}` : `${relationship.id}-${character.id}`
+					if (!relationships[key]) {
+						relationships[key] = true
+						nodes.push({
+							id: key,
+							label: relationshipIcons[relationship.type],
+							color: {
+								background: '#d3d3d3'
+							},
+						})
+						edges.push({
+							from: character.id,
+							to: key,
+							arrows: relationship.type === 'rape' && relationship.isRaper ? 'to' : undefined,
+							dashes: true,
+							color: {
+								//color: '#d3d3d3'
+							},
+						})
+						edges.push({
+							from: relationship.id,
+							to: key,
+							arrows: relationship.type === 'rape' && !relationship.isRaper ? 'to' : undefined,
+							dashes: true,
+							color: {
+								//color: '#d3d3d3'
+							},
+						})
+					}
+					break;
+				case 'brother':
+				case 'sister':
+					//@TODO
+					break;
+			}
+		})
+	}
+	if (character.connections) {
+		//@TODO
+	}
+})
+
+characters.forEach(character => {
+	if (character.father && character.mother) {
+		edges.push({
+			from: `${character.father.id}-${character.mother.id}`,
+			to: character.id,
+			arrows: 'to',
+		})
+	} else {
+		if (character.father) {
+			edges.push({
+				from: character.father.id,
+				to: character.id,
+				arrows: 'to',
+			})
+		}
+		if (character.mother) {
+			edges.push({
+				from: character.mother.id,
+				to: character.id,
+				arrows: 'to',
+			})
+		}
+	}
+})
+
+if (localStorage.nodePositions) {
+	const nodePositions = JSON.parse(localStorage.nodePositions)
+	nodePositions.forEach(nodePosition => {
+		const targetNode = nodes.find(node => node.id == nodePosition.id)
+		targetNode.x = nodePosition.x
+		targetNode.y = nodePosition.y
+	})
+}
+
+const container = document.getElementById('bibletree')
+const data = {
+	nodes: new vis.DataSet(nodes),
+	edges: new vis.DataSet(edges),
+}
+const options = {
+	edges: {
+		smooth: false,
+	},
+	interaction: {
+		multiselect: true,
+	},
+	layout: {
+		improvedLayout: false,
+		//randomSeed: 123,
+		//hierarchical: {
+			//enabled: true,
+			//sortMethod: 'directed',
+			//shakeTowards: 'roots',
+		//},
+	},
+	manipulation: {
+		enabled: false,
+	},
+	physics: {
+		enabled: false,
+		barnesHut: {
+			gravitationalConstant: -2000,
+			centralGravity: 0.3,
+			springLength: 95,
+			springConstant: 0.04,
+			damping: 0.09,
+			avoidOverlap: 0,
+		},
+		forceAtlas2Based: {
+			gravitationalConstant: -50,
+			centralGravity: 0.01,
+			springConstant: 0.08,
+			springLength: 100,
+			damping: 0.4,
+			avoidOverlap: 0,
+		},
+		repulsion: {
+			centralGravity: 0.2,
+			springLength: 200,
+			springConstant: 0.05,
+			nodeDistance: 100,
+			damping: 0.09,
+		},
+		hierarchicalRepulsion: {
+			centralGravity: 0.0,
+			springLength: 100,
+			springConstant: 0.01,
+			nodeDistance: 120,
+			damping: 0.09,
+			avoidOverlap: 0,
+		},
+		solver: 'barnesHut',
+		stabilization: false,
+	},
+}
+let network = new vis.Network(container, data, options)
+
+const serializedPositionsElement = document.getElementById('serialized-positions')
+
+document.getElementById('save').addEventListener('click', e => {
+	//localStorage.positions = network.getPositions()
+	network.storePositions()
+	const nodePositions = data.nodes.map(({ id, x, y }) => ({ id, x, y }))
+	localStorage.nodePositions = JSON.stringify(nodePositions)
+})
+
+document.getElementById('serialize-positions').addEventListener('click', e => {
+	serializedPositionsElement.value = localStorage.nodePositions
+})
+
+document.getElementById('load-positions').addEventListener('click', e => {
+	localStorage.nodePositions = serializedPositionsElement.value
+	const nodePositions = JSON.parse(serializedPositionsElement.value)
+	nodePositions.forEach(nodePosition => data.nodes.update(nodePosition))
+	network.redraw()
+})
+</script>
+
+</body>
+</html>
