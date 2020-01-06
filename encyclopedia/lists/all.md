@@ -150,6 +150,7 @@
 - víz
 - főzelék [naziyd]: 1 Mózes 25,29
 - főtt lencse [naziyd adash]: 1 Mózes 25,34
+- finom étel (hús?) [mat'am]: 1 Mózes 27,4
 
 # Ruhák
 - bőrruha [kthoneth]: 1 Mózes 3,21
@@ -160,6 +161,9 @@
 - villogó pallos(kard) [lahat chereb]: 1 Mózes 3,24
 - pajzs [magen]: 1 Mózes 15,1
 - kés [ma'akeleth]: 1 Mózes 22,10
+- fegyver [kliy]: 1 Mózes 27,3
+- tegez [tliy]: 1 Mózes 27,3
+- kézív [qesheth]: 1 Mózes 27,3
 
 # Szexuális kapcsolatok
 - Ádám és Éva (házasság): 1 Mózes 4,1; 1 Mózes 4,2; 1 Mózes 4,25
