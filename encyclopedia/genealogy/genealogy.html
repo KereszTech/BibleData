@@ -1,21 +1,22 @@
 <!doctype html>
 <html>
 <head>
-  <title>BibleTree</title>
+	<meta charset="UTF-8">
+	<title>BibleTree</title>
 
-  <script type="text/javascript" src="https://visjs.github.io/vis-network/dist/vis-network.min.js"></script>
-  <link href="https://visjs.github.io/vis-network/dist/vis-network.min.css" rel="stylesheet" type="text/css" />
-  <style type="text/css">
-    #bibletree {
-      width: 100%;
-      height: 800px;
-      border: 1px solid lightgray;
-    }
-    #serialized-positions {
-    	width: 100%;
-    	height: 60px;
-    }
-  </style>
+	<script type="text/javascript" src="https://visjs.github.io/vis-network/dist/vis-network.min.js"></script>
+	<link href="https://visjs.github.io/vis-network/dist/vis-network.min.css" rel="stylesheet" type="text/css" />
+	<style type="text/css">
+		#bibletree {
+			width: 100%;
+			height: 800px;
+			border: 1px solid lightgray;
+		}
+		#serialized-positions {
+			width: 100%;
+			height: 60px;
+		}
+	</style>
 </head>
 <body>
 
@@ -1497,8 +1498,8 @@
 		type: 'marriage',
 		sources: ['1 Mózes 11,29'],
 	}],
-	placeOfDeath: {
-		value: 'Hebron (Kirját-Arba)',
+	death: {
+		place: 'Hebron (Kirját-Arba)',
 		region: 'Kánaán',
 		sources: ['1 Mózes 23,2'],
 	},
@@ -1726,6 +1727,10 @@
 		source: ['1 Mózes 17,19', '1 Mózes 21,3'],
 	},
 	sex: 'male',
+	age: {
+		years: 180,
+		sources: ['1 Mózes 35,28'],
+	},
 	father: {
 		id: 102,
 		sources: ['1 Mózes 21,2'],
@@ -1739,6 +1744,11 @@
 		type: 'marriage',
 		sources: ['1 Mózes 24,67'],
 	}],
+	death: {
+		place: 'Hebron (Kirját-Arbába, Hebron)',
+		cause: 'oldAge',
+		sources: ['1 Mózes 35,27-29'],
+	},
 	note: 'Születésekor Ábrahám 100 éves volt, Rebekával 40 évesen házasodott meg',
 }, {
 	id: 'U1',
@@ -2004,6 +2014,7 @@
 	},
 	origin: {
 		value: 'Szíria',
+		type: 'country',
 		source: ['1 Mózes 25,20'],
 	},
 }, {
@@ -2377,6 +2388,12 @@
 		strong: 'H5032',
 		source: ['1 Mózes 25,13'],
 	},
+	altNames: [{
+		default: 'Nebajóth',
+		defaultEN: 'Nebajoth',
+		strong: 'H5032',
+		sources: ['1 Mózes 28,9'],
+	}],
 	sex: 'male',
 	father: {
 		id: 123,
@@ -2544,14 +2561,26 @@
 		id: 180,
 		type: 'marriage',
 		sources: ['1 Mózes 26,34'],
+	}, {
+		id: 182,
+		type: 'marriage',
+		sources: ['1 Mózes 28,9'],
+	}, {
+		id: 203,
+		type: 'marriage',
+		sources: ['1 Mózes 36,2'],
 	}],
 	note: 'Születésekor Izsák 60 éves volt.'
 }, {
 	id: 176,
 	name: {
-		default: 'Jákób',
-		strong: 'H3290',
-		source: ['1 Mózes 25,25'],
+		default: 'Izrael',
+		defaultEN: 'Israel',
+		original: 'Jákób',
+		originalEN: 'Jacob',
+		strong: 'H3478',
+		strongOriginal: 'H3290',
+		source: ['1 Mózes 25,25', '1 Mózes 32,28', '1 Mózes 35,10'],
 	},
 	sex: 'male',
 	father: {
@@ -2562,6 +2591,23 @@
 		id: 137,
 		sources: ['1 Mózes 25,21', '1 Mózes 25,26'],
 	},
+	relationships: [{
+		id: 184,
+		type: 'marriage',
+		sources: ['1 Mózes 29,23'],
+	}, {
+		id: 183,
+		type: 'marriage',
+		sources: ['1 Mózes 29,28'],
+	}, {
+		id: 186,
+		type: 'marriage',
+		sources: ['1 Mózes 30,4'],
+	}, {
+		id: 185,
+		type: 'marriage',
+		sources: ['1 Mózes 30,9'],
+	}],
 	note: 'Születésekor Izsák 60 éves volt.'
 }, {
 	id: 177,
@@ -2610,6 +2656,12 @@
 		strong: 'H1315',
 		source: ['1 Mózes 26,34'],
 	},
+	altName: {
+		default: 'Ada',
+		defaultEN: 'Adah',
+		strong: 'H5711',
+		source: ['1 Mózes 36,2'],
+	},
 	sex: 'female',
 	father: {
 		id: 181,
@@ -2633,6 +2685,526 @@
 		value: 'kitteus',
 		type: 'nation',
 		source: ['1 Mózes 26,34'],
+	},
+}, {
+	id: 182,
+	name: {
+		default: 'Mahaláth',
+		strong: 'H4258',
+		source: ['1 Mózes 28,9'],
+	},
+	altNames:  {
+		default: 'Boszmát',
+		defaultEN: 'Bashemath',
+		strong: 'H1315',
+		source: ['1 Mózes 36,3'],
+	},
+	sex: 'female',
+	father: {
+		id: 123,
+		sources: ['1 Mózes 28,9'],
+	},
+	relationships: [{
+		id: 175,
+		type: 'marriage',
+		sources: ['1 Mózes 28,9'],
+	}],
+}, {
+	id: 183,
+	name: {
+		default: 'Ráhel',
+		strong: 'H7354',
+		source: ['1 Mózes 29,6'],
+	},
+	sex: 'female',
+	father: {
+		id: 145,
+		sources: ['1 Mózes 29,5-6'],
+	},
+	relationships: [{
+		id: 176,
+		type: 'marriage',
+		sources: ['1 Mózes 29,28'],
+	}],
+	death: {
+		place: 'Efrata (Betlehem)',
+		cause: 'birth',
+		sources: ['1 Mózes 35,16-19'],
+	},
+}, {
+	id: 184,
+	name: {
+		default: 'Lea',
+		strong: 'H3812',
+		source: ['1 Mózes 29,16'],
+	},
+	sex: 'female',
+	father: {
+		id: 145,
+		sources: ['1 Mózes 29,16'],
+	},
+	relationships: [{
+		id: 176,
+		type: 'marriage',
+		sources: ['1 Mózes 29,23'],
+	}],
+}, {
+	id: 185,
+	name: {
+		default: 'Zilpa',
+		strong: 'H2153',
+		source: ['1 Mózes 29,24'],
+	},
+	sex: 'female',
+	relationships: [{
+		id: 176,
+		type: 'marriage',
+		sources: ['1 Mózes 30,9'],
+	}],
+	connections: [{
+		id: 184,
+		type: 'master',
+		source: ['1 Mózes 29,24'],
+	}],
+}, {
+	id: 186,
+	name: {
+		default: 'Bilha',
+		strong: 'H1090',
+		source: ['1 Mózes 29,29'],
+	},
+	sex: 'female',
+	relationships: [{
+		id: 176,
+		type: 'marriage',
+		sources: ['1 Mózes 30,4'],
+		note: 'Lehet hogy ágyas? 1 Mózes 35,22',
+	}, {
+		id: 187,
+		type: 'adultery',
+		sources: ['1 Mózes 35,22'],
+	}],
+	connections: [{
+		id: 183,
+		type: 'master',
+		source: ['1 Mózes 29,29'],
+	}],
+}, {
+	id: 187,
+	name: {
+		default: 'Rúben',
+		strong: 'H7205',
+		source: ['1 Mózes 29,32'],
+	},
+	sex: 'male',
+	father: {
+		id: 176,
+		source: ['1 Mózes 29,32'],
+	},
+	mother: {
+		id: 184,
+		source: ['1 Mózes 29,32'],
+	},
+	relationships: [{
+		id: 186,
+		type: 'adultery',
+		sources: ['1 Mózes 35,22'],
+	}],
+}, {
+	id: 188,
+	name: {
+		default: 'Simeon',
+		strong: 'H8095',
+		source: ['1 Mózes 29,33'],
+	},
+	sex: 'male',
+	father: {
+		id: 176,
+		source: ['1 Mózes 29,33'],
+	},
+	mother: {
+		id: 184,
+		source: ['1 Mózes 29,33'],
+	},
+}, {
+	id: 189,
+	name: {
+		default: 'Lévi',
+		strong: 'H3878',
+		source: ['1 Mózes 29,34'],
+	},
+	sex: 'male',
+	father: {
+		id: 176,
+		source: ['1 Mózes 29,34'],
+	},
+	mother: {
+		id: 184,
+		source: ['1 Mózes 29,34'],
+	},
+}, {
+	id: 190,
+	name: {
+		default: 'Júda',
+		strong: 'H3063',
+		source: ['1 Mózes 29,35'],
+	},
+	sex: 'male',
+	father: {
+		id: 176,
+		source: ['1 Mózes 29,35'],
+	},
+	mother: {
+		id: 184,
+		source: ['1 Mózes 29,35'],
+	},
+}, {
+	id: 191,
+	name: {
+		default: 'Dán',
+		strong: 'H1835',
+		source: ['1 Mózes 30,6'],
+	},
+	sex: 'male',
+	father: {
+		id: 176,
+		source: ['1 Mózes 30,4-6'],
+	},
+	mother: {
+		id: 186,
+		source: ['1 Mózes 30,4-6'],
+	},
+}, {
+	id: 192,
+	name: {
+		default: 'Naftali',
+		strong: 'H5321',
+		source: ['1 Mózes 30,8'],
+	},
+	sex: 'male',
+	father: {
+		id: 176,
+		source: ['1 Mózes 30,7-8'],
+	},
+	mother: {
+		id: 186,
+		source: ['1 Mózes 30,7-8'],
+	},
+}, {
+	id: 193,
+	name: {
+		default: 'Gád',
+		strong: 'H1410',
+		source: ['1 Mózes 30,11'],
+	},
+	sex: 'male',
+	father: {
+		id: 176,
+		source: ['1 Mózes 30,10-11'],
+	},
+	mother: {
+		id: 185,
+		source: ['1 Mózes 30,10-11'],
+	},
+}, {
+	id: 194,
+	name: {
+		default: 'Áser',
+		strong: 'H836',
+		source: ['1 Mózes 30,13'],
+	},
+	sex: 'male',
+	father: {
+		id: 176,
+		source: ['1 Mózes 30,12-13'],
+	},
+	mother: {
+		id: 185,
+		source: ['1 Mózes 30,12-13'],
+	},
+}, {
+	id: 195,
+	name: {
+		default: 'Izsakhár',
+		strong: 'H3485',
+		source: ['1 Mózes 30,18'],
+	},
+	sex: 'male',
+	father: {
+		id: 176,
+		source: ['1 Mózes 30,17-18'],
+	},
+	mother: {
+		id: 184,
+		source: ['1 Mózes 30,17-18'],
+	},
+}, {
+	id: 196,
+	name: {
+		default: 'Zebulon',
+		strong: 'H2074',
+		source: ['1 Mózes 30,20'],
+	},
+	sex: 'male',
+	father: {
+		id: 176,
+		source: ['1 Mózes 30,19-20'],
+	},
+	mother: {
+		id: 184,
+		source: ['1 Mózes 30,19-20'],
+	},
+}, {
+	id: 197,
+	name: {
+		default: 'Dína',
+		strong: 'H1783',
+		source: ['1 Mózes 30,21'],
+	},
+	sex: 'female',
+	father: {
+		id: 176,
+		source: ['1 Mózes 30,21'],
+	},
+	mother: {
+		id: 184,
+		source: ['1 Mózes 30,21'],
+	},
+	relationships: [{
+		id: 200,
+		type: 'rape',
+		sources: ['1 Mózes 34,2'],
+	}],
+}, {
+	id: 198,
+	name: {
+		default: 'József',
+		strong: 'H3130',
+		source: ['1 Mózes 30,24'],
+	},
+	sex: 'male',
+	father: {
+		id: 176,
+		source: ['1 Mózes 30,22-24'],
+	},
+	mother: {
+		id: 183,
+		source: ['1 Mózes 30,22-24'],
+	},
+}, {
+	id: 199,
+	name: {
+		default: 'Khámor',
+		defaultEN: 'Hamor',
+		strong: 'H2544',
+		source: ['1 Mózes 33,19'],
+	},
+	sex: 'male',
+	note: 'Jákób tőle vásárolt 100 pénzen mezőrészt',
+}, {
+	id: 200,
+	name: {
+		default: 'Sek(h)em',
+		defaultEN: 'Shechem',
+		strong: 'H7927',
+		source: ['1 Mózes 33,19', '1 Mózes 34,26'],
+	},
+	sex: 'male',
+	father: {
+		id: 199,
+		source: ['1 Mózes 33,19'],
+	},
+	relationships: [{
+		id: 197,
+		type: 'rape',
+		isRaper: true,
+		sources: ['1 Mózes 34,2'],
+	}],
+}, {
+	id: 201,
+	name: {
+		default: 'Débora',
+		defaultEN: 'Deborah',
+		strong: 'H1683',
+		source: ['1 Mózes 35,8'],
+	},
+	sex: 'female',
+	death: {
+		place: 'Bétel',
+		region: 'Kánaán földje',
+		sources: ['1 Mózes 35,8'],
+	},
+	placeOfBurial: {
+		value: 'Allon-Bákhut',
+		place: 'Bétel',
+		region: 'Kánaán földje',
+		sources: ['1 Mózes 35,8'],
+	},
+	note: 'Rebeka dajkája',
+}, {
+	id: 202,
+	name: {
+		default: 'Benjamin',
+		defaultEN: 'Benjámin',
+		strong: 'H1144',
+		source: ['1 Mózes 35,18'],
+	},
+	altNames: [{
+		default: 'Benóni',
+		defaultEN: 'Benoni',
+		strong: 'H1126',
+		sources: ['1 Mózes 35,18'],
+	}],
+	sex: 'male',
+	father: {
+		id: 176,
+		source: ['1 Mózes 35,16-18'],
+	},
+	mother: {
+		id: 183,
+		source: ['1 Mózes 35,16-18'],
+	},
+	birth: {
+		place: 'Efrata (Betlehem)',
+		sources: ['1 Mózes 35,16-19'],
+	},
+	note: 'Anyja belehalt a megszülésébe',
+}, {
+	id: 203,
+	name: {
+		default: 'Oholibáma',
+		defaultEN: 'Aholibamah',
+		strong: 'H173',
+		sources: ['1 Mózes 36,2'],
+	},
+	sex: 'female',
+	father: {
+		id: 204,
+		sources: ['1 Mózes 36,2'],
+	},
+	relationships: [{
+		id: 175,
+		type: 'marriage',
+		sources: ['1 Mózes 36,2'],
+	}],
+}, {
+	id: 204,
+	name: {
+		default: 'Cibhón',
+		defaultEN: 'Zibeon',
+		strong: 'H6649',
+		sources: ['1 Mózes 36,2'],
+	},
+	sex: 'male',
+	origin: {
+		value: 'kivveus',
+		type: 'nation',
+		sources: ['1 Mózes 36,2'],
+	},
+}, {
+	id: 205,
+	name: {
+		default: 'Elifáz',
+		defaultEN: 'Eliphaz',
+		strong: 'H464',
+		sources: ['1 Mózes 36,4'],
+	},
+	sex: 'male',
+	father: {
+		id: 175,
+		sources: ['1 Mózes 36,4'],
+	},
+	mother: {
+		id: 180,
+		sources: ['1 Mózes 36,4'],
+	},
+	birth: {
+		region: 'Kánaán',
+		sources: ['1 Mózes 36,5'],
+	}
+}, {
+	id: 206,
+	name: {
+		default: 'Rehuél',
+		defaultEN: 'Reuel',
+		strong: 'H7467',
+		sources: ['1 Mózes 36,4'],
+	},
+	sex: 'male',
+	father: {
+		id: 175,
+		sources: ['1 Mózes 36,4'],
+	},
+	mother: {
+		id: 182,
+		sources: ['1 Mózes 36,4'],
+	},
+	birth: {
+		region: 'Kánaán',
+		sources: ['1 Mózes 36,5'],
+	},
+}, {
+	id: 207,
+	name: {
+		default: 'Jéhus',
+		defaultEN: 'Jeush',
+		strong: 'H3274',
+		sources: ['1 Mózes 36,5'],
+	},
+	sex: 'male',
+	father: {
+		id: 175,
+		sources: ['1 Mózes 36,5'],
+	},
+	mother: {
+		id: 203,
+		sources: ['1 Mózes 36,5'],
+	},
+	birth: {
+		region: 'Kánaán',
+		sources: ['1 Mózes 36,5'],
+	},
+}, {
+	id: 208,
+	name: {
+		default: 'Jahlám',
+		defaultEN: 'Jaalam',
+		strong: 'H3281',
+		sources: ['1 Mózes 36,5'],
+	},
+	sex: 'male',
+	father: {
+		id: 175,
+		sources: ['1 Mózes 36,5'],
+	},
+	mother: {
+		id: 203,
+		sources: ['1 Mózes 36,5'],
+	},
+	birth: {
+		region: 'Kánaán',
+		sources: ['1 Mózes 36,5'],
+	},
+}, {
+	id: 209,
+	name: {
+		default: 'Kóré',
+		defaultEN: 'Korah',
+		strong: 'H7141',
+		sources: ['1 Mózes 36,5'],
+	},
+	sex: 'male',
+	father: {
+		id: 175,
+		sources: ['1 Mózes 36,5'],
+	},
+	mother: {
+		id: 203,
+		sources: ['1 Mózes 36,5'],
+	},
+	birth: {
+		region: 'Kánaán',
+		sources: ['1 Mózes 36,5'],
 	},
 }]
 
@@ -2659,60 +3231,93 @@ const connections = [{
 
 
 
+// Source: https://github.com/almende/vis/issues/3594
+const addDragSelect = (container, network, nodes) => {
+	const NO_CLICK = 0
+	const RIGHT_CLICK = 3
+	
+	// Disable default right-click dropdown menu
+	container.oncontextmenu = () => false
+	
+	let isDragging = false
+	let DOMRect = {}
 
-/*
-, {
-	id: 0,
-	name: {
-		default: '',
-		modern: '',
-		original: '',
-		strong: '',
-		source: [''],
-	},
-	sex: 'male',
-	age: {
-		years: 930,
-		sources: ['1 Mózes 5,5'],
-	},
-	father: {
-		id: 0,
-		sources: [''],
-	},
-	mother: {
-		id: 0,
-		sources: [''],
-	},
-	relationships: [{
-		id: 1,
-		type: 'marriage',
-		sources: ['1 Mózes 3,20'],
-	}, {
-		id: 1,
-		type: 'rape',
-		isRaper: true,
-		sources: ['1 Mózes 3,20'],
-	}],
-	connections: [{
-		id: 1,
-		type: '',
-		sources: ['1 Mózes 3,20'],
-	}],
-	origin: {
-		value: 'Egyiptom',
-		type: 'country',
-		source: ['1 Mózes 16,3'],
-	},
-	placeOfDeath: {
-		value: '',
-		sources: ['1 Mózes 23,2'],
-	},
-	placeOfBurial: {
-		value: '',
-		sources: ['1 Mózes 23,2'],
-	},
-}]
-*/
+	const canvasify = (DOMx, DOMy) => {
+		const { x, y } = network.DOMtoCanvas({ x: DOMx, y: DOMy })
+		return [x, y]
+	}
+	
+	const correctRange = (start, end) => start < end ? [start, end] : [end, start]
+
+	const selectFromDOMRect = () => {
+		const [sX, sY] = canvasify(DOMRect.startX, DOMRect.startY)
+		const [eX, eY] = canvasify(DOMRect.endX, DOMRect.endY)
+		const [startX, endX] = correctRange(sX, eX)
+		const [startY, endY] = correctRange(sY, eY)
+
+		network.selectNodes(nodes.get().reduce((selected, { id }) => {
+			const { x, y } = network.getPositions(id)[id]
+			return (
+				startX <= x
+				&& x <= endX
+				&& startY <= y
+				&& y <= endY
+			) ? selected.concat(id) : selected
+		}, []))
+	}
+
+	container.addEventListener('mousedown', function({ which, pageX, pageY }) {
+		// Save the initial rectangle state
+		if (which === RIGHT_CLICK) {
+			Object.assign(DOMRect, {
+				startX: pageX - this.offsetLeft,
+				startY: pageY - this.offsetTop,
+				endX: pageX - this.offsetLeft,
+				endY: pageY - this.offsetTop,
+			})
+			isDragging = true
+		}
+	})
+
+	container.addEventListener('mousemove', function({ which, pageX, pageY }) {
+		// Make selection rectangle disappear when accidently mouseupped outside 'container'
+		if (which === NO_CLICK && isDragging) {
+			isDragging = false
+			network.redraw()
+		}
+		// When mousemove, update the rectangle state
+		else if (isDragging) {
+			Object.assign(DOMRect, {
+				endX: pageX - this.offsetLeft,
+				endY: pageY - this.offsetTop,
+			})
+			network.redraw()
+		}
+	})
+
+	container.addEventListener('mouseup', function({ which }) {
+		// Select the nodes in the rectangle
+		if (which === RIGHT_CLICK) {
+			isDragging = false
+			network.redraw()
+			selectFromDOMRect()
+		}
+	})
+
+	network.addEventListener('afterDrawing', ctx => {
+		if (isDragging) {
+			const [startX, startY] = canvasify(DOMRect.startX, DOMRect.startY)
+			const [endX, endY] = canvasify(DOMRect.endX, DOMRect.endY)
+
+			ctx.setLineDash([5])
+			ctx.strokeStyle = 'rgba(78, 146, 237, 0.75)'
+			ctx.strokeRect(startX, startY, endX - startX, endY - startY)
+			ctx.setLineDash([])
+			ctx.fillStyle = 'rgba(151, 194, 252, 0.45)'
+			ctx.fillRect(startX, startY, endX - startX, endY - startY)
+		}
+	})
+}
 
 //visjs.github.io/vis-data/data/dataset.html
 //https://visjs.github.io/vis-network/docs/network/
@@ -2774,11 +3379,11 @@ characters.forEach(character => {
 							},
 						})
 					}
-					break;
+					break
 				case 'brother':
 				case 'sister':
 					//@TODO
-					break;
+					break
 			}
 		})
 	}
@@ -2883,6 +3488,7 @@ const options = {
 	},
 }
 let network = new vis.Network(container, data, options)
+addDragSelect(container, network, data.nodes)
 
 const serializedPositionsElement = document.getElementById('serialized-positions')
 

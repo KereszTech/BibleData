@@ -17,6 +17,10 @@
 - bokor [siyach]: 1 Mózes 21,15
 - tamariszkuszfa ['eshel]: 1 Mózes 21,33
 - szövevény [cbak]: 1 Mózes 22,13
+- gabona [dagan]: 1 Mózes 27,28
+- búza [chittah]: 1 Mózes 30,14
+- mandragóra (gyökér) [duwday]: 1 Mózes 30,14
+- cserfa ['elah]: 1 Mózes 35,4
 
 # Állatok
 - Élő állatok [sherets/chay nephesh]: 1 Mózes 1,20
@@ -38,14 +42,26 @@
 - ökör [baqar]: 1 Mózes 12,16
 - szamár [chamowr 'athown']: 1 Mózes 12,16
 - teve [gamal]: 1 Mózes 12,16
-- barom [miqneh]: 1 Mózes 13,2
+- barom/marha [miqneh]: 1 Mózes 13,2; 1 Mózes 29,7
 - üsző [eglah]: 1 Mózes 15,9
-- kecske [ez]: 1 Mózes 15,9
+- kecske (nőstény) [ez]: 1 Mózes 15,9
 - kos [ayil]: 1 Mózes 15,9
 - gerlice [towr]: 1 Mózes 15,9
 - galambfi [gowzal]: 1 Mózes 15,9
 - ragadozó madarak [ayit]: 1 Mózes 15,11
 - borjú [ben]: 1 Mózes 18,7
+- bárány (kecske) [seh]: 1 Mózes 30,32
+- (fiatal) juh/bárány [keseb]: 1 Mózes 30,32
+- kos/bak (hím kecske) [tayish]: 1 Mózes 30,35; 1 Mózes 32,14
+- nyár [lach libneh]: 1 Mózes 30,37
+- mogyoró [luwz]: 1 Mózes 30,37
+- gesztenye [armown]: 1 Mózes 30,37
+- ökör [showr]: 1 Mózes 32,5
+- juh (anya) [rachel]: 1 Mózes 32,14
+- tehén (üsző) [parah]: 1 Mózes 32,15
+- tulok (bika) [par]: 1 Mózes 32,15
+- nőstény szamár ['athown]: 1 Mózes 32,15
+- szamárvemhe [ayir]: 1 Mózes 32,15
 
 # Helyszínek
 - Pison: 1 Mózes 2,11
@@ -80,11 +96,13 @@
 - Séfár: 1 Mózes 10,30
 - napkeleti hegyek: 1 Mózes 10,30
 - Úr-Kaszdim: 1 Mózes 11,28
-- Kánaán földje: 1 Mózes 11,31
+- Kánaán földje [H776 H3667]: 1 Mózes 11,31
 - Hárán: 1 Mózes 11,31
 - Sikem vidéke: 1 Mózes 12,6
 - Móréh tölgyese: 1 Mózes 12,6
 - Bétel: 1 Mózes 12,8
+ - Lúz (Kánaán földjén) [H3870]: 1 Mózes 28,19
+ - Él-Bétel [H416]: 1 Mózes 35,7
 - Hái: 1 Mózes 12,8
 - Egyiptom: 1 Mózes 12,10
 - Fáraó udvara: 1 Mózes 12,15
@@ -94,6 +112,7 @@
 - Coár: 1 Mózes 13,10
 - Mamré tölgyese: 1 Mózes 13,18
 - Hebron: 1 Mózes 13,18
+ - Kirját-Arba [H7153]: 1 Mózes 35,27
 - Elászár [H495]: 1 Mózes 14,1
 - Élám [H5867]: 1 Mózes 14,1
 - Admáh [H126]: 1 Mózes 14,2
@@ -125,11 +144,25 @@
 - Makpelá [H4375]: 1 Mózes 23,9
 - Mezopotámia [H763]: 1 Mózes 24,10
 - Nákhor városa [H5152]: 1 Mózes 24,10
-- keleti tartomány [H6924 H776]: 1 Mózes 25,6
+- keleti tartomány/napkeletre lakók földje [H6924 H776]: 1 Mózes 25,6; 1 Mózes 29,1
 - Szíria [H761]: 1 Mózes 15,20
 - Gérár völgye (patakja? nachal Grar) [H5158 H1642]: 1 Mózes 26,17
 - Észek [H6230]: 1 Mózes 26,20
 - Szitna [H7856]: 1 Mózes 26,21
+- Gileád (hegye) [H1568 H2022]: 1 Mózes 31,21
+- Jegár-Sahadutha [H3026]: 1 Mózes 31,47
+- Gálhéd [H1567]: 1 Mózes 31,47
+- Micpa [H4709]: 1 Mózes 31,49
+- Mahanáim [H4266]: 1 Mózes 32,2
+- Edóm (mezőség) [H123]: 1 Mózes 32,3
+- Jabbók (rév) [H2999]: 1 Mózes 32,22
+- Széir [H8165]: 1 Mózes 33,14
+- Szukkót [H5523]: 1 Mózes 33,17
+- Sekem [H7927]: 1 Mózes 33,18
+- Izrael [H3478]: 1 Mózes 34,7
+- Efrata [H672]: 1 Mózes 35,16
+ - Betlehem [H1035]: 1 Mózes 35,19
+- Héder (torony) [H4029 H4026]: 1 Mózes 35,21
 
 # Ásványok
 - arany: 1 Mózes 2,11; 1 Mózes 2,12; 1 Mózes 13,2
@@ -151,11 +184,16 @@
 - főzelék [naziyd]: 1 Mózes 25,29
 - főtt lencse [naziyd adash]: 1 Mózes 25,34
 - finom étel (hús?) [mat'am]: 1 Mózes 27,4
+- olaj [shemen]: 1 Mózes 28,18
 
-# Ruhák
+# Ruházat
 - bőrruha [kthoneth]: 1 Mózes 3,21
 - ruha [simlah]: 1 Mózes 9,23
 - sarukötő: [naal] 1 Mózes 14,23
+- aranyfüggő (fülbevaló) [zahab nexem]: 1 Mózes 24,22
+- karperec [tsamiyd]: 1 Mózes 24,22
+- ruha [beged]: 1 Mózes 27,15
+- öltözet (köpeny) [simlah]: 1 Mózes 35,2
 
 # Fegyverek
 - villogó pallos(kard) [lahat chereb]: 1 Mózes 3,24
@@ -176,10 +214,13 @@
 # Háborúk/fegyveres konfliktusok
 - 1 Mózes 14,7-9
 - Ábrahám vs 1 Mózes 14,14-15
+- Simeon és Lévi vs Sekem és férfiai (sekemi vérfürdő) 1 Mózes 34,25-26
 
 # Hangszerek
 - lant [kinnowr]: 1 Mózes 4,21
 - síp [uwgab]: 1 Mózes 4,21
+- dob (kézidob/tamburin) [toph]: 1 Mózes 31,27
+- hegedű (hárfa) [kinnowr]: 1 Mózes 31,27
 
 # Foglalkozások
 - kovács: 1 Mózes 4,22
@@ -193,6 +234,8 @@
 - nap
 - hónap
 - sing: 1 Mózes 6,15
+- pénz [qsiytah]: 1 Mózes 33,19
+- dűlőföld ['erets kibrah]: 1 Mózes 35,16
 
 # Anyagok
 - szurok: 1 Mózes 6,14
@@ -216,6 +259,12 @@
 - Ábrahám (oltár): 1 Mózes 13,18 (Mamré tölgyese - Hebron)
 - Ábrahám (oltár) Izsák feláldozására: 1 Mózes 22,9
 - Izsák (oltár): 1 Mózes 26,25 (Beérseba)
+- Jákób (oszlop?): 1 Mózes 28,18 (Bétel)
+- Jákób (oszlop?): 1 Mózes 31,45; 1 Mózes 31,54
+- Jákób (oltár): 1 Mózes 33,20 ('El 'elohey Yisra'el, Sekem)
+- Jákób (oltár): 1 Mózes 35,7 (Él-Bétel)
+- Jákób (kőoszlop és áldozás): 1 Mózes 35,14 (Bétel)
+- Jákób (emélkoszlop): 1 Mózes 35,20
 
 # Népek
 - filiszteusok: 
@@ -238,12 +287,14 @@
 - moabiták: 1 Mózes 19,37
 - ammoniták: 1 Mózes 19,38
 - kitteusok: 1 Mózes 23,10
+- kivveusok: 1 Mózes 36,2
 
 # Szövetségek:
 - Ábrahám-Úr: 1 Mózes 15,18
 - Ábrahám-Mamré-Eskol-Áner: 1 Mózes 14,13
 - Ábrahám-Abimélek: 1 Mózes 21,22-32
 - Izsák-Abimélek: 1 Mózes 26,26-31
+- Jákób-Lábán: 1 Mózes 31,44
 
 # Látomások:
 - Úr Ábrahámnak beszéd látomásban: 1 Mózes 15,1-16
@@ -258,6 +309,10 @@
 - Úr angyala kiált Ábrahámnak: 1 Mózes 22,15-18
 - Úr megjelent Izsáknak: 1 Mózes 26,2-5
 - Úr angyala megjelenék Izsáknak: 1 Mózes 26,24
+- Jákób álmában angyalokat (lajtorja): 1 Mózes 28,11-15
+- Isten angyala Jákóbna: 1 Mózes 31,11-13
+- Isten angyali látta Jákób: 1 Mózes 32,1-2
+- Isten megjelent Jákóbnak: 1 Mózes 35,9-13
 
 # Források:
 - Lakhai Rói (Súrba menő úton, Kádes és Béred között) Hágár: 1 Mózes 16,14
@@ -274,10 +329,20 @@
 - orr (talán arc) ['aph]: 1 Mózes 24,47
 - belső [me'ah]: 1 Mózes 25,23
 - sarok [aqeb]: 1 Mózes 25,26
+- nyak [tsavva'r]: 1 Mózes 27,16
+- fej vagy párna6fejhely? [mra'ashah]: 1 Mózes 28,11
+- száj [peh]: 1 Mózes 29,2
+- csont [etsem]: 1 Mózes 29,14
+- test vagy hús? [basar]: 1 Mózes 29,14
+- csípő [kaph]: 1 Mózes 32,25
+- forgócsont [yarek]: 1 Mózes 32,25
+- in [giyd]: 1 Mózes 32,32
+- ideg a combban? [nasheh]: 1 Mózes 32,32
 
 # Betegségek:
 - vakság [canver]: 1 Mózes 19,11
 - meddőség (bezárt méh [atsar rechem]):1 Mózes 20,18
+- sántítás [tsala']: 1 Mózes 32,31
 
 # Gyógyulások:
 - Ábrahám imájára Abimélek, felesége, szolgálói meddőség: 1 Mózes 20,17-18
@@ -288,3 +353,18 @@
 - Szitna (Izsák): 1 Mózes 26,21
 - Rehobót (Izsák): 1 Mózes 26,22
 - Sibáh - Beérseba (Izsák): 1 Mózes 26,25; 1 Mózes 26,32-33
+
+# Áldásmondások
+- Isten Ábrahámra (ígéret): 1 Mózes 12,1-3
+- angyal (Úr nevében, ígéret) Ábrahámnak: 1 Mózes 22,16-18
+- Betuélék Rebekát: 1 Mózes 24,60
+- Izsák Jákóbra: 1 Mózes 27,28-29
+- Izsák Ézsaúra: 1 Mózes 27,39-40
+- Izsák Jákóbra: 1 Mózes 28,3-4
+- Isten Jákóbra (ígéret): 1 Mózes 28,13-15
+- Isten Lábánnak: 1 Mózes 31,24
+- Lábán fiait és lányait: 1 Mózes 31,55
+- Isten Jákóbot: 1 Mózes 35,9-13
+
+# Fogadások
+- Jákób Istennek: 1 Mózes 28,20-22
