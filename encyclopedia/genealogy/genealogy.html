@@ -2635,6 +2635,10 @@
 		type: 'marriage',
 		sources: ['1 Mózes 26,34'],
 	}],
+	groups: [{
+		id: 'hittite',
+		sources: ['GEN 26,34'],
+	}],
 	note: 'Ézsaú 40 évesen vette el.'
 }, {
 	id: 179,
@@ -2656,12 +2660,12 @@
 		strong: 'H1315',
 		source: ['1 Mózes 26,34'],
 	},
-	altName: {
+	altNames: [{
 		default: 'Ada',
 		defaultEN: 'Adah',
 		strong: 'H5711',
 		source: ['1 Mózes 36,2'],
-	},
+	}],
 	sex: 'female',
 	father: {
 		id: 181,
@@ -2672,6 +2676,14 @@
 		type: 'marriage',
 		sources: ['1 Mózes 26,34'],
 	}],
+	groups: [{
+		id: 'hittite',
+		sources: ['GEN 26,34'],
+	}, {
+		id: 'canaanite',
+		sources: ['GEN 36,2'],
+		note: 'Pontosan Kánaán lányai',
+	}],
 	note: 'Ézsaú 40 évesen vette el.'
 }, {
 	id: 181,
@@ -2680,6 +2692,11 @@
 		strong: 'H356',
 		source: ['1 Mózes 26,34'],
 	},
+	altNames: [{
+		default: 'Élon',
+		strong: 'H356',
+		source: ['1 Mózes 36,2'],
+	}],
 	sex: 'male',
 	origin: {
 		value: 'kitteus',
@@ -2693,12 +2710,12 @@
 		strong: 'H4258',
 		source: ['1 Mózes 28,9'],
 	},
-	altNames:  {
+	altNames:  [{
 		default: 'Boszmát',
 		defaultEN: 'Bashemath',
 		strong: 'H1315',
 		source: ['1 Mózes 36,3'],
-	},
+	}],
 	sex: 'female',
 	father: {
 		id: 123,
@@ -2846,6 +2863,7 @@
 	id: 190,
 	name: {
 		default: 'Júda',
+		defaultEN: 'Judah',
 		strong: 'H3063',
 		source: ['1 Mózes 29,35'],
 	},
@@ -2858,6 +2876,15 @@
 		id: 184,
 		source: ['1 Mózes 29,35'],
 	},
+	relationships: [{
+		id: 'U6',
+		type: 'marriage',
+		sources: ['GEN 38,12'],
+	}, {
+		id: 281,
+		type: 'fornication',
+		sources: ['GEN 38,13-18'],
+	}],
 }, {
 	id: 191,
 	name: {
@@ -3080,15 +3107,43 @@
 	sex: 'female',
 	father: {
 		id: 204,
-		sources: ['1 Mózes 36,2'],
+		sources: ['GEN 36,2', 'GEN 36,25'],
 	},
 	relationships: [{
 		id: 175,
 		type: 'marriage',
 		sources: ['1 Mózes 36,2'],
 	}],
+	groups: [{
+		id: 'canaanite',
+		sources: ['GEN 28,8'],
+		note: 'Pontosan Kánaán lányai',
+	}, {
+		id: 'hivite',
+		sources: ['GEN 36,2'],
+	}],
+	note: 'Egyesek szerint megegyezik Jehudithal Ézsaú másik feleségével.'
 }, {
 	id: 204,
+	name: {
+		default: 'Anáh',
+		defaultEN: 'Anah',
+		strong: 'H6034',
+		sources: ['GEN 36,2', 'GEN 36,14', 'GEN 36,24'],
+	},
+	altNames: [{
+		default: 'Haná',
+		strong: 'H6034',
+		sources: ['1CH 1,40'],
+	}],
+	sex: 'male',
+	father: {
+		id: 205,
+		sources: ['GEN 36,2', 'GEN 36,14', 'GEN 36,24', '1CH 1,40'],
+	},
+	note: 'Nem egyértelmű hogy férfi vagy nő volt. GEN 36,2 és 14 lányként nevezi, de a 24 fiúnak. Utóbbi szó jelenthet általánosan gyereket is hisz a 25-ben Oholibáma is így van felsorolva, viszont róla pontosítva van hogy nő. Ezért ha Anáh is nő lenne, feltehetőleg pontosítva lett volna. 24 alapján szamarakat legeltetett ami inkább férfias foglalkozás. 1CH 1,40 szintén fiúként sorolja fel további megjegyzések nélkül. Ugyanakkor másik értelmezés szerint Oholibáma azonos Jehudithal így Beéri lesz az apa és Anáh az anya.',
+}, {
+	id: 205,
 	name: {
 		default: 'Cibhón',
 		defaultEN: 'Zibeon',
@@ -3096,13 +3151,23 @@
 		sources: ['1 Mózes 36,2'],
 	},
 	sex: 'male',
-	origin: {
-		value: 'kivveus',
-		type: 'nation',
-		sources: ['1 Mózes 36,2'],
+	father: {
+		id: 223,
+		sources: ['GEN 36,20'],
 	},
+	groups: [{
+		id: 'hivite',
+		sources: ['1 Mózes 36,2'],
+	}, {
+		id: 'horite',
+		sources: ['GEN 36,20'],
+	}],
+	occupations: [{
+		id: 'duke',
+		sources: ['GEN 36,29'],
+	}],
 }, {
-	id: 205,
+	id: 206,
 	name: {
 		default: 'Elifáz',
 		defaultEN: 'Eliphaz',
@@ -3118,12 +3183,21 @@
 		id: 180,
 		sources: ['1 Mózes 36,4'],
 	},
+	relationships: [{
+		id: 216,
+		type: 'concubine',
+		sources: ['GEN 36,12'],
+	}],
 	birth: {
 		region: 'Kánaán',
 		sources: ['1 Mózes 36,5'],
-	}
+	},
+	groups: [{
+		id: 'edomite',
+		sources: ['GEN 36,9'],
+	}],
 }, {
-	id: 206,
+	id: 207,
 	name: {
 		default: 'Rehuél',
 		defaultEN: 'Reuel',
@@ -3143,8 +3217,12 @@
 		region: 'Kánaán',
 		sources: ['1 Mózes 36,5'],
 	},
+	groups: [{
+		id: 'edomite',
+		sources: ['GEN 36,9'],
+	}],
 }, {
-	id: 207,
+	id: 208,
 	name: {
 		default: 'Jéhus',
 		defaultEN: 'Jeush',
@@ -3164,8 +3242,16 @@
 		region: 'Kánaán',
 		sources: ['1 Mózes 36,5'],
 	},
+	groups: [{
+		id: 'edomite',
+		sources: ['GEN 36,9'],
+	}],
+	occupations: [{
+		id: 'duke',
+		sources: ['GEN 36,18'],
+	}],
 }, {
-	id: 208,
+	id: 209,
 	name: {
 		default: 'Jahlám',
 		defaultEN: 'Jaalam',
@@ -3185,8 +3271,16 @@
 		region: 'Kánaán',
 		sources: ['1 Mózes 36,5'],
 	},
+	groups: [{
+		id: 'edomite',
+		sources: ['GEN 36,9'],
+	}],
+	occupations: [{
+		id: 'duke',
+		sources: ['GEN 36,18'],
+	}],
 }, {
-	id: 209,
+	id: 210,
 	name: {
 		default: 'Kóré',
 		defaultEN: 'Korah',
@@ -3205,6 +3299,1374 @@
 	birth: {
 		region: 'Kánaán',
 		sources: ['1 Mózes 36,5'],
+	},
+	groups: [{
+		id: 'edomite',
+		sources: ['GEN 36,9'],
+	}],
+	occupations: [{
+		id: 'duke',
+		sources: ['GEN 36,18'],
+	}],
+}, {
+	id: 211,
+	name: {
+		default: 'Témán',
+		defaultEN: 'Teman',
+		strong: 'H8487',
+		sources: ['GEN 36,11'],
+	},
+	sex: 'male',
+	father: {
+		id: 206,
+		sources: ['GEN 36,11'],
+	},
+	groups: [{
+		id: 'edomite',
+		sources: ['GEN 36,9'],
+	}],
+	occupations: [{
+		id: 'duke',
+		sources: ['GEN 36,15'],
+	}],
+}, {
+	id: 212,
+	name: {
+		default: 'Omár',
+		defaultEN: 'Omar',
+		strong: 'H201',
+		sources: ['GEN 36,11'],
+	},
+	sex: 'male',
+	father: {
+		id: 206,
+		sources: ['GEN 36,11'],
+	},
+	groups: [{
+		id: 'edomite',
+		sources: ['GEN 36,9'],
+	}],
+	occupations: [{
+		id: 'duke',
+		sources: ['GEN 36,15'],
+	}],
+}, {
+	id: 213,
+	name: {
+		default: 'Cefó',
+		defaultEN: 'Zepho',
+		strong: 'H6825',
+		sources: ['GEN 36,11'],
+	},
+	sex: 'male',
+	father: {
+		id: 206,
+		sources: ['GEN 36,11'],
+	},
+	groups: [{
+		id: 'edomite',
+		sources: ['GEN 36,9'],
+	}],
+	occupations: [{
+		id: 'duke',
+		sources: ['GEN 36,15'],
+	}],
+}, {
+	id: 214,
+	name: {
+		default: 'Gahtám',
+		defaultEN: 'Gatam',
+		strong: 'H1609',
+		sources: ['GEN 36,11'],
+	},
+	sex: 'male',
+	father: {
+		id: 206,
+		sources: ['GEN 36,11'],
+	},
+	groups: [{
+		id: 'edomite',
+		sources: ['GEN 36,9'],
+	}],
+	occupations: [{
+		id: 'duke',
+		sources: ['GEN 36,16'],
+	}],
+}, {
+	id: 215,
+	name: {
+		default: 'Kenáz',
+		defaultEN: 'Kenaz',
+		strong: 'H7073',
+		sources: ['GEN 36,11'],
+	},
+	sex: 'male',
+	father: {
+		id: 206,
+		sources: ['GEN 36,11'],
+	},
+	groups: [{
+		id: 'edomite',
+		sources: ['GEN 36,9'],
+	}],
+	occupations: [{
+		id: 'duke',
+		sources: ['GEN 36,15'],
+	}],
+}, {
+	id: 216,
+	name: {
+		default: 'Timna',
+		defaultEN: 'Timna',
+		strong: 'H8555',
+		sources: ['GEN 36,12'],
+	},
+	sex: 'female',
+	relationships: [{
+		id: 206,
+		type: 'concubine',
+		sources: ['GEN 36,12'],
+	}],
+	groups: [{
+		id: 'edomite',
+		sources: ['GEN 36,9'],
+	}],
+}, {
+	id: 217,
+	name: {
+		default: 'Amálek',
+		defaultEN: 'Amalek',
+		strong: 'H6002',
+		sources: ['GEN 36,12'],
+	},
+	sex: 'male',
+	father: {
+		id: 206,
+		sources: ['GEN 36,12'],
+	},
+	mother: {
+		id: 216,
+		sources: ['GEN 36,12'],
+	},
+	groups: [{
+		id: 'edomite',
+		sources: ['GEN 36,9'],
+	}],
+	occupations: [{
+		id: 'duke',
+		sources: ['GEN 36,16'],
+	}],
+}, {
+	id: 218,
+	name: {
+		default: 'Nakhath',
+		defaultEN: 'Nahath',
+		strong: 'H5184',
+		sources: ['GEN 36,13'],
+	},
+	sex: 'male',
+	father: {
+		id: 207,
+		sources: ['GEN 36,13'],
+	},
+	groups: [{
+		id: 'edomite',
+		sources: ['GEN 36,9'],
+	}],
+	occupations: [{
+		id: 'duke',
+		sources: ['GEN 36,17'],
+	}],
+}, {
+	id: 219,
+	name: {
+		default: 'Zerakh',
+		defaultEN: 'Zerah',
+		strong: 'H2226',
+		sources: ['GEN 36,13'],
+	},
+	sex: 'male',
+	father: {
+		id: 207,
+		sources: ['GEN 36,13'],
+	},
+	groups: [{
+		id: 'edomite',
+		sources: ['GEN 36,9'],
+	}],
+	occupations: [{
+		id: 'duke',
+		sources: ['GEN 36,17'],
+	}],
+}, {
+	id: 220,
+	name: {
+		default: 'Sammá',
+		defaultEN: 'Shammah',
+		strong: 'H8048',
+		sources: ['GEN 36,13'],
+	},
+	sex: 'male',
+	father: {
+		id: 207,
+		sources: ['GEN 36,13'],
+	},
+	groups: [{
+		id: 'edomite',
+		sources: ['GEN 36,9'],
+	}],
+	occupations: [{
+		id: 'duke',
+		sources: ['GEN 36,17'],
+	}],
+}, {
+	id: 221,
+	name: {
+		default: 'Mizzá',
+		defaultEN: 'Mizzah',
+		strong: 'H4199',
+		sources: ['GEN 36,13'],
+	},
+	sex: 'male',
+	father: {
+		id: 207,
+		sources: ['GEN 36,13'],
+	},
+	groups: [{
+		id: 'edomite',
+		sources: ['GEN 36,9'],
+	}],
+	occupations: [{
+		id: 'duke',
+		sources: ['GEN 36,17'],
+	}],
+}, {
+	id: 222,
+	name: {
+		default: 'Kóré',
+		defaultEN: 'Korah',
+		strong: 'H7141',
+		sources: ['GEN 36,16'],
+	},
+	sex: 'male',
+	father: {
+		id: 206,
+		sources: ['GEN 36,15-16'],
+	},
+	groups: [{
+		id: 'edomite',
+		sources: ['GEN 36,9'],
+	}],
+	occupations: [{
+		id: 'duke',
+		sources: ['GEN 36,16'],
+	}],
+}, {
+	id: 223,
+	name: {
+		default: 'Széir',
+		defaultEN: 'Seir',
+		strong: 'H8165',
+		sources: ['GEN 36,20'],
+	},
+	sex: 'male',
+	groups: [{
+		id: 'horite',
+		sources: ['GEN 36,20'],
+	}],
+}, {
+	id: 224,
+	name: {
+		default: 'Lótán',
+		defaultEN: 'Lotan',
+		strong: 'H3877',
+		sources: ['GEN 36,20'],
+	},
+	sex: 'male',
+	father: {
+		id: 223,
+		sources: ['GEN 36,20'],
+	},
+	groups: [{
+		id: 'horite',
+		sources: ['GEN 36,20'],
+	}],
+	occupations: [{
+		id: 'duke',
+		sources: ['GEN 36,29'],
+	}],
+}, {
+	id: 225,
+	name: {
+		default: 'Sóbál',
+		defaultEN: 'Shobal',
+		strong: 'H7732',
+		sources: ['GEN 36,20'],
+	},
+	sex: 'male',
+	father: {
+		id: 223,
+		sources: ['GEN 36,20'],
+	},
+	groups: [{
+		id: 'horite',
+		sources: ['GEN 36,20'],
+	}],
+	occupations: [{
+		id: 'duke',
+		sources: ['GEN 36,29'],
+	}],
+}, {
+	id: 226,
+	name: {
+		default: 'Anáh',
+		defaultEN: 'Anah',
+		strong: 'H6034',
+		sources: ['GEN 36,20'],
+	},
+	altNames: [{
+		default: 'Haná',
+		strong: 'H6034',
+		sources: ['1CH 1,38'],
+	}],
+	sex: 'male',
+	father: {
+		id: 223,
+		sources: ['GEN 36,20', '1CH 1,38'],
+	},
+	groups: [{
+		id: 'horite',
+		sources: ['GEN 36,20'],
+	}],
+	occupations: [{
+		id: 'duke',
+		sources: ['GEN 36,29'],
+	}],
+}, {
+	id: 227,
+	name: {
+		default: 'Disón',
+		defaultEN: 'Dishon',
+		strong: 'H1787',
+		sources: ['GEN 36,21'],
+	},
+	sex: 'male',
+	father: {
+		id: 223,
+		sources: ['GEN 36,20-21'],
+	},
+	groups: [{
+		id: 'horite',
+		sources: ['GEN 36,20-21'],
+	}],
+	occupations: [{
+		id: 'duke',
+		sources: ['GEN 36,30'],
+	}],
+}, {
+	id: 228,
+	name: {
+		default: 'Ecer',
+		defaultEN: 'Ezer',
+		strong: 'H687',
+		sources: ['GEN 36,21'],
+	},
+	sex: 'male',
+	father: {
+		id: 223,
+		sources: ['GEN 36,20-21'],
+	},
+	groups: [{
+		id: 'horite',
+		sources: ['GEN 36,20-21'],
+	}],
+	occupations: [{
+		id: 'duke',
+		sources: ['GEN 36,30'],
+	}],
+}, {
+	id: 229,
+	name: {
+		default: 'Disán',
+		defaultEN: 'Dishan',
+		strong: 'H1789',
+		sources: ['GEN 36,21'],
+	},
+	sex: 'male',
+	father: {
+		id: 223,
+		sources: ['GEN 36,20-21'],
+	},
+	groups: [{
+		id: 'horite',
+		sources: ['GEN 36,20-21'],
+	}],
+	occupations: [{
+		id: 'duke',
+		sources: ['GEN 36,30'],
+	}],
+}, {
+	id: 230,
+	name: {
+		default: 'Hóri',
+		defaultEN: 'Hori',
+		strong: 'H2753',
+		sources: ['GEN 36,22'],
+	},
+	sex: 'male',
+	father: {
+		id: 224,
+		sources: ['GEN 36,22'],
+	},
+	groups: [{
+		id: 'horite',
+		sources: ['GEN 36,29'],
+	}],
+}, {
+	id: 231,
+	name: {
+		default: 'Hémám',
+		defaultEN: 'Hemam',
+		strong: 'H1967',
+		sources: ['GEN 36,22'],
+	},
+	sex: 'male',
+	father: {
+		id: 224,
+		sources: ['GEN 36,22'],
+	},
+	groups: [{
+		id: 'horite',
+		sources: ['GEN 36,29'],
+	}],
+}, {
+	id: 232,
+	name: {
+		default: 'Timna',
+		defaultEN: 'Timna',
+		strong: 'H8555',
+		sources: ['GEN 36,22'],
+	},
+	sex: 'female',
+	father: {
+		id: 223,
+		sources: ['GEN 36,22'],
+	},
+	groups: [{
+		id: 'horite',
+		sources: ['GEN 36,29'],
+	}],
+}, {
+	id: 233,
+	name: {
+		default: 'Halván',
+		defaultEN: 'Alvan',
+		strong: 'H5935',
+		sources: ['GEN 36,23'],
+	},
+	sex: 'male',
+	father: {
+		id: 225,
+		sources: ['GEN 36,23'],
+	},
+	groups: [{
+		id: 'horite',
+		sources: ['GEN 36,29'],
+	}],
+}, {
+	id: 234,
+	name: {
+		default: 'Mánakháth',
+		defaultEN: 'Manahath',
+		strong: 'H4506',
+		sources: ['GEN 36,23'],
+	},
+	sex: 'male',
+	father: {
+		id: 225,
+		sources: ['GEN 36,23'],
+	},
+	groups: [{
+		id: 'horite',
+		sources: ['GEN 36,29'],
+	}],
+}, {
+	id: 235,
+	name: {
+		default: 'Hébál',
+		defaultEN: 'Ebal',
+		strong: 'H5858',
+		sources: ['GEN 36,23'],
+	},
+	sex: 'male',
+	father: {
+		id: 225,
+		sources: ['GEN 36,23'],
+	},
+	groups: [{
+		id: 'horite',
+		sources: ['GEN 36,29'],
+	}],
+}, {
+	id: 236,
+	name: {
+		default: 'Sefó',
+		defaultEN: 'Shepho',
+		strong: 'H8195',
+		sources: ['GEN 36,23'],
+	},
+	sex: 'male',
+	father: {
+		id: 225,
+		sources: ['GEN 36,23'],
+	},
+	groups: [{
+		id: 'horite',
+		sources: ['GEN 36,29'],
+	}],
+}, {
+	id: 237,
+	name: {
+		default: 'Onám',
+		defaultEN: 'Onam',
+		strong: 'H208',
+		sources: ['GEN 36,23'],
+	},
+	sex: 'male',
+	father: {
+		id: 225,
+		sources: ['GEN 36,23'],
+	},
+	groups: [{
+		id: 'horite',
+		sources: ['GEN 36,29'],
+	}],
+}, {
+	id: 238,
+	name: {
+		default: 'Aja',
+		defaultEN: 'Ajah',
+		strong: 'H345',
+		sources: ['GEN 36,24'],
+	},
+	sex: 'male',
+	father: {
+		id: 205,
+		sources: ['GEN 36,24'],
+	},
+	groups: [{
+		id: 'horite',
+		sources: ['GEN 36,29'],
+	}],
+}, {
+	id: 239,
+	name: {
+		default: 'Disón',
+		defaultEN: 'Dishon',
+		strong: 'H1787',
+		sources: ['GEN 36,25'],
+	},
+	sex: 'male',
+	father: {
+		id: 204,
+		sources: ['GEN 36,25'],
+	},
+	groups: [{
+		id: 'horite',
+		sources: ['GEN 36,29'],
+	}],
+}, {
+	id: 240,
+	name: {
+		default: 'Hemdán',
+		defaultEN: 'Hemdan',
+		strong: 'H2533',
+		sources: ['GEN 36,26'],
+	},
+	sex: 'male',
+	father: {
+		id: 239,
+		sources: ['GEN 36,26'],
+	},
+	groups: [{
+		id: 'horite',
+		sources: ['GEN 36,29'],
+	}],
+}, {
+	id: 241,
+	name: {
+		default: 'Esbán',
+		defaultEN: 'Eshban',
+		strong: 'H790',
+		sources: ['GEN 36,26'],
+	},
+	sex: 'male',
+	father: {
+		id: 239,
+		sources: ['GEN 36,26'],
+	},
+	groups: [{
+		id: 'horite',
+		sources: ['GEN 36,29'],
+	}],
+}, {
+	id: 242,
+	name: {
+		default: 'Ithrán',
+		defaultEN: 'Ithran',
+		strong: 'H3506',
+		sources: ['GEN 36,26'],
+	},
+	sex: 'male',
+	father: {
+		id: 239,
+		sources: ['GEN 36,26'],
+	},
+	groups: [{
+		id: 'horite',
+		sources: ['GEN 36,29'],
+	}],
+}, {
+	id: 243,
+	name: {
+		default: 'Kherán',
+		defaultEN: 'Cheran',
+		strong: 'H3763',
+		sources: ['GEN 36,26'],
+	},
+	sex: 'male',
+	father: {
+		id: 239,
+		sources: ['GEN 36,26'],
+	},
+	groups: [{
+		id: 'horite',
+		sources: ['GEN 36,29'],
+	}],
+}, {
+	id: 244,
+	name: {
+		default: 'Bilhán',
+		defaultEN: 'Bilhan',
+		strong: 'H1092',
+		sources: ['GEN 36,27'],
+	},
+	sex: 'male',
+	father: {
+		id: 228,
+		sources: ['GEN 36,27'],
+	},
+	groups: [{
+		id: 'horite',
+		sources: ['GEN 36,29'],
+	}],
+}, {
+	id: 245,
+	name: {
+		default: 'Zahaván',
+		defaultEN: 'Zaavan',
+		strong: 'H2190',
+		sources: ['GEN 36,27'],
+	},
+	sex: 'male',
+	father: {
+		id: 228,
+		sources: ['GEN 36,27'],
+	},
+	groups: [{
+		id: 'horite',
+		sources: ['GEN 36,29'],
+	}],
+}, {
+	id: 246,
+	name: {
+		default: 'Hakán',
+		defaultEN: 'Akan',
+		strong: 'H6130',
+		sources: ['GEN 36,27'],
+	},
+	sex: 'male',
+	father: {
+		id: 228,
+		sources: ['GEN 36,27'],
+	},
+	groups: [{
+		id: 'horite',
+		sources: ['GEN 36,29'],
+	}],
+}, {
+	id: 247,
+	name: {
+		default: 'Húc',
+		defaultEN: 'Uz',
+		strong: 'H5780',
+		sources: ['GEN 36,28'],
+	},
+	sex: 'male',
+	father: {
+		id: 229,
+		sources: ['GEN 36,28'],
+	},
+	groups: [{
+		id: 'horite',
+		sources: ['GEN 36,29'],
+	}],
+}, {
+	id: 248,
+	name: {
+		default: 'Arán',
+		defaultEN: 'Aran',
+		strong: 'H765',
+		sources: ['GEN 36,28'],
+	},
+	sex: 'male',
+	father: {
+		id: 229,
+		sources: ['GEN 36,28'],
+	},
+	groups: [{
+		id: 'horite',
+		sources: ['GEN 36,29'],
+	}],
+}, {
+	id: 249,
+	name: {
+		default: 'Bela',
+		defaultEN: 'Bela',
+		strong: 'H1106',
+		sources: ['GEN 36,32'],
+	},
+	sex: 'male',
+	father: {
+		id: 250,
+		sources: ['GEN 36,32'],
+	},
+	groups: [{
+		id: 'edomite',
+		sources: ['GEN 36,31-32'],
+	}],
+	occupations: [{
+		id: 'king',
+		sources: ['GEN 36,31-32'],
+	}],
+}, {
+	id: 250,
+	name: {
+		default: 'Behor',
+		defaultEN: 'Beor',
+		strong: 'H1160',
+		sources: ['GEN 36,32'],
+	},
+	sex: 'male',
+	groups: [{
+		id: 'edomite',
+		sources: ['GEN 36,31-32'],
+	}],
+}, {
+	id: 251,
+	name: {
+		default: 'Jóbáb',
+		defaultEN: 'Jobab',
+		strong: 'H3103',
+		sources: ['GEN 36,33'],
+	},
+	sex: 'male',
+	father: {
+		id: 252,
+		sources: ['GEN 36,33'],
+	},
+	origin: {
+		value: 'Bocra',
+		type: 'city',
+		sources: ['GEN 36,33'],
+	},
+	groups: [{
+		id: 'edomite',
+		sources: ['GEN 36,31.33'],
+	}],
+	occupations: [{
+		id: 'king',
+		sources: ['GEN 36,31.33'],
+	}],
+}, {
+	id: 252,
+	name: {
+		default: 'Zerakh',
+		defaultEN: 'Zerah',
+		strong: 'H2226',
+		sources: ['GEN 36,33'],
+	},
+	sex: 'male',
+	groups: [{
+		id: 'edomite',
+		sources: ['GEN 36,31.33'],
+	}],
+}, {
+	id: 253,
+	name: {
+		default: 'Khusám',
+		defaultEN: 'Husham',
+		strong: 'H2367',
+		sources: ['GEN 36,34'],
+	},
+	sex: 'male',
+	origin: {
+		value: 'Témán földje',
+		type: 'region',
+		sources: ['GEN 36,34'],
+	},
+	groups: [{
+		id: 'edomite',
+		sources: ['GEN 36,31.34'],
+	}],
+	occupations: [{
+		id: 'king',
+		sources: ['GEN 36,31.34'],
+	}],
+}, {
+	id: 254,
+	name: {
+		default: 'Hadád',
+		defaultEN: 'Hadad',
+		strong: 'H1908',
+		sources: ['GEN 36,35'],
+	},
+	sex: 'male',
+	father: {
+		id: 255,
+		sources: ['GEN 36,35'],
+	},
+	groups: [{
+		id: 'edomite',
+		sources: ['GEN 36,31.35'],
+	}],
+	occupations: [{
+		id: 'king',
+		sources: ['GEN 36,31.35'],
+	}],
+}, {
+	id: 255,
+	name: {
+		default: 'Bédád',
+		defaultEN: 'Bedad',
+		strong: 'H911',
+		sources: ['GEN 36,35'],
+	},
+	sex: 'male',
+	groups: [{
+		id: 'edomite',
+		sources: ['GEN 36,31.35'],
+	}],
+}, {
+	id: 256,
+	name: {
+		default: 'Szamlá',
+		defaultEN: 'Samlah',
+		strong: 'H8072',
+		sources: ['GEN 36,36'],
+	},
+	sex: 'male',
+	origin: {
+		value: 'Masreka',
+		type: 'place',
+		sources: ['GEN 36,36'],
+	},
+	groups: [{
+		id: 'edomite',
+		sources: ['GEN 36,31.36'],
+	}],
+	occupations: [{
+		id: 'king',
+		sources: ['GEN 36,31.36'],
+	}],
+}, {
+	id: 257,
+	name: {
+		default: 'Saul',
+		defaultEN: 'Saul',
+		strong: 'H7586',
+		sources: ['GEN 36,37'],
+	},
+	sex: 'male',
+	origin: {
+		value: 'Rékhobóth',
+		type: 'city',
+		sources: ['GEN 36,37'],
+	},
+	groups: [{
+		id: 'edomite',
+		sources: ['GEN 36,31.37'],
+	}],
+	occupations: [{
+		id: 'king',
+		sources: ['GEN 36,31.37'],
+	}],
+}, {
+	id: 258,
+	name: {
+		default: 'Báhál-Khanán',
+		defaultEN: 'Baalhanan',
+		strong: 'H1177',
+		sources: ['GEN 36,38'],
+	},
+	sex: 'male',
+	father: {
+		id: 259,
+		sources: ['GEN 36,38'],
+	},
+	groups: [{
+		id: 'edomite',
+		sources: ['GEN 36,31.38'],
+	}],
+	occupations: [{
+		id: 'king',
+		sources: ['GEN 36,31.38'],
+	}],
+}, {
+	id: 259,
+	name: {
+		default: 'Akhbór',
+		defaultEN: 'Achbor',
+		strong: 'H5907',
+		sources: ['GEN 36,38'],
+	},
+	sex: 'male',
+	groups: [{
+		id: 'edomite',
+		sources: ['GEN 36,31.38'],
+	}],
+}, {
+	id: 260,
+	name: {
+		default: 'Hadár',
+		defaultEN: 'Hadar',
+		strong: 'H1924',
+		sources: ['GEN 36,39'],
+	},
+	sex: 'male',
+	relationships: [{
+		id: 261,
+		type: 'marriage',
+		sources: ['GEN 36,39'],
+	}],
+	groups: [{
+		id: 'edomite',
+		sources: ['GEN 36,31.39'],
+	}],
+	occupations: [{
+		id: 'king',
+		sources: ['GEN 36,31.39'],
+	}],
+}, {
+	id: 261,
+	name: {
+		default: 'Mehetábéel',
+		defaultEN: 'Mehetabel',
+		strong: 'H4105',
+		sources: ['GEN 36,39'],
+	},
+	sex: 'female',
+	mother: {
+		id: 262,
+		sources: ['GEN 36,39'],
+	},
+	relationships: [{
+		id: 260,
+		type: 'marriage',
+		sources: ['GEN 36,39'],
+	}],
+}, {
+	id: 262,
+	name: {
+		default: 'Matréd',
+		defaultEN: 'Matred',
+		strong: 'H4308',
+		sources: ['GEN 36,39'],
+	},
+	sex: 'female',
+	father: {
+		id: 263,
+		sources: ['GEN 36,39'],
+	},
+}, {
+	id: 263,
+	name: {
+		default: 'Mézaháb',
+		defaultEN: 'Mezahab',
+		strong: 'H4314',
+		sources: ['GEN 36,39'],
+	},
+	sex: 'male',
+}, {
+	id: 264,
+	name: {
+		default: 'Timná',
+		defaultEN: 'Timnah',
+		strong: 'H8555',
+		sources: ['GEN 36,40'],
+	},
+	sex: 'male',
+	groups: [{
+		id: 'edomite',
+		sources: ['GEN 36,40'],
+	}],
+	occupations: [{
+		id: 'duke',
+		sources: ['GEN 36,40'],
+	}],
+}, {
+	id: 265,
+	name: {
+		default: 'Halvá',
+		defaultEN: 'Alvah',
+		strong: 'H5933',
+		sources: ['GEN 36,40'],
+	},
+	sex: 'male',
+	groups: [{
+		id: 'edomite',
+		sources: ['GEN 36,40'],
+	}],
+	occupations: [{
+		id: 'duke',
+		sources: ['GEN 36,40'],
+	}],
+}, {
+	id: 266,
+	name: {
+		default: 'Jetéth',
+		defaultEN: 'Jetheth',
+		strong: 'H3509',
+		sources: ['GEN 36,40'],
+	},
+	sex: 'male',
+	groups: [{
+		id: 'edomite',
+		sources: ['GEN 36,40'],
+	}],
+	occupations: [{
+		id: 'duke',
+		sources: ['GEN 36,40'],
+	}],
+}, {
+	id: 267,
+	name: {
+		default: 'Oholibámá',
+		defaultEN: 'Aholibamah',
+		strong: 'H173',
+		sources: ['GEN 36,41'],
+	},
+	sex: 'male',
+	groups: [{
+		id: 'edomite',
+		sources: ['GEN 36,40-41'],
+	}],
+	occupations: [{
+		id: 'duke',
+		sources: ['GEN 36,40-41'],
+	}],
+}, {
+	id: 268,
+	name: {
+		default: 'Éla',
+		defaultEN: 'Elah',
+		strong: 'H425',
+		sources: ['GEN 36,41'],
+	},
+	sex: 'male',
+	groups: [{
+		id: 'edomite',
+		sources: ['GEN 36,40-41'],
+	}],
+	occupations: [{
+		id: 'duke',
+		sources: ['GEN 36,40-41'],
+	}],
+}, {
+	id: 269,
+	name: {
+		default: 'Pinon',
+		defaultEN: 'Pinon',
+		strong: 'H6373',
+		sources: ['GEN 36,41'],
+	},
+	sex: 'male',
+	groups: [{
+		id: 'edomite',
+		sources: ['GEN 36,40-41'],
+	}],
+	occupations: [{
+		id: 'duke',
+		sources: ['GEN 36,40-41'],
+	}],
+}, {
+	id: 270,
+	name: {
+		default: 'Kenáz',
+		defaultEN: 'Kenaz',
+		strong: 'H7073',
+		sources: ['GEN 36,42'],
+	},
+	sex: 'male',
+	groups: [{
+		id: 'edomite',
+		sources: ['GEN 36,40.42'],
+	}],
+	occupations: [{
+		id: 'duke',
+		sources: ['GEN 36,40.42'],
+	}],
+}, {
+	id: 271,
+	name: {
+		default: 'Témán',
+		defaultEN: 'Teman',
+		strong: 'H8487',
+		sources: ['GEN 36,42'],
+	},
+	sex: 'male',
+	groups: [{
+		id: 'edomite',
+		sources: ['GEN 36,40.42'],
+	}],
+	occupations: [{
+		id: 'duke',
+		sources: ['GEN 36,40.42'],
+	}],
+}, {
+	id: 272,
+	name: {
+		default: 'Mibcár',
+		defaultEN: 'Mibzar',
+		strong: 'H4014',
+		sources: ['GEN 36,42'],
+	},
+	sex: 'male',
+	groups: [{
+		id: 'edomite',
+		sources: ['GEN 36,40.42'],
+	}],
+	occupations: [{
+		id: 'duke',
+		sources: ['GEN 36,40.42'],
+	}],
+}, {
+	id: 273,
+	name: {
+		default: 'Magdiél',
+		defaultEN: 'Magdiel',
+		strong: 'H4025',
+		sources: ['GEN 36,43'],
+	},
+	sex: 'male',
+	groups: [{
+		id: 'edomite',
+		sources: ['GEN 36,40.43'],
+	}],
+	occupations: [{
+		id: 'duke',
+		sources: ['GEN 36,40.43'],
+	}],
+}, {
+	id: 274,
+	name: {
+		default: 'Hirám',
+		defaultEN: 'Iram',
+		strong: 'H5902',
+		sources: ['GEN 36,43'],
+	},
+	sex: 'male',
+	groups: [{
+		id: 'edomite',
+		sources: ['GEN 36,40.43'],
+	}],
+	occupations: [{
+		id: 'duke',
+		sources: ['GEN 36,40.43'],
+	}],
+}, {
+	id: 275,
+	name: {
+		default: 'Pótifár',
+		defaultEN: 'Potiphar',
+		strong: 'H6318',
+		sources: ['GEN 37,36'],
+	},
+	sex: 'male',
+	occupations: [{
+		id: 'officer',
+		sources: ['GEN 37,36'],
+	}, {
+		id: 'captain',
+		sources: ['GEN 37,36'],
+	}],
+}, {
+	id: 276,
+	name: {
+		default: 'Khira',
+		defaultEN: 'Hirah',
+		strong: 'H2437',
+		sources: ['GEN 38,1'],
+	},
+	sex: 'male',
+	groups: [{
+		id: 'adullamite',
+		sources: ['GEN 38,1'],
+	}],
+}, {
+	id: 'U6',
+	name: {
+		default: 'Súah lánya',
+		defaultEN: 'daughter of Shuah',
+		sources: ['GEN 38,2'],
+	},
+	sex: 'female',
+	father: {
+		id: 277,
+		sources: ['GEN 38,2'],
+	},
+	relationships: [{
+		id: 190,
+		type: 'marriage',
+		sources: ['GEN 38,12'],
+	}],
+	groups: [{
+		id: 'canaanite',
+		sources: ['GEN 38,2'],
+	}],
+}, {
+	id: 277,
+	name: {
+		default: 'Súah',
+		defaultEN: 'Shuah',
+		strong: 'H7770',
+		sources: ['GEN 38,2'],
+	},
+	sex: 'male',
+	groups: [{
+		id: 'canaanite',
+		sources: ['GEN 38,2'],
+	}],
+}, {
+	id: 278,
+	name: {
+		default: 'Hér',
+		defaultEN: 'Er',
+		strong: 'H6147',
+		sources: ['GEN 38,3'],
+	},
+	sex: 'male',
+	father: {
+		id: 190,
+		sources: ['GEN 38,2-3'],
+	},
+	mother: {
+		id: 'U6',
+		sources: ['GEN 38,2-3'],
+	},
+	relationships: [{
+		id: 281,
+		type: 'marriage',
+		sources: ['GEN 38,6'],
+	}],
+}, {
+	id: 279,
+	name: {
+		default: 'Ónán',
+		defaultEN: 'Onan',
+		strong: 'H209',
+		sources: ['GEN 38,4'],
+	},
+	sex: 'male',
+	father: {
+		id: 190,
+		sources: ['GEN 38,2.4'],
+	},
+	mother: {
+		id: 'U6',
+		sources: ['GEN 38,2.4'],
+	},
+	relationships: [{
+		id: 281,
+		type: 'marriage',
+		sources: ['GEN 38,8-9'],
+	}],
+}, {
+	id: 280,
+	name: {
+		default: 'Séla',
+		defaultEN: 'Shelah',
+		strong: 'H7956',
+		sources: ['GEN 38,5'],
+	},
+	sex: 'male',
+	father: {
+		id: 190,
+		sources: ['GEN 38,2.5'],
+	},
+	mother: {
+		id: 'U6',
+		sources: ['GEN 38,2.5'],
+	},
+	birth: {
+		place: 'Khezib',
+		sources: ['GEN 38,5'],
+	},
+}, {
+	id: 281,
+	name: {
+		default: 'Támár',
+		defaultEN: 'Tamar',
+		strong: 'H8559',
+		sources: ['GEN 38,6'],
+	},
+	sex: 'female',
+	relationships: [{
+		id: 278,
+		type: 'marriage',
+		sources: ['GEN 38,6'],
+	}, {
+		id: 279,
+		type: 'marriage',
+		sources: ['GEN 38,8-9'],
+	}, {
+		id: 190,
+		type: 'fornication',
+		sources: ['GEN 38,13-18'],
+	}],
+}, {
+	id: 282,
+	name: {
+		default: 'Pérec',
+		defaultEN: 'Pharez',
+		strong: 'H6557',
+		sources: ['GEN 38,29'],
+	},
+	sex: 'male',
+	father: {
+		id: 190,
+		sources: ['GEN 38,24-29'],
+	},
+	mother: {
+		id: 281,
+		sources: ['GEN 38,24-29'],
+	},
+}, {
+	id: 283,
+	name: {
+		default: 'Zerákh',
+		defaultEN: 'Zarah',
+		strong: 'H2226',
+		sources: ['GEN 38,30'],
+	},
+	sex: 'male',
+	father: {
+		id: 190,
+		sources: ['GEN 38,24-30'],
+	},
+	mother: {
+		id: 281,
+		sources: ['GEN 38,24-30'],
 	},
 }]
 
@@ -3227,6 +4689,10 @@ const connections = [{
   type: 'allies',
   members: [124, 127],
   source: ['1 Mózes 21,27'],
+}, {
+  type: 'friends',
+  members: [190, 276],
+  source: ['GEN 38,12'],
 }]
 
 
@@ -3324,10 +4790,11 @@ const addDragSelect = (container, network, nodes) => {
 
 const nodes = characters.map(character => ({
 	id: character.id,
-	label: character.name.default,
+	label: character.altNames ? `${character.name.default} (${character.altNames[0].default})` : character.name.default,
 	color: {
 		background: character.sex === 'male' ? '#add8e6' : '#ff69b4',
 	},
+	title: `id: ${character.id}<br>💼: ${character.occupations && character.occupations.map(a => a.id).join(',') || ''}`,
 }))
 
 const relationships = {}
@@ -3437,6 +4904,7 @@ const options = {
 	},
 	interaction: {
 		multiselect: true,
+		hover: true,
 	},
 	layout: {
 		improvedLayout: false,

@@ -1,370 +1,413 @@
 # Növények
-- Gyenge fű [dasha deshe']: 1 Mózes 1,11
-- Maghozó fű [eseb zara' zera']: 1 Mózes 1,11;
-- Gyümölcsfa [ets priy]: 1 Mózes 1,11
-- zöld fű [eseb yereq]: 1 Mózes 1,30
-- mezei növény [siyach sadeh]: 1 Mózes 2,5
-- mezei fű [eseb sadeh]: 1 Mózes 2,5
-- fa [ets]: 1 Mózes 2,9; 1 Mózes 2,16
-- élet fája [ets chay]: 1 Mózes 2,9
-- jó és rosz tudásának fája [ets da'ath towb ra']: 1 Mózes 2,9
-- tövis [qowts]: 1 Mózes 3,18
-- bogáncskóró [dardar]: 1 Mózes 3,18
-- góferfa [gopher  ets]: 1 Mózes 6,14
-- olajfa [zayith]: 1 Mózes 8,11
-- szőlő [kerem]: 1 Mózes 9,20
-- növény [tsemach]: 1 Mózes 19,25
-- bokor [siyach]: 1 Mózes 21,15
-- tamariszkuszfa ['eshel]: 1 Mózes 21,33
-- szövevény [cbak]: 1 Mózes 22,13
-- gabona [dagan]: 1 Mózes 27,28
-- búza [chittah]: 1 Mózes 30,14
-- mandragóra (gyökér) [duwday]: 1 Mózes 30,14
-- cserfa ['elah]: 1 Mózes 35,4
+- Gyenge fű [dasha deshe']: GEN 1,11
+- Maghozó fű [eseb zara' zera']: GEN 1,11;
+- Gyümölcsfa [ets priy]: GEN 1,11
+- zöld fű [eseb yereq]: GEN 1,30
+- mezei növény [siyach sadeh]: GEN 2,5
+- mezei fű [eseb sadeh]: GEN 2,5
+- fa [ets]: GEN 2,9; GEN 2,16
+- élet fája [ets chay]: GEN 2,9
+- jó és rosz tudásának fája [ets da'ath towb ra']: GEN 2,9
+- tövis [qowts]: GEN 3,18
+- bogáncskóró [dardar]: GEN 3,18
+- góferfa [gopher  ets]: GEN 6,14
+- olajfa [zayith]: GEN 8,11
+- szőlő [kerem]: GEN 9,20
+- növény [tsemach]: GEN 19,25
+- bokor [siyach]: GEN 21,15
+- tamariszkuszfa ['eshel]: GEN 21,33
+- szövevény [cbak]: GEN 22,13
+- gabona [dagan]: GEN 27,28
+- búza [chittah]: GEN 30,14
+- mandragóra (gyökér) [duwday]: GEN 30,14
+- cserfa ['elah]: GEN 35,4
 
 # Állatok
-- Élő állatok [sherets/chay nephesh]: 1 Mózes 1,20
-- Madarak, szárnyas repdeső [owph uwph/kanaph/shamayim]: 1 Mózes 1,20
-- nagy vízi állat (bálna) [tanniyn]: 1 Mózes 1,21
-- csúszó-mászó állatok [ramas/remes nephesh/chay]: 1 Mózes 1,21; 1 Mózes 1,24; 1 Mózes 1,25; 1 Mózes 1,26; 1 Mózes 1,28; 1 Mózes 1,30; 1 Mózes 6,7; 1 Mózes 6,20; 1 Mózes 7,8; 1 Mózes 7,14; 1 Mózes 7,23; 1 Mózes 8,17; 1 Mózes 8,19; 1 Mózes 9,2
-- barom (marha) [bhemah]: 1 Mózes 1,24
-- szárazföldi/mezei vadak [chay 'erets]: 1 Mózes 1,24; 1 Mózes 1,25, 1 Mózes 1,30; 1 Mózes 9,10
-- tengeri hal [dagah yam]: 1 Mózes 1,26
-- mezei vad [chay sadeh]: 1 Mózes 2,19
-- kígyó [nachash]: 1 Mózes 3,1
-- juh (nyáj) [tso'n]: 1 Mózes 4,4
-- vad/állat [chay]: 1 Mózes 7,14; 1 Mózes 8,1; 1 Mózes 8,17; 1 Mózes 8,19; 1 Mózes 8,21; 1 Mózes 9,2; 1 Mózes 9,5
-- szárnyas állat/madarak [tsippowr]: 1 Mózes 7,14, 1 Mózes 15,10
-- nyüzsgő, csúszó-mászó állat [sherets sharats]: 1 Mózes 7,21
-- holló [oreb]: 1 Mózes 8,7
-- galamb [yownah]: 1 Mózes 8,8
-- mozgó állatok [remes chay]: 1 Mózes 9,3
-- ökör [baqar]: 1 Mózes 12,16
-- szamár [chamowr 'athown']: 1 Mózes 12,16
-- teve [gamal]: 1 Mózes 12,16
-- barom/marha [miqneh]: 1 Mózes 13,2; 1 Mózes 29,7
-- üsző [eglah]: 1 Mózes 15,9
-- kecske (nőstény) [ez]: 1 Mózes 15,9
-- kos [ayil]: 1 Mózes 15,9
-- gerlice [towr]: 1 Mózes 15,9
-- galambfi [gowzal]: 1 Mózes 15,9
-- ragadozó madarak [ayit]: 1 Mózes 15,11
-- borjú [ben]: 1 Mózes 18,7
-- bárány (kecske) [seh]: 1 Mózes 30,32
-- (fiatal) juh/bárány [keseb]: 1 Mózes 30,32
-- kos/bak (hím kecske) [tayish]: 1 Mózes 30,35; 1 Mózes 32,14
-- nyár [lach libneh]: 1 Mózes 30,37
-- mogyoró [luwz]: 1 Mózes 30,37
-- gesztenye [armown]: 1 Mózes 30,37
-- ökör [showr]: 1 Mózes 32,5
-- juh (anya) [rachel]: 1 Mózes 32,14
-- tehén (üsző) [parah]: 1 Mózes 32,15
-- tulok (bika) [par]: 1 Mózes 32,15
-- nőstény szamár ['athown]: 1 Mózes 32,15
-- szamárvemhe [ayir]: 1 Mózes 32,15
+- Élő állatok [sherets/chay nephesh]: GEN 1,20
+- Madarak, szárnyas repdeső [owph uwph/kanaph/shamayim]: GEN 1,20
+- nagy vízi állat (bálna) [tanniyn]: GEN 1,21
+- csúszó-mászó állatok [ramas/remes nephesh/chay]: GEN 1,21; GEN 1,24; GEN 1,25; GEN 1,26; GEN 1,28; GEN 1,30; GEN 6,7; GEN 6,20; GEN 7,8; GEN 7,14; GEN 7,23; GEN 8,17; GEN 8,19; GEN 9,2
+- barom (marha) [bhemah]: GEN 1,24
+- szárazföldi/mezei vadak [chay 'erets]: GEN 1,24; GEN 1,25, GEN 1,30; GEN 9,10
+- tengeri hal [dagah yam]: GEN 1,26
+- mezei vad [chay sadeh]: GEN 2,19
+- kígyó [nachash]: GEN 3,1
+- juh (nyáj) [tso'n]: GEN 4,4
+- vad/állat/fenevad [chay]: GEN 7,14; GEN 8,1; GEN 8,17; GEN 8,19; GEN 8,21; GEN 9,2; GEN 9,5; GEN 37,20
+- szárnyas állat/madarak [tsippowr]: GEN 7,14, GEN 15,10
+- nyüzsgő, csúszó-mászó állat [sherets sharats]: GEN 7,21
+- holló [oreb]: GEN 8,7
+- galamb [yownah]: GEN 8,8
+- mozgó állatok [remes chay]: GEN 9,3
+- ökör [baqar]: GEN 12,16
+- szamár [chamowr 'athown']: GEN 12,16
+- teve [gamal]: GEN 12,16
+- barom/marha [miqneh]: GEN 13,2; GEN 29,7
+- üsző [eglah]: GEN 15,9
+- kecske (nőstény) [ez]: GEN 15,9
+- kos [ayil]: GEN 15,9
+- gerlice [towr]: GEN 15,9
+- galambfi [gowzal]: GEN 15,9
+- ragadozó madarak [ayit]: GEN 15,11
+- borjú [ben]: GEN 18,7
+- bárány (kecske) [seh]: GEN 30,32
+- (fiatal) juh/bárány [keseb]: GEN 30,32
+- kos/bak (hím kecske) [tayish]: GEN 30,35; GEN 32,14
+- nyár [lach libneh]: GEN 30,37
+- mogyoró [luwz]: GEN 30,37
+- gesztenye [armown]: GEN 30,37
+- ökör [showr]: GEN 32,5
+- juh (anya) [rachel]: GEN 32,14
+- tehén (üsző) [parah]: GEN 32,15
+- tulok (bika) [par]: GEN 32,15
+- nőstény szamár ['athown]: GEN 32,15
+- szamárvemhe [ayir]: GEN 32,15
+- fiatal kecske [gdiy]: GEN 38,23
 
 # Helyszínek
-- Pison: 1 Mózes 2,11
-- Havilah: 1 Mózes 2,11
-- Gihon: 1 Mózes 2,13
-- Khús földje: 1 Mózes 2,13
-- Hiddekel (Tigris): 1 Mózes 2,14
-- Asszíria: 1 Mózes 2,14
-- Eufrátesz: 1 Mózes 2,14
-- Nód földje (Édentől keletre): 1 Mózes 4,16
-- Hánókh: 1 Mózes 4,17
-- Ararát hegye: 1 Mózes 8,4
-- Bábel: 1 Mózes 10,10, 1 Mózes 11,9
-- Erekh: 1 Mózes 10,10
-- Akkád: 1 Mózes 10,10
-- Kálnéh: 1 Mózes 10,10
-- Sineár földje [H8152]: 1 Mózes 10,10
-- Asszíria: 1 Mózes 10,11
-- Ninve: 1 Mózes 10,11
-- Rekhoboth: 1 Mózes 10,11
-- Kaláh: 1 Mózes 10,11
-- Reszen: 1 Mózes 10,12
-- Cídon: 1 Mózes 10,19
-- Gérár: 1 Mózes 10,19
-- Gáza: 1 Mózes 10,19
-- Szodoma: 1 Mózes 10,19
-- Gomora: 1 Mózes 10,19
-- Ádmáh: 1 Mózes 10,19
-- Ceboim: 1 Mózes 10,19
-- Lésa: 1 Mózes 10,19
-- Mésa: 1 Mózes 10,30
-- Séfár: 1 Mózes 10,30
-- napkeleti hegyek: 1 Mózes 10,30
-- Úr-Kaszdim: 1 Mózes 11,28
-- Kánaán földje [H776 H3667]: 1 Mózes 11,31
-- Hárán: 1 Mózes 11,31
-- Sikem vidéke: 1 Mózes 12,6
-- Móréh tölgyese: 1 Mózes 12,6
-- Bétel: 1 Mózes 12,8
- - Lúz (Kánaán földjén) [H3870]: 1 Mózes 28,19
- - Él-Bétel [H416]: 1 Mózes 35,7
-- Hái: 1 Mózes 12,8
-- Egyiptom: 1 Mózes 12,10
-- Fáraó udvara: 1 Mózes 12,15
-- Déli tartomány: 1 Mózes 13,1
-- Hái: 1 Mózes 13,3
-- Jordán: 1 Mózes 13,10
-- Coár: 1 Mózes 13,10
-- Mamré tölgyese: 1 Mózes 13,18
-- Hebron: 1 Mózes 13,18
- - Kirját-Arba [H7153]: 1 Mózes 35,27
-- Elászár [H495]: 1 Mózes 14,1
-- Élám [H5867]: 1 Mózes 14,1
-- Admáh [H126]: 1 Mózes 14,2
-- Ceboim [H6636]: 1 Mózes 14,2
-- Bélah (Coár) [H1106]: 1 Mózes 14,2
-- Coár [H6820]: 1 Mózes 14,2
-- Sziddim völgye [H7708]: 1 Mózes 14,3
-- Sós-tenger [H4417 H3220]: 1 Mózes 14,3
-- Asztheroth Kárnajim [H6255]: 1 Mózes 14,5
-- Hám [H1990]: 1 Mózes 14,5
-- Sávé-Kirjáthajim [H7741]: 1 Mózes 14,5
-- Szeir [H8165]: 1 Mózes 14,6
-- Él-Párán [H364]: 1 Mózes 14,6
-- Hén Mispát (Kádes) [H5880]: 1 Mózes 14,7
-- Kádes [H6946]: 1 Mózes 14,7
-- Hácacon-Támár [H2688]: 1 Mózes 14,7
-- Dán: [H1835] 1 Mózes 14,14
-- Hóba: [H2327] 1 Mózes 14,15
-- Damaszkusz: [H1834] 1 Mózes 14,15
-- Sáve völgye/király völgye: [H7740] 1 Mózes 14,17
-- Sálem: [H8004] 1 Mózes 14,18
-- Súr: [H7793] 1 Mózes 16,7
-- Lakhai Rói (forrás) [H883]: 1 Mózes 16,14
-- Béred [H1260]: 1 Mózes 16,14
-- Beérseba [H884]: 1 Mózes 21,14
-- Párán (pusztája) [H6290]: 1 Mózes 21,21
-- Filiszteusok földje [H6430]: 1 Mózes 21,32
-- Mórija [H4179]: 1 Mózes 22,2
-- Makpelá [H4375]: 1 Mózes 23,9
-- Mezopotámia [H763]: 1 Mózes 24,10
-- Nákhor városa [H5152]: 1 Mózes 24,10
-- keleti tartomány/napkeletre lakók földje [H6924 H776]: 1 Mózes 25,6; 1 Mózes 29,1
-- Szíria [H761]: 1 Mózes 15,20
-- Gérár völgye (patakja? nachal Grar) [H5158 H1642]: 1 Mózes 26,17
-- Észek [H6230]: 1 Mózes 26,20
-- Szitna [H7856]: 1 Mózes 26,21
-- Gileád (hegye) [H1568 H2022]: 1 Mózes 31,21
-- Jegár-Sahadutha [H3026]: 1 Mózes 31,47
-- Gálhéd [H1567]: 1 Mózes 31,47
-- Micpa [H4709]: 1 Mózes 31,49
-- Mahanáim [H4266]: 1 Mózes 32,2
-- Edóm (mezőség) [H123]: 1 Mózes 32,3
-- Jabbók (rév) [H2999]: 1 Mózes 32,22
-- Széir [H8165]: 1 Mózes 33,14
-- Szukkót [H5523]: 1 Mózes 33,17
-- Sekem [H7927]: 1 Mózes 33,18
-- Izrael [H3478]: 1 Mózes 34,7
-- Efrata [H672]: 1 Mózes 35,16
- - Betlehem [H1035]: 1 Mózes 35,19
-- Héder (torony) [H4029 H4026]: 1 Mózes 35,21
+- Pison: GEN 2,11
+- Havilah: GEN 2,11
+- Gihon: GEN 2,13
+- Khús földje: GEN 2,13
+- Hiddekel (Tigris): GEN 2,14
+- Asszíria: GEN 2,14
+- Eufrátesz: GEN 2,14
+- Nód földje (Édentől keletre): GEN 4,16
+- Hánókh: GEN 4,17
+- Ararát hegye: GEN 8,4
+- Bábel: GEN 10,10, GEN 11,9
+- Erekh: GEN 10,10
+- Akkád: GEN 10,10
+- Kálnéh: GEN 10,10
+- Sineár földje [H8152]: GEN 10,10
+- Asszíria: GEN 10,11
+- Ninve: GEN 10,11
+- Rekhoboth: GEN 10,11
+- Kaláh: GEN 10,11
+- Reszen: GEN 10,12
+- Cídon: GEN 10,19
+- Gérár: GEN 10,19
+- Gáza: GEN 10,19
+- Szodoma: GEN 10,19
+- Gomora: GEN 10,19
+- Ádmáh: GEN 10,19
+- Ceboim: GEN 10,19
+- Lésa: GEN 10,19
+- Mésa: GEN 10,30
+- Séfár: GEN 10,30
+- napkeleti hegyek: GEN 10,30
+- Úr-Kaszdim: GEN 11,28
+- Kánaán földje [H776 H3667]: GEN 11,31 [176]
+- Hárán: GEN 11,31
+- Sikem (vidéke) [H7927]: GEN 12,6 [196,188,189,190,195,187,193,194,191,192,202,198]
+- Móréh tölgyese: GEN 12,6
+- Bétel: GEN 12,8
+ - Lúz (Kánaán földjén) [H3870]: GEN 28,19
+ - Él-Bétel [H416]: GEN 35,7
+- Hái: GEN 12,8
+- Egyiptom: GEN 12,10
+- Fáraó udvara: GEN 12,15
+- Déli tartomány: GEN 13,1
+- Hái: GEN 13,3
+- Jordán: GEN 13,10
+- Coár: GEN 13,10
+- Mamré tölgyese: GEN 13,18
+- Hebron: GEN 13,18 [176,196,188,189,190,195,187,193,194,191,192,202,198]
+ - Kirját-Arba [H7153]: GEN 35,27
+- Elászár [H495]: GEN 14,1
+- Élám [H5867]: GEN 14,1
+- Admáh [H126]: GEN 14,2
+- Ceboim [H6636]: GEN 14,2
+- Bélah (Coár) [H1106]: GEN 14,2
+- Coár [H6820]: GEN 14,2
+- Sziddim völgye [H7708]: GEN 14,3
+- Sós-tenger [H4417 H3220]: GEN 14,3
+- Asztheroth Kárnajim [H6255]: GEN 14,5
+- Hám [H1990]: GEN 14,5
+- Sávé-Kirjáthajim [H7741]: GEN 14,5
+- Szeir [H8165]: GEN 14,6
+- Él-Párán [H364]: GEN 14,6
+- Hén Mispát (Kádes) [H5880]: GEN 14,7
+- Kádes [H6946]: GEN 14,7
+- Hácacon-Támár [H2688]: GEN 14,7
+- Dán: [H1835] GEN 14,14
+- Hóba: [H2327] GEN 14,15
+- Damaszkusz: [H1834] GEN 14,15
+- Sáve völgye/király völgye: [H7740] GEN 14,17
+- Sálem: [H8004] GEN 14,18
+- Súr: [H7793] GEN 16,7
+- Lakhai Rói (forrás) [H883]: GEN 16,14
+- Béred [H1260]: GEN 16,14
+- Beérseba [H884]: GEN 21,14
+- Párán (pusztája) [H6290]: GEN 21,21
+- Filiszteusok földje [H6430]: GEN 21,32
+- Mórija [H4179]: GEN 22,2
+- Makpelá [H4375]: GEN 23,9
+- Mezopotámia [H763]: GEN 24,10
+- Nákhor városa [H5152]: GEN 24,10
+- keleti tartomány/napkeletre lakók földje [H6924 H776]: GEN 25,6; GEN 29,1
+- Szíria [H761]: GEN 15,20
+- Gérár völgye (patakja? nachal Grar) [H5158 H1642]: GEN 26,17
+- Észek [H6230]: GEN 26,20
+- Szitna [H7856]: GEN 26,21
+- Gileád (hegye) [H1568 H2022]: GEN 31,21
+- Jegár-Sahadutha [H3026]: GEN 31,47
+- Gálhéd [H1567]: GEN 31,47
+- Micpa [H4709]: GEN 31,49
+- Mahanáim [H4266]: GEN 32,2
+- Edóm (mezőség) [H123]: GEN 32,3 [205,223,224,225,226,227,228,229]
+- Jabbók (rév) [H2999]: GEN 32,22
+- Széir [H8165]: GEN 33,14 [205,223,224,225,226,227,228,229]
+- Szukkót [H5523]: GEN 33,17
+- Sekem [H7927]: GEN 33,18
+- Izrael [H3478]: GEN 34,7
+- Efrata [H672]: GEN 35,16
+ - Betlehem [H1035]: GEN 35,19
+- Héder (torony) [H4029 H4026]: GEN 35,21
+- Dinha [H1838]: GEN 36,32 [249]
+- Bocrá [H1224]: GEN 36,33 [251]
+- Témán [H8489]: GEN 36,34 [253]
+- Moáb (mező) [H4124 H7704]: GEN 36,35 [254]
+- Hávit [H5762]: GEN 36,35 [254]
+- Masreka [H4957]: GEN 36,36 [256]
+- Rehobót: GEN 26,22
+ - Rékhobóth [H7344]: GEN 36,37 [257]
+- Pahu [H6464]: GEN 36,39 [260]
+- Dóthán [H1886]: GEN 37,17
+- Khezib [H3580]: GEN 38,5
+- Timna [H8553]: GEN 38,13
+- Enajim (kapu) (igazából "nyílt kapu" nem konkrét hely) [H8553]: GEN 38,14
 
 # Ásványok
-- arany: 1 Mózes 2,11; 1 Mózes 2,12; 1 Mózes 13,2
-- bdellium: 1 Mózes 2,12
-- ónixkő: 1 Mózes 2,12
-- ezüst: 1 Mózes 13,2
+- arany: GEN 2,11; GEN 2,12; GEN 13,2
+- bdellium: GEN 2,12
+- ónixkő: GEN 2,12
+- ezüst: GEN 13,2
 
 # Ételek
-- kenyér [lechem]: 1 Mózes 3,19
-- föld gyümölcse [priy 'adamah]: 1 Mózes 4,3
-- bor [yayin]: 1 Mózes 9,21
-- lisztláng [coleth qemach]: 1 Mózes 18,6
-- pogácsa [uggah]: 1 Mózes 18,6
-- elkészített borjú [ben asah]: 1 Mózes 18,6
-- vaj [chem'ah]: 1 Mózes 18,8
-- tej [chalab]: 1 Mózes 18,8
-- pogácsa (kovásztalan kenyér) [matstsah]: 1 Mózes 19,3
+- kenyér [lechem]: GEN 3,19
+- föld gyümölcse [priy 'adamah]: GEN 4,3
+- bor [yayin]: GEN 9,21
+- lisztláng [coleth qemach]: GEN 18,6
+- pogácsa [uggah]: GEN 18,6
+- elkészített borjú [ben asah]: GEN 18,6
+- vaj [chem'ah]: GEN 18,8
+- tej [chalab]: GEN 18,8
+- pogácsa (kovásztalan kenyér) [matstsah]: GEN 19,3
 - víz
-- főzelék [naziyd]: 1 Mózes 25,29
-- főtt lencse [naziyd adash]: 1 Mózes 25,34
-- finom étel (hús?) [mat'am]: 1 Mózes 27,4
-- olaj [shemen]: 1 Mózes 28,18
+- főzelék [naziyd]: GEN 25,29
+- főtt lencse [naziyd adash]: GEN 25,34
+- finom étel (hús?) [mat'am]: GEN 27,4
+- olaj [shemen]: GEN 28,18
+- fűszerek: GEN 37,25
 
 # Ruházat
-- bőrruha [kthoneth]: 1 Mózes 3,21
-- ruha [simlah]: 1 Mózes 9,23
-- sarukötő: [naal] 1 Mózes 14,23
-- aranyfüggő (fülbevaló) [zahab nexem]: 1 Mózes 24,22
-- karperec [tsamiyd]: 1 Mózes 24,22
-- ruha [beged]: 1 Mózes 27,15
-- öltözet (köpeny) [simlah]: 1 Mózes 35,2
+- bőrruha [kthoneth]: GEN 3,21
+- ruha [simlah]: GEN 9,23
+- sarukötő: [naal] GEN 14,23
+- aranyfüggő (fülbevaló) [zahab nexem]: GEN 24,22
+- karperec [tsamiyd]: GEN 24,22
+- ruha [beged]: GEN 27,15
+- öltözet (köpeny) [simlah]: GEN 35,2
+- ruha (tunika, kabát) [kthoneth]: GEN 37,3
+- zsák (ruha) [saq]: GEN 37,34
+- fátyol [tsa'iyph]: GEN 38,14
+- gyűrű [chowtham]: GEN 38,18
+- zsinór [pathiyl]: GEN 38,18
 
 # Fegyverek
-- villogó pallos(kard) [lahat chereb]: 1 Mózes 3,24
-- pajzs [magen]: 1 Mózes 15,1
-- kés [ma'akeleth]: 1 Mózes 22,10
-- fegyver [kliy]: 1 Mózes 27,3
-- tegez [tliy]: 1 Mózes 27,3
-- kézív [qesheth]: 1 Mózes 27,3
+- villogó pallos(kard) [lahat chereb]: GEN 3,24
+- pajzs [magen]: GEN 15,1
+- kés [ma'akeleth]: GEN 22,10
+- fegyver [kliy]: GEN 27,3
+- tegez [tliy]: GEN 27,3
+- kézív [qesheth]: GEN 27,3
 
 # Szexuális kapcsolatok
-- Ádám és Éva (házasság): 1 Mózes 4,1; 1 Mózes 4,2; 1 Mózes 4,25
-- Káin és felesége: 1 Mózes 4,17
+- Ádám és Éva (házasság): GEN 4,1; GEN 4,2; GEN 4,25
+- Káin és felesége: GEN 4,17
 
 # Gyilkosságok
-- Káin Ábelt: 1 Mózes 4,8
-- Lámekh: 1 Mózes 4,23
+- Káin Ábelt: GEN 4,8
+- Lámekh: GEN 4,23
 
 # Háborúk/fegyveres konfliktusok
-- 1 Mózes 14,7-9
-- Ábrahám vs 1 Mózes 14,14-15
-- Simeon és Lévi vs Sekem és férfiai (sekemi vérfürdő) 1 Mózes 34,25-26
+- GEN 14,7-9
+- Ábrahám vs GEN 14,14-15
+- Simeon és Lévi vs Sekem és férfiai (sekemi vérfürdő) GEN 34,25-26
+- Hadád vs midianiták GEN 36,35
 
 # Hangszerek
-- lant [kinnowr]: 1 Mózes 4,21
-- síp [uwgab]: 1 Mózes 4,21
-- dob (kézidob/tamburin) [toph]: 1 Mózes 31,27
-- hegedű (hárfa) [kinnowr]: 1 Mózes 31,27
+- lant [kinnowr]: GEN 4,21
+- síp [uwgab]: GEN 4,21
+- dob (kézidob/tamburin) [toph]: GEN 31,27
+- hegedű (hárfa) [kinnowr]: GEN 31,27
 
 # Foglalkozások
-- kovács: 1 Mózes 4,22
-- vadász: 1 Mózes 10,9
-- barompásztor: 1 Mózes 13,7
-- íjász: 1 Mózes 21,20
-- hadvezér: 1 Mózes 21,22
+- kovács: GEN 4,22
+- vadász: GEN 10,9
+- barompásztor: GEN 13,7
+- íjász: GEN 21,20
+- hadvezér: GEN 21,22
+- fejedelem: GEN 36,15
+- király
+- bojtár? (állatokra vigyázott): GEN 37,2
+- főember (tisztviselő, eunuch?) [cariyc] : GEN 37,36
+- főhadnagy [sar]: GEN 37,36
+- testőr [tabbach]: GEN 37,36
+- juhnyíró [gazaz]: GEN 38,12
 
 # Mértékegységek
 - év
 - nap
 - hónap
-- sing: 1 Mózes 6,15
-- pénz [qsiytah]: 1 Mózes 33,19
-- dűlőföld ['erets kibrah]: 1 Mózes 35,16
+- sing: GEN 6,15
+- pénz [qsiytah]: GEN 33,19
+- dűlőföld ['erets kibrah]: GEN 35,16
+- ezüstpénz [keceph]: GEN 37,28
+
+# égitestek
+- nagyobbik világító test: GEN 1,16
+ - nap
+- kisebbik világító test: GEN 1,16
+ - hold [yareach]: GEN 37,9
+- csillagok [kowkab]: GEN 1,16
 
 # Anyagok
-- szurok: 1 Mózes 6,14
-- tégla: 1 Mózes 11,3
-- kő: 1 Mózes 11,3
-- szurok: 1 Mózes 11,3
-- ragasztó: 1 Mózes 11,3
-- szurokforrások?: 1 Mózes 14,10
-- fonalszál: 1 Mózes 14,23
-- por: 1 Mózes 18,27
-- hamu: 1 Mózes 18,27
-- kénkő: 1 Mózes 19,24
-- só: 1 Mózes 19,26
+- szurok: GEN 6,14
+- tégla: GEN 11,3
+- kő: GEN 11,3
+- szurok: GEN 11,3
+- ragasztó: GEN 11,3
+- szurokforrások?: GEN 14,10
+- fonalszál: GEN 14,23
+- por: GEN 18,27
+- hamu: GEN 18,27
+- kénkő: GEN 19,24
+- só: GEN 19,26
 - víz
+- balzsam: GEN 37,25
+- mirha: GEN 37,25
 
 # Oltárok/áldozások
-- Noé (oltár és áldozás): 1 Mózes 8,20
-- Ábrahám (oltár): 1 Mózes 12,7
-- Ábrahám (oltár): 1 Mózes 12,8
-- Ábrahám (korábbi oltár): 1 Mózes 13,4
-- Ábrahám (oltár): 1 Mózes 13,18 (Mamré tölgyese - Hebron)
-- Ábrahám (oltár) Izsák feláldozására: 1 Mózes 22,9
-- Izsák (oltár): 1 Mózes 26,25 (Beérseba)
-- Jákób (oszlop?): 1 Mózes 28,18 (Bétel)
-- Jákób (oszlop?): 1 Mózes 31,45; 1 Mózes 31,54
-- Jákób (oltár): 1 Mózes 33,20 ('El 'elohey Yisra'el, Sekem)
-- Jákób (oltár): 1 Mózes 35,7 (Él-Bétel)
-- Jákób (kőoszlop és áldozás): 1 Mózes 35,14 (Bétel)
-- Jákób (emélkoszlop): 1 Mózes 35,20
+- Noé (oltár és áldozás): GEN 8,20
+- Ábrahám (oltár): GEN 12,7
+- Ábrahám (oltár): GEN 12,8
+- Ábrahám (korábbi oltár): GEN 13,4
+- Ábrahám (oltár): GEN 13,18 (Mamré tölgyese - Hebron)
+- Ábrahám (oltár) Izsák feláldozására: GEN 22,9
+- Izsák (oltár): GEN 26,25 (Beérseba)
+- Jákób (oszlop?): GEN 28,18 (Bétel)
+- Jákób (oszlop?): GEN 31,45; GEN 31,54
+- Jákób (oltár): GEN 33,20 ('El 'elohey Yisra'el, Sekem)
+- Jákób (oltár): GEN 35,7 (Él-Bétel)
+- Jákób (kőoszlop és áldozás): GEN 35,14 (Bétel)
+- Jákób (emélkoszlop): GEN 35,20
 
 # Népek
 - filiszteusok: 
-- kananeusok: 1 Mózes 12,6
-- perizeusok: 1 Mózes 13:7
-- Góim: 1 Mózes 14,1
-- refeusok: 1 Mózes 14,5
-- zuzeusok: 1 Mózes 14,5
-- emeusok: 1 Mózes 14,5
-- horeusok: 1 Mózes 14,6
-- amálekiták: 1 Mózes 14,7
-- emoreusok: 1 Mózes 14,7
-- keneusok: 1 Mózes 15,19
-- kenizeusok: 1 Mózes 15,19
-- kadmoneusok: 1 Mózes 15,19
-- hitteusok: 1 Mózes 15,20
-- refeusok: 1 Mózes 15,20
-- girgazeusok: 1 Mózes 15,21
-- jebuzeusok: 1 Mózes 15,21
-- moabiták: 1 Mózes 19,37
-- ammoniták: 1 Mózes 19,38
-- kitteusok: 1 Mózes 23,10
-- kivveusok: 1 Mózes 36,2
+- kananeusok (canaanite): GEN 10,18
+- perizeusok: GEN 13:7
+- Góim: GEN 14,1
+- refeusok: GEN 14,5
+- zuzeusok: GEN 14,5
+- emeusok: GEN 14,5
+- horeusok: GEN 14,6
+- amálekiták: GEN 14,7
+- emoreusok: GEN 14,7
+- keneusok: GEN 15,19
+- kenizeusok: GEN 15,19
+- kadmoneusok: GEN 15,19
+- hitteusok: GEN 15,20
+- refeusok: GEN 15,20
+- girgazeusok: GEN 15,21
+- jebuzeusok: GEN 15,21
+- moabiták: GEN 19,37
+- ammoniták: GEN 19,38
+- kitteusok (hittite): GEN 23,10
+- kivveusok (hivite): GEN 36,2
+- edomiták: GEN 36,9
+- hóreusok: GEN 36,20
+- midianiták (midianites): GEN 36,35
+- ismáeliták (ishmeelites): GEN 37,25
+- adullámita (adullamite): GEN 38,1
 
 # Szövetségek:
-- Ábrahám-Úr: 1 Mózes 15,18
-- Ábrahám-Mamré-Eskol-Áner: 1 Mózes 14,13
-- Ábrahám-Abimélek: 1 Mózes 21,22-32
-- Izsák-Abimélek: 1 Mózes 26,26-31
-- Jákób-Lábán: 1 Mózes 31,44
+- Ábrahám-Úr: GEN 15,18
+- Ábrahám-Mamré-Eskol-Áner: GEN 14,13
+- Ábrahám-Abimélek: GEN 21,22-32
+- Izsák-Abimélek: GEN 26,26-31
+- Jákób-Lábán: GEN 31,44
 
 # Látomások:
-- Úr Ábrahámnak beszéd látomásban: 1 Mózes 15,1-16
-- Füstölgő kemence és tüzes fáklya: 1 Mózes 15,17
-- angyal Hágárnak: 1 Mózes 16,7-12
-- Úr Ábrámnak megjelent: 1 Mózes 17,1-22
-- Úr (3 férfiú) Ábrámnak megjelent: 1 Mózes 18,1-33
-- angyalok (2) Lótnak meglátta: 1 Mózes 19,1-22
-- Isten Abiméleknek álomban: 1 Mózes 20,3-7
-- Isten angyal kiált Hágárnak: 1 Mózes 21,17
-- Úr angyala kiált Ábrahámnak: 1 Mózes 22,11-12
-- Úr angyala kiált Ábrahámnak: 1 Mózes 22,15-18
-- Úr megjelent Izsáknak: 1 Mózes 26,2-5
-- Úr angyala megjelenék Izsáknak: 1 Mózes 26,24
-- Jákób álmában angyalokat (lajtorja): 1 Mózes 28,11-15
-- Isten angyala Jákóbna: 1 Mózes 31,11-13
-- Isten angyali látta Jákób: 1 Mózes 32,1-2
-- Isten megjelent Jákóbnak: 1 Mózes 35,9-13
+- Úr Ábrahámnak beszéd látomásban: GEN 15,1-16
+- Füstölgő kemence és tüzes fáklya: GEN 15,17
+- angyal Hágárnak: GEN 16,7-12
+- Úr Ábrámnak megjelent: GEN 17,1-22
+- Úr (3 férfiú) Ábrámnak megjelent: GEN 18,1-33
+- angyalok (2) Lótnak meglátta: GEN 19,1-22
+- Isten Abiméleknek álomban: GEN 20,3-7
+- Isten angyal kiált Hágárnak: GEN 21,17
+- Úr angyala kiált Ábrahámnak: GEN 22,11-12
+- Úr angyala kiált Ábrahámnak: GEN 22,15-18
+- Úr megjelent Izsáknak: GEN 26,2-5
+- Úr angyala megjelenék Izsáknak: GEN 26,24
+- Jákób álmában angyalokat (lajtorja): GEN 28,11-15
+- Isten angyala Jákóbna: GEN 31,11-13
+- Isten angyali látta Jákób: GEN 32,1-2
+- Isten megjelent Jákóbnak: GEN 35,9-13
 
 # Források:
-- Lakhai Rói (Súrba menő úton, Kádes és Béred között) Hágár: 1 Mózes 16,14
+- Lakhai Rói (Súrba menő úton, Kádes és Béred között) Hágár: GEN 16,14
 
 # Testrészek:
-- szív [leb]: 1 Mózes 6,5
-- láb [regel]: 1 Mózes 8,9
-- ágyék [me'ah]: 1 Mózes 15,4
-- arc [paniym]: 1 Mózes 17,3
-- méh [rechem]: 1 Mózes 20,18
-- váll [shkem]: 1 Mózes 21,14
-- szem [ayin]: 1 Mózes 21,19
-- kéz [yad]: 1 Mózes 3,22
-- orr (talán arc) ['aph]: 1 Mózes 24,47
-- belső [me'ah]: 1 Mózes 25,23
-- sarok [aqeb]: 1 Mózes 25,26
-- nyak [tsavva'r]: 1 Mózes 27,16
-- fej vagy párna6fejhely? [mra'ashah]: 1 Mózes 28,11
-- száj [peh]: 1 Mózes 29,2
-- csont [etsem]: 1 Mózes 29,14
-- test vagy hús? [basar]: 1 Mózes 29,14
-- csípő [kaph]: 1 Mózes 32,25
-- forgócsont [yarek]: 1 Mózes 32,25
-- in [giyd]: 1 Mózes 32,32
-- ideg a combban? [nasheh]: 1 Mózes 32,32
+- szív [leb]: GEN 6,5
+- láb [regel]: GEN 8,9
+- ágyék [me'ah]: GEN 15,4
+- arc [paniym]: GEN 17,3
+- méh [rechem]: GEN 20,18
+- váll [shkem]: GEN 21,14
+- szem [ayin]: GEN 21,19
+- kéz [yad]: GEN 3,22
+- orr (talán arc) ['aph]: GEN 24,47
+- belső [me'ah]: GEN 25,23
+- sarok [aqeb]: GEN 25,26
+- nyak [tsavva'r]: GEN 27,16
+- fej vagy párna6fejhely? [mra'ashah]: GEN 28,11
+- száj [peh]: GEN 29,2
+- csont [etsem]: GEN 29,14
+- test vagy hús? [basar]: GEN 29,14
+- csípő [kaph]: GEN 32,25
+- forgócsont [yarek]: GEN 32,25
+- in [giyd]: GEN 32,32
+- ideg a combban? [nasheh]: GEN 32,32
 
 # Betegségek:
-- vakság [canver]: 1 Mózes 19,11
-- meddőség (bezárt méh [atsar rechem]):1 Mózes 20,18
-- sántítás [tsala']: 1 Mózes 32,31
+- vakság [canver]: GEN 19,11
+- meddőség (bezárt méh [atsar rechem]):GEN 20,18
+- sántítás [tsala']: GEN 32,31
 
 # Gyógyulások:
-- Ábrahám imájára Abimélek, felesége, szolgálói meddőség: 1 Mózes 20,17-18
+- Ábrahám imájára Abimélek, felesége, szolgálói meddőség: GEN 20,17-18
 
 # Kutak:
-- Ahol Ábrahám szolgája megpihent: 1 Mózes 24,11
-- Észek (Izsák): 1 Mózes 26,19-20
-- Szitna (Izsák): 1 Mózes 26,21
-- Rehobót (Izsák): 1 Mózes 26,22
-- Sibáh - Beérseba (Izsák): 1 Mózes 26,25; 1 Mózes 26,32-33
+- Ahol Ábrahám szolgája megpihent: GEN 24,11
+- Észek (Izsák): GEN 26,19-20
+- Szitna (Izsák): GEN 26,21
+- Rehobót (Izsák): GEN 26,22
+- Sibáh - Beérseba (Izsák): GEN 26,25; GEN 26,32-33
 
 # Áldásmondások
-- Isten Ábrahámra (ígéret): 1 Mózes 12,1-3
-- angyal (Úr nevében, ígéret) Ábrahámnak: 1 Mózes 22,16-18
-- Betuélék Rebekát: 1 Mózes 24,60
-- Izsák Jákóbra: 1 Mózes 27,28-29
-- Izsák Ézsaúra: 1 Mózes 27,39-40
-- Izsák Jákóbra: 1 Mózes 28,3-4
-- Isten Jákóbra (ígéret): 1 Mózes 28,13-15
-- Isten Lábánnak: 1 Mózes 31,24
-- Lábán fiait és lányait: 1 Mózes 31,55
-- Isten Jákóbot: 1 Mózes 35,9-13
+- Isten Ábrahámra (ígéret): GEN 12,1-3
+- angyal (Úr nevében, ígéret) Ábrahámnak: GEN 22,16-18
+- Betuélék Rebekát: GEN 24,60
+- Izsák Jákóbra: GEN 27,28-29
+- Izsák Ézsaúra: GEN 27,39-40
+- Izsák Jákóbra: GEN 28,3-4
+- Isten Jákóbra (ígéret): GEN 28,13-15
+- Isten Lábánnak: GEN 31,24
+- Lábán fiait és lányait: GEN 31,55
+- Isten Jákóbot: GEN 35,9-13
 
 # Fogadások
-- Jákób Istennek: 1 Mózes 28,20-22
+- Jákób Istennek: GEN 28,20-22
