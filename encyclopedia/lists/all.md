@@ -13,14 +13,19 @@
 - góferfa [gopher  ets]: GEN 6,14
 - olajfa [zayith]: GEN 8,11
 - szőlő [kerem]: GEN 9,20
+ - szőlőtő [gephen]: GEN 40,9
 - növény [tsemach]: GEN 19,25
 - bokor [siyach]: GEN 21,15
 - tamariszkuszfa ['eshel]: GEN 21,33
 - szövevény [cbak]: GEN 22,13
 - gabona [dagan]: GEN 27,28
+ - gabonafej [shibbol]: GEN 41,5
+ - gabona (kukorica?) [bar]: GEN 41,35
+ - gabona (kukorica?) [sheber]: GEN 42,2
 - búza [chittah]: GEN 30,14
 - mandragóra (gyökér) [duwday]: GEN 30,14
 - cserfa ['elah]: GEN 35,4
+- nád (rét?) ['achuw]: GEN 41,2
 
 # Állatok
 - Élő állatok [sherets/chay nephesh]: GEN 1,20
@@ -105,7 +110,7 @@
  - Lúz (Kánaán földjén) [H3870]: GEN 28,19
  - Él-Bétel [H416]: GEN 35,7
 - Hái: GEN 12,8
-- Egyiptom: GEN 12,10
+- Egyiptom [H4714]: GEN 12,10 [198,U7,U9,U10]
 - Fáraó udvara: GEN 12,15
 - Déli tartomány: GEN 13,1
 - Hái: GEN 13,3
@@ -177,6 +182,9 @@
 - Khezib [H3580]: GEN 38,5
 - Timna [H8553]: GEN 38,13
 - Enajim (kapu) (igazából "nyílt kapu" nem konkrét hely) [H8553]: GEN 38,14
+- héberek földje [H776 H5680]: GEN 40,15 [198]
+- folyó (Nílus) [H2975]: GEN 41,1
+- On [H204]: GEN 41,45 [285]
 
 # Ásványok
 - arany: GEN 2,11; GEN 2,12; GEN 13,2
@@ -200,6 +208,11 @@
 - finom étel (hús?) [mat'am]: GEN 27,4
 - olaj [shemen]: GEN 28,18
 - fűszerek: GEN 37,25
+- szőlőszem [enab]: GEN 40,10
+- kalács (fehér kenyér) [choriy]: GEN 40,16
+- sütemény? [ma'akal ma'aseh]: GEN 40,17
+- élelem ['okel]: GEN 41,35
+ - ennivaló [tseydah]: GEN 42,25
 
 # Ruházat
 - bőrruha [kthoneth]: GEN 3,21
@@ -213,7 +226,9 @@
 - zsák (ruha) [saq]: GEN 37,34
 - fátyol [tsa'iyph]: GEN 38,14
 - gyűrű [chowtham]: GEN 38,18
+ - gyűrű [tabba'ath]: GEN 41,42
 - zsinór [pathiyl]: GEN 38,18
+- nyaklánc [rabiyd]: GEN 41,42
 
 # Fegyverek
 - villogó pallos(kard) [lahat chereb]: GEN 3,24
@@ -253,9 +268,20 @@
 - király
 - bojtár? (állatokra vigyázott): GEN 37,2
 - főember (tisztviselő, eunuch?) [cariyc] : GEN 37,36
+- fáraó [Par'oh]: GEN 37,36
 - főhadnagy [sar]: GEN 37,36
 - testőr [tabbach]: GEN 37,36
 - juhnyíró [gazaz]: GEN 38,12
+- felvigyázó [paqad]: GEN 39,4
+- tömlöctartó [sar bayith]: GEN 39,21
+- pohárnok (komornyik) [shaqah]: GEN 40,1
+- sütőmester ['aphah]: GEN 40,1
+- jövendőmondó, írástudó (írnok?) [chartom]: GEN 41,8.24
+- tiszttartó [paqiyd]: GEN 41,34
+- pap [kohen]: GEN 41,45
+- kormányzó [shalliyt]: GEN 42,6
+- kém [ragal]: GEN 42,8
+- tolmács [luwts]: GEN 42,23
 
 # Mértékegységek
 - év
@@ -266,7 +292,7 @@
 - dűlőföld ['erets kibrah]: GEN 35,16
 - ezüstpénz [keceph]: GEN 37,28
 
-# égitestek
+# Égitestek
 - nagyobbik világító test: GEN 1,16
  - nap
 - kisebbik világító test: GEN 1,16
@@ -288,6 +314,7 @@
 - víz
 - balzsam: GEN 37,25
 - mirha: GEN 37,25
+- gyolcs [shesh]: GEN 41,42
 
 # Oltárok/áldozások
 - Noé (oltár és áldozás): GEN 8,20
@@ -331,6 +358,8 @@
 - midianiták (midianites): GEN 36,35
 - ismáeliták (ishmeelites): GEN 37,25
 - adullámita (adullamite): GEN 38,1
+- héberek (hebrews): GEN 40,15
+- egyiptombeliek (egyptians): GEN 41,55
 
 # Szövetségek:
 - Ábrahám-Úr: GEN 15,18
@@ -357,6 +386,13 @@
 - Isten angyali látta Jákób: GEN 32,1-2
 - Isten megjelent Jákóbnak: GEN 35,9-13
 
+# Álmok:
+- József álma testvéreiről
+- főpohárnok álma szőlőről
+- fősütőmester álma a kosarakról
+- fáraó álma a tehenekről: GEN 41,1-4
+- fáraó álma a gabonafejekről: GEN 41,5-7
+
 # Források:
 - Lakhai Rói (Súrba menő úton, Kádes és Béred között) Hágár: GEN 16,14
 
@@ -373,14 +409,17 @@
 - belső [me'ah]: GEN 25,23
 - sarok [aqeb]: GEN 25,26
 - nyak [tsavva'r]: GEN 27,16
-- fej vagy párna6fejhely? [mra'ashah]: GEN 28,11
+- fej vagy párna fejhely? [mra'ashah]: GEN 28,11
+ - fej [ro'sh]: GEN 40,16
 - száj [peh]: GEN 29,2
 - csont [etsem]: GEN 29,14
 - test vagy hús? [basar]: GEN 29,14
+ - hús [basar]: GEN 40,19
 - csípő [kaph]: GEN 32,25
 - forgócsont [yarek]: GEN 32,25
 - in [giyd]: GEN 32,32
 - ideg a combban? [nasheh]: GEN 32,32
+- marok (ököl?) [qomets]: GEN 41,47
 
 # Betegségek:
 - vakság [canver]: GEN 19,11

@@ -2877,7 +2877,7 @@
 		source: ['1 Mózes 29,35'],
 	},
 	relationships: [{
-		id: 'U6',
+		id: 'U8',
 		type: 'marriage',
 		sources: ['GEN 38,12'],
 	}, {
@@ -3009,6 +3009,12 @@
 		strong: 'H3130',
 		source: ['1 Mózes 30,24'],
 	},
+	altName: {
+		default: 'Cafenát-Pahneákh',
+		defaultEN: 'Zaphnathpaaneah',
+		strong: 'H6847',
+		source: ['1 Mózes 41,45'],
+	},
 	sex: 'male',
 	father: {
 		id: 176,
@@ -3018,6 +3024,18 @@
 		id: 183,
 		source: ['1 Mózes 30,22-24'],
 	},
+	relationships: [{
+		id: 284,
+		type: 'marriage',
+		sources: ['GEN 41,45'],
+	}],
+	occupations: [{
+		id: 'overseer',
+		sources: ['GEN 39,4'],
+	}, {
+		id: 'ruler',
+		sources: ['GEN 41,40-41'],
+	}],
 }, {
 	id: 199,
 	name: {
@@ -4493,11 +4511,38 @@
 		sources: ['GEN 37,36'],
 	},
 	sex: 'male',
+	relationships: [{
+		id: 'U9',
+		type: 'marriage',
+		sources: ['GEN 39,7'],
+	}],
 	occupations: [{
 		id: 'officer',
 		sources: ['GEN 37,36'],
 	}, {
 		id: 'captain',
+		sources: ['GEN 37,36'],
+	}],
+}, {
+	id: 'U6',
+	name: {
+		default: 'ember',
+		defaultEN: 'man',
+		sources: ['GEN 37,15'],
+	},
+	sex: 'male',
+	note: 'Ember aki útbaigazította Józsefet amikor a bátyjait kereste.'
+}, {
+	id: 'U7',
+	name: {
+		default: 'Fáraó',
+		defaultEN: 'Pharaoh',
+		strong: 'H6547',
+		sources: ['GEN 37,36'],
+	},
+	sex: 'male',
+	occupations: [{
+		id: 'pharaoh',
 		sources: ['GEN 37,36'],
 	}],
 }, {
@@ -4514,7 +4559,7 @@
 		sources: ['GEN 38,1'],
 	}],
 }, {
-	id: 'U6',
+	id: 'U8',
 	name: {
 		default: 'Súah lánya',
 		defaultEN: 'daughter of Shuah',
@@ -4561,7 +4606,7 @@
 		sources: ['GEN 38,2-3'],
 	},
 	mother: {
-		id: 'U6',
+		id: 'U8',
 		sources: ['GEN 38,2-3'],
 	},
 	relationships: [{
@@ -4583,7 +4628,7 @@
 		sources: ['GEN 38,2.4'],
 	},
 	mother: {
-		id: 'U6',
+		id: 'U8',
 		sources: ['GEN 38,2.4'],
 	},
 	relationships: [{
@@ -4605,7 +4650,7 @@
 		sources: ['GEN 38,2.5'],
 	},
 	mother: {
-		id: 'U6',
+		id: 'U8',
 		sources: ['GEN 38,2.5'],
 	},
 	birth: {
@@ -4668,6 +4713,108 @@
 		id: 281,
 		sources: ['GEN 38,24-30'],
 	},
+}, {
+	id: 'U9',
+	name: {
+		default: 'Pótifár felesége',
+		defaultEN: 'Potiphar\'s wife',
+		sources: ['GEN 39,7'],
+	},
+	sex: 'female',
+	relationships: [{
+		id: 275,
+		type: 'marriage',
+		sources: ['GEN 39,7'],
+	}],
+}, {
+	id: 'U10',
+	name: {
+		default: 'főpohárnok',
+		defaultEN: 'chief of the butlers',
+		sources: ['GEN 40,1'],
+	},
+	sex: 'male',
+	occupations: [{
+		id: 'butler',
+		sources: ['GEN 40,1'],
+	}],
+}, {
+	id: 'U11',
+	name: {
+		default: 'fősütőmester',
+		defaultEN: 'chief of the bakers',
+		sources: ['GEN 40,1'],
+	},
+	sex: 'male',
+	occupations: [{
+		id: 'baker',
+		sources: ['GEN 40,1'],
+	}],
+}, {
+	id: 284,
+	name: {
+		default: 'Aszenáth',
+		defaultEN: 'Asenath',
+		strong: 'H621',
+		sources: ['GEN 41,45'],
+	},
+	sex: 'female',
+	father: {
+		id: 285,
+		sources: ['GEN 41,45'],
+	},
+	relationships: [{
+		id: 198,
+		type: 'marriage',
+		sources: ['GEN 41,45'],
+	}],
+}, {
+	id: 285,
+	name: {
+		default: 'Potifera',
+		defaultEN: 'Potipherah',
+		strong: 'H6319',
+		sources: ['GEN 41,45'],
+	},
+	sex: 'male',
+	occupations: [{
+		id: 'priest',
+		sources: ['GEN 41,45'],
+	}],
+}, {
+	id: 286,
+	name: {
+		default: 'Manassé',
+		defaultEN: 'Manasseh',
+		strong: 'H4519',
+		sources: ['GEN 41,51'],
+	},
+	father: {
+		id: 198,
+		sources: ['GEN 41,50-51'],
+	},
+	mother: {
+		id: 284,
+		sources: ['GEN 41,50-51'],
+	},
+	sex: 'male',
+}, {
+	id: 287,
+	name: {
+		default: 'Efraim',
+		defaultEN: 'Ephraim',
+		strong: 'H669',
+		sources: ['GEN 41,52'],
+	},
+	father: {
+		id: 198,
+		sources: ['GEN 41,50.52'],
+	},
+	mother: {
+		id: 284,
+		sources: ['GEN 41,50.52'],
+	},
+	sex: 'male',
 }]
 
 
