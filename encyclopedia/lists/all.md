@@ -194,6 +194,7 @@
 
 # Ételek
 - kenyér [lechem]: GEN 3,19
+ - ennivaló [lechem]: GEN 43,31
 - föld gyümölcse [priy 'adamah]: GEN 4,3
 - bor [yayin]: GEN 9,21
 - lisztláng [coleth qemach]: GEN 18,6
@@ -213,6 +214,11 @@
 - sütemény? [ma'akal ma'aseh]: GEN 40,17
 - élelem ['okel]: GEN 41,35
  - ennivaló [tseydah]: GEN 42,25
+- föld gyümölcsei [zimrah 'erets]: GEN 43,11
+- méz [dbash]: GEN 43,11
+- fűszer (perhaps tragacanth gum) [nko'th]: GEN 43,11
+- dió (pisztácia?) [boten]: GEN 43,11
+- mandula [shaqed]: GEN 43,11
 
 # Ruházat
 - bőrruha [kthoneth]: GEN 3,21
@@ -313,7 +319,9 @@
 - só: GEN 19,26
 - víz
 - balzsam: GEN 37,25
+ - balzsam [tsriy]: GEN 43,11
 - mirha: GEN 37,25
+ - mirha [lot]: GEN 43,11
 - gyolcs [shesh]: GEN 41,42
 
 # Oltárok/áldozások
@@ -398,6 +406,7 @@
 
 # Testrészek:
 - szív [leb]: GEN 6,5
+ - szív (belek?) [racham]: GEN 43,30
 - láb [regel]: GEN 8,9
 - ágyék [me'ah]: GEN 15,4
 - arc [paniym]: GEN 17,3
