@@ -33,6 +33,7 @@
 - nagy vízi állat (bálna) [tanniyn]: GEN 1,21
 - csúszó-mászó állatok [ramas/remes nephesh/chay]: GEN 1,21; GEN 1,24; GEN 1,25; GEN 1,26; GEN 1,28; GEN 1,30; GEN 6,7; GEN 6,20; GEN 7,8; GEN 7,14; GEN 7,23; GEN 8,17; GEN 8,19; GEN 9,2
 - barom (marha) [bhemah]: GEN 1,24
+ - barom [b'iyr]: GEN 45,17
 - szárazföldi/mezei vadak [chay 'erets]: GEN 1,24; GEN 1,25, GEN 1,30; GEN 9,10
 - tengeri hal [dagah yam]: GEN 1,26
 - mezei vad [chay sadeh]: GEN 2,19
@@ -185,6 +186,7 @@
 - héberek földje [H776 H5680]: GEN 40,15 [198]
 - folyó (Nílus) [H2975]: GEN 41,1
 - On [H204]: GEN 41,45 [285]
+- Gósen (földje) [H1657]: GEN 45,10
 
 # Ásványok
 - arany: GEN 2,11; GEN 2,12; GEN 13,2
@@ -214,6 +216,7 @@
 - sütemény? [ma'akal ma'aseh]: GEN 40,17
 - élelem ['okel]: GEN 41,35
  - ennivaló [tseydah]: GEN 42,25
+ - élelem [mazown]: GEN 45,23
 - föld gyümölcsei [zimrah 'erets]: GEN 43,11
 - méz [dbash]: GEN 43,11
 - fűszer (perhaps tragacanth gum) [nko'th]: GEN 43,11
@@ -270,7 +273,9 @@
 - barompásztor: GEN 13,7
 - íjász: GEN 21,20
 - hadvezér: GEN 21,22
-- fejedelem: GEN 36,15
+- fejedelem ['alluwph]: GEN 36,15
+ - fejedelem (uralkodó) [mashal]: GEN 45,8
+ - fejedelem (úr) ['adown]: GEN 45,8
 - király
 - bojtár? (állatokra vigyázott): GEN 37,2
 - főember (tisztviselő, eunuch?) [cariyc] : GEN 37,36
@@ -338,6 +343,7 @@
 - Jákób (oltár): GEN 35,7 (Él-Bétel)
 - Jákób (kőoszlop és áldozás): GEN 35,14 (Bétel)
 - Jákób (emélkoszlop): GEN 35,20
+- Jákób (áldozat): GEN 46,1 (Beérseba)
 
 # Népek
 - filiszteusok: 
@@ -393,6 +399,7 @@
 - Isten angyala Jákóbna: GEN 31,11-13
 - Isten angyali látta Jákób: GEN 32,1-2
 - Isten megjelent Jákóbnak: GEN 35,9-13
+- Isten éjjeli látomás Jákóbnak: GEN 46,2-4
 
 # Álmok:
 - József álma testvéreiről
