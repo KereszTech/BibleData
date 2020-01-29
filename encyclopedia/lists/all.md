@@ -150,6 +150,7 @@
 - Mórija [H4179]: GEN 22,2
 - Makpelá [H4375]: GEN 23,9
 - Mezopotámia [H763]: GEN 24,10
+ - Padanaram [H6307]: GEN 46,15
 - Nákhor városa [H5152]: GEN 24,10
 - keleti tartomány/napkeletre lakók földje [H6924 H776]: GEN 25,6; GEN 29,1
 - Szíria [H761]: GEN 15,20
@@ -293,6 +294,8 @@
 - kormányzó [shalliyt]: GEN 42,6
 - kém [ragal]: GEN 42,8
 - tolmács [luwts]: GEN 42,23
+- juhpásztor [ra'ah]: GEN 46,32
+- baromtartó ['enowsh miqneh]: GEN 46,32-34
 
 # Mértékegységek
 - év
