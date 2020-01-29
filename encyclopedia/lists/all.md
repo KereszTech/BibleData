@@ -33,6 +33,7 @@
 - nagy vízi állat (bálna) [tanniyn]: GEN 1,21
 - csúszó-mászó állatok [ramas/remes nephesh/chay]: GEN 1,21; GEN 1,24; GEN 1,25; GEN 1,26; GEN 1,28; GEN 1,30; GEN 6,7; GEN 6,20; GEN 7,8; GEN 7,14; GEN 7,23; GEN 8,17; GEN 8,19; GEN 9,2
 - barom (marha) [bhemah]: GEN 1,24
+ - barom/marha [miqneh]: GEN 13,2; GEN 29,7
  - barom [b'iyr]: GEN 45,17
 - szárazföldi/mezei vadak [chay 'erets]: GEN 1,24; GEN 1,25, GEN 1,30; GEN 9,10
 - tengeri hal [dagah yam]: GEN 1,26
@@ -48,7 +49,6 @@
 - ökör [baqar]: GEN 12,16
 - szamár [chamowr 'athown']: GEN 12,16
 - teve [gamal]: GEN 12,16
-- barom/marha [miqneh]: GEN 13,2; GEN 29,7
 - üsző [eglah]: GEN 15,9
 - kecske (nőstény) [ez]: GEN 15,9
 - kos [ayil]: GEN 15,9
@@ -69,6 +69,7 @@
 - nőstény szamár ['athown]: GEN 32,15
 - szamárvemhe [ayir]: GEN 32,15
 - fiatal kecske [gdiy]: GEN 38,23
+- ló [cuwc]: GEN 47,17
 
 # Helyszínek
 - Pison: GEN 2,11
@@ -188,6 +189,7 @@
 - folyó (Nílus) [H2975]: GEN 41,1
 - On [H204]: GEN 41,45 [285]
 - Gósen (földje) [H1657]: GEN 45,10
+- Ramszesz (földje) [H7486]: GEN 47,11
 
 # Ásványok
 - arany: GEN 2,11; GEN 2,12; GEN 13,2
