@@ -360,7 +360,7 @@
 - emeusok: GEN 14,5
 - horeusok: GEN 14,6
 - amálekiták: GEN 14,7
-- emoreusok: GEN 14,7
+- emoreusok (amorite): GEN 14,7
 - keneusok: GEN 15,19
 - kenizeusok: GEN 15,19
 - kadmoneusok: GEN 15,19
@@ -422,6 +422,7 @@
 - láb [regel]: GEN 8,9
 - ágyék [me'ah]: GEN 15,4
 - arc [paniym]: GEN 17,3
+ - arc ['aph]: GEN 48,12
 - méh [rechem]: GEN 20,18
 - váll [shkem]: GEN 21,14
 - szem [ayin]: GEN 21,19
@@ -441,11 +442,13 @@
 - in [giyd]: GEN 32,32
 - ideg a combban? [nasheh]: GEN 32,32
 - marok (ököl?) [qomets]: GEN 41,47
+- térd [berek]: GEN 48,12
 
 # Betegségek:
 - vakság [canver]: GEN 19,11
 - meddőség (bezárt méh [atsar rechem]):GEN 20,18
 - sántítás [tsala']: GEN 32,31
+- szemmeghomályosodás [ayin kabad]: GEN 48,10
 
 # Gyógyulások:
 - Ábrahám imájára Abimélek, felesége, szolgálói meddőség: GEN 20,17-18
