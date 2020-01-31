@@ -70,6 +70,11 @@
 - szamárvemhe [ayir]: GEN 32,15
 - fiatal kecske [gdiy]: GEN 38,23
 - ló [cuwc]: GEN 47,17
+- oroszlán ['ariy]: GEN 49,9
+ - nőstény oroszlán [labiy']: GEN 49,9
+- szarvaskígyó [shphiyphon]: GEN 49,17
+- szarvas ['ayalah]: GEN 49,21
+- farkas [z'eb]: GEN 49,27
 
 # Helyszínek
 - Pison: GEN 2,11
@@ -92,7 +97,7 @@
 - Rekhoboth: GEN 10,11
 - Kaláh: GEN 10,11
 - Reszen: GEN 10,12
-- Cídon: GEN 10,19
+- Cídon [H6721]: GEN 10,19
 - Gérár: GEN 10,19
 - Gáza: GEN 10,19
 - Szodoma: GEN 10,19
@@ -149,7 +154,7 @@
 - Párán (pusztája) [H6290]: GEN 21,21
 - Filiszteusok földje [H6430]: GEN 21,32
 - Mórija [H4179]: GEN 22,2
-- Makpelá [H4375]: GEN 23,9
+- Makpelá/Makpelah [H4375]: GEN 23,9, GEN 49,30
 - Mezopotámia [H763]: GEN 24,10
  - Padanaram [H6307]: GEN 46,15
 - Nákhor városa [H5152]: GEN 24,10
@@ -190,6 +195,7 @@
 - On [H204]: GEN 41,45 [285]
 - Gósen (földje) [H1657]: GEN 45,10
 - Ramszesz (földje) [H7486]: GEN 47,11
+- Efron mezeje [H7704 H6085]: GEN 49,29
 
 # Ásványok
 - arany: GEN 2,11; GEN 2,12; GEN 13,2
@@ -225,6 +231,7 @@
 - fűszer (perhaps tragacanth gum) [nko'th]: GEN 43,11
 - dió (pisztácia?) [boten]: GEN 43,11
 - mandula [shaqed]: GEN 43,11
+- csemege [ma'adan]: GEN 49,20
 
 # Ruházat
 - bőrruha [kthoneth]: GEN 3,21
@@ -233,8 +240,10 @@
 - aranyfüggő (fülbevaló) [zahab nexem]: GEN 24,22
 - karperec [tsamiyd]: GEN 24,22
 - ruha [beged]: GEN 27,15
+ - ruha (tunika, kabát) [kthoneth]: GEN 37,3
+ - ruha [lbuwsh]: GEN 49,11
+ - felöltő [cuwth]: GEN 49,11
 - öltözet (köpeny) [simlah]: GEN 35,2
-- ruha (tunika, kabát) [kthoneth]: GEN 37,3
 - zsák (ruha) [saq]: GEN 37,34
 - fátyol [tsa'iyph]: GEN 38,14
 - gyűrű [chowtham]: GEN 38,18
@@ -247,6 +256,7 @@
 - pajzs [magen]: GEN 15,1
 - kés [ma'akeleth]: GEN 22,10
 - fegyver [kliy]: GEN 27,3
+ - fegyver [mkerah]: GEN 49,5
 - tegez [tliy]: GEN 27,3
 - kézív [qesheth]: GEN 27,3
 
@@ -257,6 +267,7 @@
 # Gyilkosságok
 - Káin Ábelt: GEN 4,8
 - Lámekh: GEN 4,23
+- Simeon és Lévi: GEN 49,5-6
 
 # Háborúk/fegyveres konfliktusok
 - GEN 14,7-9
@@ -275,6 +286,7 @@
 - vadász: GEN 10,9
 - barompásztor: GEN 13,7
 - íjász: GEN 21,20
+ - nyilazó [ba'al]: GEN 49,23
 - hadvezér: GEN 21,22
 - fejedelem ['alluwph]: GEN 36,15
  - fejedelem (uralkodó) [mashal]: GEN 45,8
@@ -424,7 +436,9 @@
 - arc [paniym]: GEN 17,3
  - arc ['aph]: GEN 48,12
 - méh [rechem]: GEN 20,18
+ - méh [racham]: GEN 49,25
 - váll [shkem]: GEN 21,14
+ - hát [shkem]: GEN 49,15
 - szem [ayin]: GEN 21,19
 - kéz [yad]: GEN 3,22
 - orr (talán arc) ['aph]: GEN 24,47
@@ -433,6 +447,7 @@
 - nyak [tsavva'r]: GEN 27,16
 - fej vagy párna fejhely? [mra'ashah]: GEN 28,11
  - fej [ro'sh]: GEN 40,16
+ - koponya (fej?) [qodqod]: GEN 49,26
 - száj [peh]: GEN 29,2
 - csont [etsem]: GEN 29,14
 - test vagy hús? [basar]: GEN 29,14
@@ -443,6 +458,9 @@
 - ideg a combban? [nasheh]: GEN 32,32
 - marok (ököl?) [qomets]: GEN 41,47
 - térd [berek]: GEN 48,12
+- fog [shen]: GEN 49,12
+- kar [zrowa']: GEN 49,24
+- emlők [shad]: GEN 49,25
 
 # Betegségek:
 - vakság [canver]: GEN 19,11
@@ -471,6 +489,10 @@
 - Isten Lábánnak: GEN 31,24
 - Lábán fiait és lányait: GEN 31,55
 - Isten Jákóbot: GEN 35,9-13
+- Jákób Efraimot és Manassét (Józsefet is?): GEN 48,15-15.20
+
+# Átkok
+- Jákób Simeont és Lévit: GEN 49,5-7
 
 # Fogadások
 - Jákób Istennek: GEN 28,20-22
