@@ -196,6 +196,8 @@
 - Gósen (földje) [H1657]: GEN 45,10
 - Ramszesz (földje) [H7486]: GEN 47,11
 - Efron mezeje [H7704 H6085]: GEN 49,29
+- Atád szérűjé [H1637 H329]: GEN 50,10
+- Ábel Micrajim [H67]: GEN 50,11
 
 # Ásványok
 - arany: GEN 2,11; GEN 2,12; GEN 13,2
@@ -310,6 +312,7 @@
 - tolmács [luwts]: GEN 42,23
 - juhpásztor [ra'ah]: GEN 46,32
 - baromtartó ['enowsh miqneh]: GEN 46,32-34
+- orvos [rapha']: GEN 50,2
 
 # Mértékegységek
 - év
@@ -342,6 +345,7 @@
 - víz
 - balzsam: GEN 37,25
  - balzsam [tsriy]: GEN 43,11
+ - balzsam [chanat]: GEN 50,2
 - mirha: GEN 37,25
  - mirha [lot]: GEN 43,11
 - gyolcs [shesh]: GEN 41,42
