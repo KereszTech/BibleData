@@ -1,0 +1,27 @@
+- Gyenge fű [dasha deshe']: GEN 1,11
+- Maghozó fű [eseb zara' zera']: GEN 1,11;
+- Gyümölcsfa [ets priy]: GEN 1,11
+- zöld fű [eseb yereq]: GEN 1,30
+- mezei növény [siyach sadeh]: GEN 2,5
+- mezei fű [eseb sadeh]: GEN 2,5
+- fa [ets]: GEN 2,9; GEN 2,16
+- élet fája [ets chay]: GEN 2,9
+- jó és rosz tudásának fája [ets da'ath towb ra']: GEN 2,9
+- tövis [qowts]: GEN 3,18
+- bogáncskóró [dardar]: GEN 3,18
+- góferfa [gopher  ets]: GEN 6,14
+- olajfa [zayith]: GEN 8,11
+- szőlő [kerem]: GEN 9,20
+ - szőlőtő [gephen]: GEN 40,9
+- növény [tsemach]: GEN 19,25
+- bokor [siyach]: GEN 21,15
+- tamariszkuszfa ['eshel]: GEN 21,33
+- szövevény [cbak]: GEN 22,13
+- gabona [dagan]: GEN 27,28
+ - gabonafej [shibbol]: GEN 41,5
+ - gabona (kukorica?) [bar]: GEN 41,35
+ - gabona (kukorica?) [sheber]: GEN 42,2
+- búza [chittah]: GEN 30,14
+- mandragóra (gyökér) [duwday]: GEN 30,14
+- cserfa ['elah]: GEN 35,4
+- nád (rét?) ['achuw]: GEN 41,2

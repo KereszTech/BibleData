@@ -1,0 +1,32 @@
+- szív [leb]: GEN 6,5
+ - szív (belek?) [racham]: GEN 43,30
+- láb [regel]: GEN 8,9
+- ágyék [me'ah]: GEN 15,4
+- arc [paniym]: GEN 17,3
+ - arc ['aph]: GEN 48,12
+- méh [rechem]: GEN 20,18
+ - méh [racham]: GEN 49,25
+- váll [shkem]: GEN 21,14
+ - hát [shkem]: GEN 49,15
+- szem [ayin]: GEN 21,19
+- kéz [yad]: GEN 3,22
+- orr (talán arc) ['aph]: GEN 24,47
+- belső [me'ah]: GEN 25,23
+- sarok [aqeb]: GEN 25,26
+- nyak [tsavva'r]: GEN 27,16
+- fej vagy párna fejhely? [mra'ashah]: GEN 28,11
+ - fej [ro'sh]: GEN 40,16
+ - koponya (fej?) [qodqod]: GEN 49,26
+- száj [peh]: GEN 29,2
+- csont [etsem]: GEN 29,14
+- test vagy hús? [basar]: GEN 29,14
+ - hús [basar]: GEN 40,19
+- csípő [kaph]: GEN 32,25
+- forgócsont [yarek]: GEN 32,25
+- in [giyd]: GEN 32,32
+- ideg a combban? [nasheh]: GEN 32,32
+- marok (ököl?) [qomets]: GEN 41,47
+- térd [berek]: GEN 48,12
+- fog [shen]: GEN 49,12
+- kar [zrowa']: GEN 49,24
+- emlők [shad]: GEN 49,25

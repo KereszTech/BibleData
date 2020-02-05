@@ -1,0 +1,29 @@
+- kovács: GEN 4,22
+- vadász: GEN 10,9
+- barompásztor: GEN 13,7
+- íjász: GEN 21,20
+ - nyilazó [ba'al]: GEN 49,23
+- hadvezér: GEN 21,22
+- fejedelem ['alluwph]: GEN 36,15
+ - fejedelem (uralkodó) [mashal]: GEN 45,8
+ - fejedelem (úr) ['adown]: GEN 45,8
+- király
+- bojtár? (állatokra vigyázott): GEN 37,2
+- főember (tisztviselő, eunuch?) [cariyc] : GEN 37,36
+- fáraó [Par'oh]: GEN 37,36
+- főhadnagy [sar]: GEN 37,36
+- testőr [tabbach]: GEN 37,36
+- juhnyíró [gazaz]: GEN 38,12
+- felvigyázó [paqad]: GEN 39,4
+- tömlöctartó [sar bayith]: GEN 39,21
+- pohárnok (komornyik) [shaqah]: GEN 40,1
+- sütőmester ['aphah]: GEN 40,1
+- jövendőmondó, írástudó (írnok?) [chartom]: GEN 41,8.24
+- tiszttartó [paqiyd]: GEN 41,34
+- pap [kohen]: GEN 41,45
+- kormányzó [shalliyt]: GEN 42,6
+- kém [ragal]: GEN 42,8
+- tolmács [luwts]: GEN 42,23
+- juhpásztor [ra'ah]: GEN 46,32
+- baromtartó ['enowsh miqneh]: GEN 46,32-34
+- orvos [rapha']: GEN 50,2

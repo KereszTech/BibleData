@@ -1,0 +1,28 @@
+- filiszteusok: 
+- kananeusok (canaanite): GEN 10,18
+- perizeusok: GEN 13:7
+- Góim: GEN 14,1
+- refeusok: GEN 14,5
+- zuzeusok: GEN 14,5
+- emeusok: GEN 14,5
+- horeusok: GEN 14,6
+- amálekiták: GEN 14,7
+- emoreusok (amorite): GEN 14,7
+- keneusok: GEN 15,19
+- kenizeusok: GEN 15,19
+- kadmoneusok: GEN 15,19
+- hitteusok: GEN 15,20
+- refeusok: GEN 15,20
+- girgazeusok: GEN 15,21
+- jebuzeusok: GEN 15,21
+- moabiták: GEN 19,37
+- ammoniták: GEN 19,38
+- kitteusok (hittite): GEN 23,10
+- kivveusok (hivite): GEN 36,2
+- edomiták: GEN 36,9
+- hóreusok: GEN 36,20
+- midianiták (midianites): GEN 36,35
+- ismáeliták (ishmeelites): GEN 37,25
+- adullámita (adullamite): GEN 38,1
+- héberek (hebrews): GEN 40,15
+- egyiptombeliek (egyptians): GEN 41,55

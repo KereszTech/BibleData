@@ -1,0 +1,28 @@
+- kenyér [lechem]: GEN 3,19
+ - ennivaló [lechem]: GEN 43,31
+- föld gyümölcse [priy 'adamah]: GEN 4,3
+- bor [yayin]: GEN 9,21
+- lisztláng [coleth qemach]: GEN 18,6
+- pogácsa [uggah]: GEN 18,6
+- elkészített borjú [ben asah]: GEN 18,6
+- vaj [chem'ah]: GEN 18,8
+- tej [chalab]: GEN 18,8
+- pogácsa (kovásztalan kenyér) [matstsah]: GEN 19,3
+- víz
+- főzelék [naziyd]: GEN 25,29
+- főtt lencse [naziyd adash]: GEN 25,34
+- finom étel (hús?) [mat'am]: GEN 27,4
+- olaj [shemen]: GEN 28,18
+- fűszerek: GEN 37,25
+- szőlőszem [enab]: GEN 40,10
+- kalács (fehér kenyér) [choriy]: GEN 40,16
+- sütemény? [ma'akal ma'aseh]: GEN 40,17
+- élelem ['okel]: GEN 41,35
+ - ennivaló [tseydah]: GEN 42,25
+ - élelem [mazown]: GEN 45,23
+- föld gyümölcsei [zimrah 'erets]: GEN 43,11
+- méz [dbash]: GEN 43,11
+- fűszer (perhaps tragacanth gum) [nko'th]: GEN 43,11
+- dió (pisztácia?) [boten]: GEN 43,11
+- mandula [shaqed]: GEN 43,11
+- csemege [ma'adan]: GEN 49,20 

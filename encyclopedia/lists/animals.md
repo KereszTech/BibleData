@@ -1,0 +1,47 @@
+- Élő állatok [sherets/chay nephesh]: GEN 1,20
+- Madarak, szárnyas repdeső [owph uwph/kanaph/shamayim]: GEN 1,20
+- nagy vízi állat (bálna) [tanniyn]: GEN 1,21
+- csúszó-mászó állatok [ramas/remes nephesh/chay]: GEN 1,21; GEN 1,24; GEN 1,25; GEN 1,26; GEN 1,28; GEN 1,30; GEN 6,7; GEN 6,20; GEN 7,8; GEN 7,14; GEN 7,23; GEN 8,17; GEN 8,19; GEN 9,2
+- barom (marha) [bhemah]: GEN 1,24
+ - barom/marha [miqneh]: GEN 13,2; GEN 29,7
+ - barom [b'iyr]: GEN 45,17
+- szárazföldi/mezei vadak [chay 'erets]: GEN 1,24; GEN 1,25, GEN 1,30; GEN 9,10
+- tengeri hal [dagah yam]: GEN 1,26
+- mezei vad [chay sadeh]: GEN 2,19
+- kígyó [nachash]: GEN 3,1
+- juh (nyáj) [tso'n]: GEN 4,4
+- vad/állat/fenevad [chay]: GEN 7,14; GEN 8,1; GEN 8,17; GEN 8,19; GEN 8,21; GEN 9,2; GEN 9,5; GEN 37,20
+- szárnyas állat/madarak [tsippowr]: GEN 7,14, GEN 15,10
+- nyüzsgő, csúszó-mászó állat [sherets sharats]: GEN 7,21
+- holló [oreb]: GEN 8,7
+- galamb [yownah]: GEN 8,8
+- mozgó állatok [remes chay]: GEN 9,3
+- ökör [baqar]: GEN 12,16
+- szamár [chamowr 'athown']: GEN 12,16
+- teve [gamal]: GEN 12,16
+- üsző [eglah]: GEN 15,9
+- kecske (nőstény) [ez]: GEN 15,9
+- kos [ayil]: GEN 15,9
+- gerlice [towr]: GEN 15,9
+- galambfi [gowzal]: GEN 15,9
+- ragadozó madarak [ayit]: GEN 15,11
+- borjú [ben]: GEN 18,7
+- bárány (kecske) [seh]: GEN 30,32
+- (fiatal) juh/bárány [keseb]: GEN 30,32
+- kos/bak (hím kecske) [tayish]: GEN 30,35; GEN 32,14
+- nyár [lach libneh]: GEN 30,37
+- mogyoró [luwz]: GEN 30,37
+- gesztenye [armown]: GEN 30,37
+- ökör [showr]: GEN 32,5
+- juh (anya) [rachel]: GEN 32,14
+- tehén (üsző) [parah]: GEN 32,15
+- tulok (bika) [par]: GEN 32,15
+- nőstény szamár ['athown]: GEN 32,15
+- szamárvemhe [ayir]: GEN 32,15
+- fiatal kecske [gdiy]: GEN 38,23
+- ló [cuwc]: GEN 47,17
+- oroszlán ['ariy]: GEN 49,9
+ - nőstény oroszlán [labiy']: GEN 49,9
+- szarvaskígyó [shphiyphon]: GEN 49,17
+- szarvas ['ayalah]: GEN 49,21
+- farkas [z'eb]: GEN 49,27
