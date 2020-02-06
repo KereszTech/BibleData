@@ -71,6 +71,7 @@
 # Anyagok
 - szurok: GEN 6,14
 - tégla: GEN 11,3
+ - tégla [lbenah]: Exod 1,14
 - kő: GEN 11,3
 - szurok: GEN 11,3
 - ragasztó: GEN 11,3
@@ -87,6 +88,7 @@
 - mirha: GEN 37,25
  - mirha [lot]: GEN 43,11
 - gyolcs [shesh]: GEN 41,42
+- sár(habarcs) [chomer]: Exod 1,14
 
 # Oltárok/áldozások
 - Noé (oltár és áldozás): GEN 8,20

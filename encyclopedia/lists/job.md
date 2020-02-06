@@ -27,3 +27,8 @@
 - juhpásztor [ra'ah]: GEN 46,32
 - baromtartó ['enowsh miqneh]: GEN 46,32-34
 - orvos [rapha']: GEN 50,2
+- robotmester [mac]: EXO 1,11
+- sárcsinálás [chomer]: Exod 1,14
+- téglavetés [lbenah]: Exod 1,14
+- mezei munka [abodah sadeh]: Exod 1,14
+- bába [yalad]: Exod 1,16
