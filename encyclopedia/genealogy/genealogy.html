@@ -5952,6 +5952,20 @@ const options = {
 let network = new vis.Network(container, data, options)
 addDragSelect(container, network, data.nodes)
 
+if (!localStorage.nodePositions) {
+	(async () => {
+		const response = await fetch('http://keresztech.github.io/BibleData/encyclopedia/genealogy/positions.js')
+		nodePositions = await response.json()
+		localStorage.nodePositions = JSON.stringify(nodePositions)
+		updateNodePositions(nodePositions)
+	})()
+}
+
+function updateNodePositions(nodePositions) {
+	nodePositions.forEach(nodePosition => data.nodes.update(nodePosition))
+	network.redraw()
+}
+
 const serializedPositionsElement = document.getElementById('serialized-positions')
 
 document.getElementById('save').addEventListener('click', e => {
@@ -5968,8 +5982,7 @@ document.getElementById('serialize-positions').addEventListener('click', e => {
 document.getElementById('load-positions').addEventListener('click', e => {
 	localStorage.nodePositions = serializedPositionsElement.value
 	const nodePositions = JSON.parse(serializedPositionsElement.value)
-	nodePositions.forEach(nodePosition => data.nodes.update(nodePosition))
-	network.redraw()
+	updateNodePositions(nodePositions)
 })
 </script>
 
