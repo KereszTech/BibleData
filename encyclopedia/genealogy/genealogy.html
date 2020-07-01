@@ -25,6 +25,7 @@
 <button id="save">Save</button>
 <button id="serialize-positions">Serialize positions</button>
 <button id="load-positions">Load positions</button>
+<button id="reset-positions">Reset positions</button>
 <textarea id="serialized-positions"></textarea>
 
 <script type="text/javascript">
@@ -5983,6 +5984,11 @@ document.getElementById('load-positions').addEventListener('click', e => {
 	localStorage.nodePositions = serializedPositionsElement.value
 	const nodePositions = JSON.parse(serializedPositionsElement.value)
 	updateNodePositions(nodePositions)
+})
+
+document.getElementById('reset-positions').addEventListener('click', e => {
+	localStorage.removeItem('nodePositions')
+	alert('Positions removed. Please reload the page to auto download the latest positions!')
 })
 </script>
 
