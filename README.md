@@ -7,7 +7,7 @@ This project is happening in Hungary so most strings are in Hungarian with plans
 ## Areas
 
 - Christory (proposed): Timeline of Christian and human history.
-- BibleTree (in progress): Mapping every person mentioned in the Bible with their geneology and personal data.
+- [BibleTree](http://keresztech.github.io/BibleData/encyclopedia/genealogy/genealogy.html) (in progress): Mapping every person mentioned in the Bible with their geneology and personal data.
 - Lists (in progress): Compiled list of specific topics including animals, plants, places, food, materials, professions, nations and a lot more.
 - Library (proposed): Structured Bible scripture texts in multiple languages.
 - Referencing (proposed): International cross-referencing standard that works for every verse for every Bible translation.
@@ -17,6 +17,11 @@ This project is happening in Hungary so most strings are in Hungarian with plans
 This project is in its initial phase. Currently the fundaments are being layed down. We plan to include more people in the future but if you feel the dedication get in touch with totymedli via [GitHub](https://github.com/totymedli) or [Twitter](https://twitter.com/totymedli).
 
 This project is part of [KereszTech](http://keresztech.org) the Christian cross-platform software center.
+
+## License
+
+- Databases and lists in this repository are licensed under CC-BY-SA-4.0
+- Source code, applications and tools are licensed under GPLv3
 
 ## Support
 
