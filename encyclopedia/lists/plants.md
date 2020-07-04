@@ -25,3 +25,5 @@
 - mandragóra (gyökér) [duwday]: GEN 30,14
 - cserfa ['elah]: GEN 35,4
 - nád (rét?) ['achuw]: GEN 41,2
+- gyékény [gome']: Exod 2,3
+- sás [cuwph]: Exod 2,3

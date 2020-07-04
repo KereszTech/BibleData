@@ -69,7 +69,8 @@
 - csillagok [kowkab]: GEN 1,16
 
 # Anyagok
-- szurok: GEN 6,14
+- szurok [kaphar]: GEN 6,14
+ - szurok [zepheth]: Exod 2,3
 - tégla: GEN 11,3
  - tégla [lbenah]: Exod 1,14
 - kő: GEN 11,3
@@ -89,6 +90,7 @@
  - mirha [lot]: GEN 43,11
 - gyolcs [shesh]: GEN 41,42
 - sár(habarcs) [chomer]: Exod 1,14
+- gyanta [chemar]: Exod 2,3
 
 # Oltárok/áldozások
 - Noé (oltár és áldozás): GEN 8,20

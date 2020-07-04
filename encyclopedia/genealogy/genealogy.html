@@ -5663,6 +5663,51 @@
 		id: 'midwife',
 		sources: ['Exod 1,15'],
 	}],
+}, {
+	id: 342,
+	name: {
+		default: 'Amrám',
+		defaultEN: 'Amram',
+		strong: 'H6019',
+		sources: ['Exod 2,1', 'Exod 6,18'],
+	},
+	sex: 'male',
+	relationships: [{
+		id: 343,
+		type: 'marriage',
+		sources: ['Exod 2,1', 'Exod 6,20'],
+	}],
+}, {
+	id: 343,
+	name: {
+		default: 'Jókébed',
+		defaultEN: 'Jochebed',
+		strong: 'H3115',
+		sources: ['Exod 2,1', 'Exod 6,20'],
+	},
+	sex: 'female',
+	relationships: [{
+		id: 342,
+		type: 'marriage',
+		sources: ['Exod 2,1', 'Exod 6,20'],
+	}],
+}, {
+	id: 344,
+	name: {
+		default: 'Mózes',
+		defaultEN: 'Moses',
+		strong: 'H3115',
+		sources: ['Exod 2,2'],
+	},
+	sex: 'female',
+	father: {
+		id: 342,
+		sources: ['Exod 2,1-2'],
+	},
+	mother: {
+		id: 343,
+		sources: ['Exod 2,1-2'],
+	},
 }]
 
 
@@ -5674,7 +5719,7 @@ const connections = [{
   source: ['Gen 14,13'],
 }, {
   type: 'allies',
-  members: [102, 127],
+  maleembers: [102, 127],
   source: ['Gen 21,27'],
 }, {
   type: 'friends',
