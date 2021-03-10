@@ -39,6 +39,7 @@
 - Káin Ábelt: GEN 4,8
 - Lámekh: GEN 4,23
 - Simeon és Lévi: GEN 49,5-6
+- Mózes az egyiptomi férfit: Exod 2,11-12
 
 # Háborúk/fegyveres konfliktusok
 - GEN 14,7-9
@@ -82,7 +83,7 @@
 - hamu: GEN 18,27
 - kénkő: GEN 19,24
 - só: GEN 19,26
-- víz
+- víz [mayim] GEN 1,2
 - balzsam: GEN 37,25
  - balzsam [tsriy]: GEN 43,11
  - balzsam [chanat]: GEN 50,2
@@ -159,6 +160,7 @@
 - Szitna (Izsák): GEN 26,21
 - Rehobót (Izsák): GEN 26,22
 - Sibáh - Beérseba (Izsák): GEN 26,25; GEN 26,32-33
+- Midián földjén ahol Mózes megpigent: Exod 2,15
 
 # Áldásmondások
 - Isten Ábrahámra (ígéret): GEN 12,1-3

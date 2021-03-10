@@ -5699,7 +5699,7 @@
 		strong: 'H3115',
 		sources: ['Exod 2,2'],
 	},
-	sex: 'female',
+	sex: 'male',
 	father: {
 		id: 342,
 		sources: ['Exod 2,1-2'],
@@ -5707,6 +5707,145 @@
 	mother: {
 		id: 343,
 		sources: ['Exod 2,1-2'],
+	},
+	relationships: [{
+		id: 346,
+		type: 'marriage',
+		sources: ['Exod 2,21'],
+	}],
+	connections: [{
+		id: 'U18',
+		type: 'killed',
+		sources: ['Exod 2,11'],
+	}],
+}, {
+	id: 'U15',
+	name: {
+		default: 'Mózes nénje',
+		defaultEN: 'Sister of Moses',
+		sources: ['Exod 2,4',],
+	},
+	sex: 'female',
+	note: 'Feltehetőleg Mirjám',
+	relationships: [{
+		id: 344,
+		type: 'sister(nénje)',
+		sources: ['Exod 2,4'],
+	}],
+}, {
+	id: 'U16',
+	name: {
+		default: 'Fáraó',
+		defaultEN: 'pharaoh',
+		sources: ['Exod 2,5',],
+	},
+	sex: 'male',
+	note: 'Fáraó Mózes idején. Sanszos hogy azonos U14-el.'
+}, {
+	id: 'U17',
+	name: {
+		default: 'Fáraó lánya',
+		defaultEN: 'daughter of the pharaoh',
+		sources: ['Exod 2,5',],
+	},
+	sex: 'female',
+	father: {
+		id: 'U16',
+		sources: ['Exod 2,5'],
+	},
+	note: 'Feltehetőleg Mirjám',
+	relationships: [{
+		id: 344,
+		type: 'sister(nénje)',
+		sources: ['Exod 2,5'],
+	}],
+}, {
+	id: 'U18',
+	name: {
+		default: 'Egyiptomi férfi',
+		defaultEN: 'Egyptian man',
+		sources: ['Exod 2,11',],
+	},
+	sex: 'male',
+	note: 'Őt ölte meg Mózes',
+}, {
+	id: 'U19',
+	name: {
+		default: 'Héber férfi',
+		defaultEN: 'Hebrew man',
+		sources: ['Exod 2,11',],
+	},
+	sex: 'male',
+	note: 'Őt ütötte az egyiptomi akit megölt Mózes',
+}, {
+	id: 'U20',
+	name: {
+		default: 'Héber férfi',
+		defaultEN: 'Hebrew man',
+		sources: ['Exod 2,13',],
+	},
+	sex: 'male',
+	note: 'Rá szólt Mózes hogy miért veri az atyjafiát',
+}, {
+	id: 'U21',
+	name: {
+		default: 'Héber férfi',
+		defaultEN: 'Hebrew man',
+		sources: ['Exod 2,13',],
+	},
+	sex: 'male',
+	note: 'Rá szólt Mózes hogy miért veri az atyjafiát',
+}, {
+	id: 345,
+	name: {
+		default: 'Réhuel',
+		defaultEN: 'Reuel',
+		strong: 'H7467',
+		sources: ['Exod 2,18',],
+	},
+	sex: 'male',
+	descendants: {
+		daughterCount: 7,
+		sources: ['Exod 2,16'],
+	},
+	occupations: [{
+		id: 'priest',
+		sources: ['Exod 2,16'],
+	}],
+}, {
+	id: 346,
+	name: {
+		default: 'Cippora',
+		defaultEN: 'Zipporah',
+		strong: 'H6855',
+		sources: ['Exod 2,21'],
+	},
+	sex: 'female',
+	father: {
+		id: 345,
+		sources: ['Exod 2,21'],
+	},
+	relationships: [{
+		id: 344,
+		type: 'marriage',
+		sources: ['Exod 2,21'],
+	}],
+}, {
+	id: 347,
+	name: {
+		default: 'Gersom',
+		defaultEN: 'Gershom',
+		strong: 'H1647',
+		sources: ['Exod 2,22'],
+	},
+	sex: 'male',
+	father: {
+		id: 344,
+		sources: ['Exod 2,21-22'],
+	},
+	mother: {
+		id: 346,
+		sources: ['Exod 2,21-22'],
 	},
 }]
 
@@ -5719,7 +5858,7 @@ const connections = [{
   source: ['Gen 14,13'],
 }, {
   type: 'allies',
-  maleembers: [102, 127],
+  members: [102, 127],
   source: ['Gen 21,27'],
 }, {
   type: 'friends',

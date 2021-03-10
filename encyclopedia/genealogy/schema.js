@@ -27,6 +27,11 @@
 		id: 1,
 		sources: ['Gen 1,1'],
 	},
+	descendants: {
+		daughterCount: 0,
+		sonCount: 0,
+		sources: ['Gen 1,1'],
+	},
 	relationships: [{ // Sexual and family relationships
 		id: 1,
 		type: 'marriage|concubine|fornication|adultery|rape|brother(?)',
@@ -35,7 +40,7 @@
 	}],
 	connections: [{
 		id: 1,
-		type: 'ally|friend|servant|master',
+		type: 'ally|friend|servant|master|killed',
 		sources: ['Gen 1,1'],
 	}],
 	origin: {
@@ -71,7 +76,7 @@
 		sources: ['Gen 36,9'],
 	}],
 	occupations: [{
-		id: 'duke|king',
+		id: 'duke|king|priest',
 		sources: ['Gen 1,1'],
 	}],
 	note: '',

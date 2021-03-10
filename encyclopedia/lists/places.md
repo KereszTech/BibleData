@@ -119,4 +119,5 @@
 - Efron mezeje [H7704 H6085]: GEN 49,29
 - Atád szérűjé [H1637 H329]: GEN 50,10
 - Ábel Micrajim [H67]: GEN 50,11 
-- Pithom [H6619]: EXO 1,11
+- Pithom [H6619]: Exod 1,11
+- Midián földje [H776 H4080]: Exod 2,15
