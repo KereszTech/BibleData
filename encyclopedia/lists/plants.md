@@ -27,3 +27,4 @@
 - nád (rét?) ['achuw]: GEN 41,2
 - gyékény [gome']: Exod 2,3
 - sás [cuwph]: Exod 2,3
+- csipkebokor [cnah]: Exod 3,1

@@ -1,8 +1,8 @@
 # Ásványok
-- arany: GEN 2,11; GEN 2,12; GEN 13,2
+- arany [zahab]: GEN 2,11; GEN 2,12; GEN 13,2
 - bdellium: GEN 2,12
 - ónixkő: GEN 2,12
-- ezüst: GEN 13,2
+- ezüst [keceph]: GEN 13,2
 
 # Ruházat
 - bőrruha [kthoneth]: GEN 3,21
@@ -21,6 +21,7 @@
  - gyűrű [tabba'ath]: GEN 41,42
 - zsinór [pathiyl]: GEN 38,18
 - nyaklánc [rabiyd]: GEN 41,42
+- saru [na'al]: Exod 3,5
 
 # Fegyverek
 - villogó pallos(kard) [lahat chereb]: GEN 3,24
@@ -134,6 +135,8 @@
 - Isten angyali látta Jákób: GEN 32,1-2
 - Isten megjelent Jákóbnak: GEN 35,9-13
 - Isten éjjeli látomás Jákóbnak: GEN 46,2-4
+- Úr angyala megjelent Mózesnek: Exod 3,2
+- Isten szólt Mózesnek: Exod 3,4-22
 
 # Álmok:
 - József álma testvéreiről
