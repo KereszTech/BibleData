@@ -7,8 +7,10 @@
  - barom [b'iyr]: GEN 45,17
 - szárazföldi/mezei vadak [chay 'erets]: GEN 1,24; GEN 1,25, GEN 1,30; GEN 9,10
 - tengeri hal [dagah yam]: GEN 1,26
+- hal [dagah] Exod 7,18
 - mezei vad [chay sadeh]: GEN 2,19
 - kígyó [nachash]: GEN 3,1
+ - kígyó [tanniyn]: Exod 7,9
 - juh (nyáj) [tso'n]: GEN 4,4
 - vad/állat/fenevad [chay]: GEN 7,14; GEN 8,1; GEN 8,17; GEN 8,19; GEN 8,21; GEN 9,2; GEN 9,5; GEN 37,20
 - szárnyas állat/madarak [tsippowr]: GEN 7,14, GEN 15,10

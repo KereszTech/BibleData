@@ -32,3 +32,6 @@
 - téglavetés [lbenah]: Exod 1,14
 - mezei munka [abodah sadeh]: Exod 1,14
 - bába [yalad]: Exod 1,16
+- sarcoltató [nagas]: Exod 5,6
+- felvigyázó [shoter]: Exod 5,14
+- szolga [ebed]: Exod 5,15

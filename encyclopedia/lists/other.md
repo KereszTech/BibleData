@@ -29,6 +29,7 @@
 - kés [ma'akeleth]: GEN 22,10
 - fegyver [kliy]: GEN 27,3
  - fegyver [mkerah]: GEN 49,5
+ - fegyver (inkább kard) [chereb]: Exod 5,3
 - tegez [tliy]: GEN 27,3
 - kézív [qesheth]: GEN 27,3
 
@@ -75,7 +76,8 @@
  - szurok [zepheth]: Exod 2,3
 - tégla: GEN 11,3
  - tégla [lbenah]: Exod 1,14
-- kő: GEN 11,3
+ - tégla [laban]: Exod 5,14
+- kő ['eben]: GEN 11,3; Exod 7,19
 - szurok: GEN 11,3
 - ragasztó: GEN 11,3
 - szurokforrások?: GEN 14,10
@@ -93,6 +95,9 @@
 - gyolcs [shesh]: GEN 41,42
 - sár(habarcs) [chomer]: Exod 1,14
 - gyanta [chemar]: Exod 2,3
+- polyva [teben]: Exod 5,6
+- tarló? [qash]: Exod 5,12
+- fa [ets]: Exod 7,19
 
 # Oltárok/áldozások
 - Noé (oltár és áldozás): GEN 8,20
@@ -117,6 +122,31 @@
 - Izsák-Abimélek: GEN 26,26-31
 - Jákób-Lábán: GEN 31,44
 
+# Körülmetélések:
+- Cippóra Gersont: Exod 4,25
+
+# Betegségek:
+- vakság [canver, ivver]: GEN 19,11; Exod 4,11
+- meddőség (bezárt méh [atsar rechem]):GEN 20,18
+- sántítás [tsala']: GEN 32,31
+- szemmeghomályosodás [ayin kabad]: GEN 48,10
+- lepra [tsara'] Mózes kezén: Exod 4,6
+- némaság ['illem]: Exod 4,11
+- süketség [cheresh]: Exod 4,11
+- döghalál [deber]: Exod 5,3
+
+# Gyógyulások:
+- Ábrahám imájára Abimélek, felesége, szolgálói meddőség: GEN 20,17-18
+- Mózes keze leprából: Exod 4,7
+
+# Csodák:
+- A csipkebokor nem ég el: Exod 3,2
+- Mózes botja kígyóvá változik: Exod 4,3-4
+- Mózes keze poklos lesz majd meggyógyul: Exod 4,6-7
+- Mózes megcselekszi a jeleket Izrael előtt: Exod 4,30
+- Áron botja kígyóvá változik: Exod 7,10
+- Az első csapás: Exod 7,14-24
+
 # Látomások:
 - Úr Ábrahámnak beszéd látomásban: GEN 15,1-16
 - Füstölgő kemence és tüzes fáklya: GEN 15,17
@@ -137,6 +167,13 @@
 - Isten éjjeli látomás Jákóbnak: GEN 46,2-4
 - Úr angyala megjelent Mózesnek: Exod 3,2
 - Isten szólt Mózesnek: Exod 3,4-22
+- Úr mondta Mózesnek: Exod 4,21-23
+- Úr mondta Áronnak: Exod 4,27
+- Úr mondta Mózesnek: Exod 6,1-8
+- Úr szólt Mózesnek: Exod 6,10-13
+- Isten szólt Mózesnek: Exod 6,28-7,5
+- Úr szólt Mózesnek és Áronnak: Exod 7,8
+- Isten mondta Mózesnek: Exod 7,14-19
 
 # Álmok:
 - József álma testvéreiről
@@ -144,15 +181,6 @@
 - fősütőmester álma a kosarakról
 - fáraó álma a tehenekről: GEN 41,1-4
 - fáraó álma a gabonafejekről: GEN 41,5-7
-
-# Betegségek:
-- vakság [canver]: GEN 19,11
-- meddőség (bezárt méh [atsar rechem]):GEN 20,18
-- sántítás [tsala']: GEN 32,31
-- szemmeghomályosodás [ayin kabad]: GEN 48,10
-
-# Gyógyulások:
-- Ábrahám imájára Abimélek, felesége, szolgálói meddőség: GEN 20,17-18
 
 # Források:
 - Lakhai Rói (Súrba menő úton, Kádes és Béred között) Hágár: GEN 16,14

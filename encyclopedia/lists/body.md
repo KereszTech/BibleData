@@ -17,7 +17,7 @@
 - fej vagy párna fejhely? [mra'ashah]: GEN 28,11
  - fej [ro'sh]: GEN 40,16
  - koponya (fej?) [qodqod]: GEN 49,26
-- száj [peh]: GEN 29,2
+- száj, ajak [peh]: GEN 29,2; Exod 4,10
 - csont [etsem]: GEN 29,14
 - test vagy hús? [basar]: GEN 29,14
  - hús [basar]: GEN 40,19
@@ -30,3 +30,5 @@
 - fog [shen]: GEN 49,12
 - kar [zrowa']: GEN 49,24
 - emlők [shad]: GEN 49,25
+- nyelv [lashown]: Exod 4,10
+- vér
