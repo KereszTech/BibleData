@@ -32,3 +32,5 @@
 - emlők [shad]: GEN 49,25
 - nyelv [lashown]: Exod 4,10
 - vér
+
+- köröm (igazából pata) [parcah]: Exod 10,26

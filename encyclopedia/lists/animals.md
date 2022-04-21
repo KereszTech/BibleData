@@ -47,3 +47,7 @@
 - szarvaskígyó [shphiyphon]: GEN 49,17
 - szarvas ['ayalah]: GEN 49,21
 - farkas [z'eb]: GEN 49,27
+- béka [tsphardea]: Exod 8,2
+- tetvek (tipolyok) [ken]: Exod 8,16
+- bogarak (böglyök) [arob ebed]: Exod 8,21
+- sáska ['arbeh]: Exod 10,4

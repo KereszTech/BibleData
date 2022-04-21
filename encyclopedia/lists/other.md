@@ -98,6 +98,7 @@
 - polyva [teben]: Exod 5,6
 - tarló? [qash]: Exod 5,12
 - fa [ets]: Exod 7,19
+- kemencehamu [piyach kibshan]: Exod 9,8
 
 # Oltárok/áldozások
 - Noé (oltár és áldozás): GEN 8,20
@@ -133,7 +134,8 @@
 - lepra [tsara'] Mózes kezén: Exod 4,6
 - némaság ['illem]: Exod 4,11
 - süketség [cheresh]: Exod 4,11
-- döghalál [deber]: Exod 5,3
+- döghalál [deber]: Exod 5,3; Exod 9,3
+- hólyagos fekély (fekete himlő) [shchiyn parach aba'bu'ah]: Exod 9,9
 
 # Gyógyulások:
 - Ábrahám imájára Abimélek, felesége, szolgálói meddőség: GEN 20,17-18
@@ -146,6 +148,15 @@
 - Mózes megcselekszi a jeleket Izrael előtt: Exod 4,30
 - Áron botja kígyóvá változik: Exod 7,10
 - Az első csapás: Exod 7,14-24
+- A második csapás: Exod
+- A harmadik csapás: Exod
+- A negyedik csapás: Exod
+- A ötödik csapás: Exod
+- A hatodik csapás: Exod
+- A hetedik csapás: Exod
+- A nyolcadik csapás: Exod
+- A kilencedik csapás: Exod
+- A tizedik csapás: Exod
 
 # Látomások:
 - Úr Ábrahámnak beszéd látomásban: GEN 15,1-16
@@ -174,6 +185,19 @@
 - Isten szólt Mózesnek: Exod 6,28-7,5
 - Úr szólt Mózesnek és Áronnak: Exod 7,8
 - Isten mondta Mózesnek: Exod 7,14-19
+- Úr mondta Mózesnek: Exod 8,1-4
+- Úr mondta Mózesnek: Exod 8,5
+- Úr mondta Mózesnek: Exod 8,16
+- Úr mondta Mózesnek: Exod 8,20-23
+- Úr mondta Mózesnek: Exod 9,1-5
+- Úr mondta Mózesnek: Exod 9,8-9
+- Úr mondta Mózesnek: Exod 9,13-19
+- Úr mondta Mózesnek: Exod 9,22
+- Úr mondta Mózesnek: Exod 10,12
+- Úr mondta Mózesnek: Exod 10,21
+- Úr mondta Mózesnek: Exod 11,1-2
+- Úr mondta Mózesnek: Exod 11,9
+- Úr szólott Mózesnek és Áronnak: Exod 12,1-20
 
 # Álmok:
 - József álma testvéreiről
