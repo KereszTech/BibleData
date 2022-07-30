@@ -141,18 +141,19 @@
 - Ábrahám imájára Abimélek, felesége, szolgálói meddőség: GEN 20,17-18
 - Mózes keze leprából: Exod 4,7
 
-# Csodák:
+# Csodák (csapások):
 - A csipkebokor nem ég el: Exod 3,2
 - Mózes botja kígyóvá változik: Exod 4,3-4
 - Mózes keze poklos lesz majd meggyógyul: Exod 4,6-7
 - Mózes megcselekszi a jeleket Izrael előtt: Exod 4,30
 - Áron botja kígyóvá változik: Exod 7,10
 - Az első csapás: Exod 7,14-24
-- A második csapás: Exod
-- A harmadik csapás: Exod
-- A negyedik csapás: Exod
-- A ötödik csapás: Exod
-- A hatodik csapás: Exod
+- A második csapás: Exod 8,5-6
+- Békák eltűnése: Exod 8,12-13
+- A harmadik csapás: Exod 8,16
+- A negyedik csapás: Exod 8,20-23
+- A ötödik csapás: Exod 9,6
+- A hatodik csapás: Exod 9,8-11
 - A hetedik csapás: Exod
 - A nyolcadik csapás: Exod
 - A kilencedik csapás: Exod
@@ -187,7 +188,7 @@
 - Isten mondta Mózesnek: Exod 7,14-19
 - Úr mondta Mózesnek: Exod 8,1-4
 - Úr mondta Mózesnek: Exod 8,5
-- Úr mondta Mózesnek: Exod 8,16
+- Úr szólt Mózesnek: Exod 8,16
 - Úr mondta Mózesnek: Exod 8,20-23
 - Úr mondta Mózesnek: Exod 9,1-5
 - Úr mondta Mózesnek: Exod 9,8-9

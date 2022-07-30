@@ -26,6 +26,7 @@
 - in [giyd]: GEN 32,32
 - ideg a combban? [nasheh]: GEN 32,32
 - marok (ököl?) [qomets]: GEN 41,47
+ - marok [chophen]: Exod 9,8
 - térd [berek]: GEN 48,12
 - fog [shen]: GEN 49,12
 - kar [zrowa']: GEN 49,24

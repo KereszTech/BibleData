@@ -114,7 +114,7 @@
 - héberek földje [H776 H5680]: GEN 40,15 [198]
 - folyó (Nílus) [H2975]: GEN 41,1
 - On [H204]: GEN 41,45 [285]
-- Gósen (földje) [H1657]: GEN 45,10
+- Gósen (földje) [H1657]: GEN 45,10; Exod 8,22
 - Ramszesz (földje) [H7486]: GEN 47,11
 - Efron mezeje [H7704 H6085]: GEN 49,29
 - Atád szérűjé [H1637 H329]: GEN 50,10
